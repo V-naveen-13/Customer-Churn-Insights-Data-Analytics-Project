@@ -1,0 +1,2001 @@
+CustomerID,Segment,Plan,ContractType,Region,tenure_months,MRR,LoginsPerMonth,DaysSinceLastLogin,FeaturesUsed,SupportTickets,NPSScore,CSATScore,NumProducts,StartDate,Churn
+CUST-00001,SMB,Starter,Annual,North America,0.5,50.72,18.3,6,12,1,9,5,4,2021-10-12,0
+CUST-00002,Enterprise,Pro,Multi-year,North America,0.5,3949.29,13.4,18,13,1,8,4,1,2021-02-02,0
+CUST-00003,Mid-Market,Pro,Monthly,Europe,11.5,1029.03,8.3,10,18,2,7,3,4,2022-01-13,0
+CUST-00004,Mid-Market,Starter,Annual,Europe,0.5,455.35,15.2,11,15,3,4,3,1,2021-07-21,0
+CUST-00005,SMB,Starter,Monthly,APAC,66.1,68.98,20.9,13,15,2,2,4,5,2022-03-08,0
+CUST-00006,SMB,Pro,Annual,LATAM,4.5,102.21,3.1,22,12,0,5,5,2,2021-10-18,0
+CUST-00007,SMB,Starter,Monthly,North America,11.5,99.72,4.9,1,9,1,9,5,4,2022-03-17,0
+CUST-00008,Enterprise,Enterprise,Annual,Europe,1.1,1844.8,3.0,23,19,0,7,5,1,2021-09-19,0
+CUST-00009,Mid-Market,Pro,Annual,Europe,13.3,303.26,7.2,12,12,0,8,2,5,2021-02-04,0
+CUST-00010,Mid-Market,Starter,Annual,LATAM,8.6,565.04,26.0,17,5,3,2,4,3,2021-04-08,0
+CUST-00011,SMB,Pro,Annual,APAC,0.8,99.74,5.1,6,10,2,3,5,5,2021-02-15,0
+CUST-00012,Enterprise,Pro,Annual,LATAM,7.3,2673.73,5.6,8,7,3,0,5,2,2022-03-04,0
+CUST-00013,Mid-Market,Pro,Annual,North America,8.9,574.97,23.6,4,11,3,8,2,5,2021-06-30,0
+CUST-00014,SMB,Starter,Annual,APAC,72.0,71.78,8.7,58,8,0,5,5,4,2021-05-31,1
+CUST-00015,SMB,Starter,Monthly,North America,4.2,119.06,9.2,10,7,2,10,5,4,2021-08-19,0
+CUST-00016,SMB,Pro,Monthly,North America,14.2,82.14,23.7,83,16,1,5,4,3,2022-02-08,1
+CUST-00017,SMB,Starter,Monthly,LATAM,72.0,66.42,8.1,10,16,3,6,2,1,2022-04-08,0
+CUST-00018,SMB,Starter,Annual,North America,28.3,74.42,13.7,4,14,2,7,1,5,2021-03-28,0
+CUST-00019,SMB,Starter,Monthly,LATAM,72.0,39.79,1.1,11,15,1,6,5,3,2021-01-09,0
+CUST-00020,SMB,Starter,Monthly,North America,62.1,74.38,2.4,1,9,1,9,3,4,2021-02-15,0
+CUST-00021,Mid-Market,Pro,Monthly,APAC,12.1,658.51,6.2,35,16,2,10,4,1,2021-02-26,0
+CUST-00022,SMB,Pro,Monthly,North America,21.5,91.65,8.2,26,16,1,0,5,1,2022-02-25,0
+CUST-00023,SMB,Pro,Annual,North America,2.1,146.98,40.5,19,5,2,8,5,2,2022-05-10,0
+CUST-00024,SMB,Starter,Annual,North America,10.5,72.01,42.3,14,3,0,8,5,4,2021-09-10,0
+CUST-00025,SMB,Starter,Monthly,Europe,29.8,97.22,22.9,13,13,2,10,2,1,2022-02-27,0
+CUST-00026,Mid-Market,Enterprise,Monthly,North America,12.7,686.57,4.6,86,8,1,6,5,2,2021-06-06,0
+CUST-00027,SMB,Pro,Annual,Europe,21.8,204.21,39.9,5,17,2,4,2,2,2021-11-26,0
+CUST-00028,SMB,Starter,Monthly,North America,24.6,84.77,14.0,23,5,0,8,1,4,2022-02-25,0
+CUST-00029,Mid-Market,Pro,Annual,North America,5.3,329.29,6.0,13,6,1,7,2,1,2021-12-24,0
+CUST-00030,SMB,Starter,Monthly,North America,37.5,112.3,14.5,56,2,0,9,4,1,2021-08-12,1
+CUST-00031,Mid-Market,Pro,Monthly,North America,11.1,1054.58,0.2,26,14,2,10,5,5,2021-06-21,0
+CUST-00032,SMB,Starter,Monthly,APAC,4.2,70.32,1.9,98,4,2,2,4,1,2021-10-18,1
+CUST-00033,SMB,Pro,Annual,APAC,36.1,112.0,21.2,13,3,3,9,1,2,2021-06-04,0
+CUST-00034,Enterprise,Enterprise,Annual,North America,9.7,3269.5,12.4,3,9,0,10,4,3,2021-01-19,0
+CUST-00035,Enterprise,Enterprise,Multi-year,Europe,25.0,3004.09,5.4,11,18,0,10,2,4,2021-08-18,0
+CUST-00036,Mid-Market,Enterprise,Monthly,APAC,14.3,525.75,8.3,19,12,0,9,3,3,2021-02-22,0
+CUST-00037,SMB,Pro,Monthly,North America,8.7,60.5,28.3,22,9,1,9,4,1,2022-03-22,0
+CUST-00038,SMB,Pro,Annual,North America,29.9,77.44,12.0,0,18,0,0,4,2,2021-01-08,0
+CUST-00039,Mid-Market,Pro,Annual,Europe,15.8,600.67,6.1,11,13,3,10,4,3,2022-05-03,1
+CUST-00040,SMB,Pro,Monthly,North America,8.9,115.04,1.5,4,14,4,6,4,4,2021-04-19,0
+CUST-00041,SMB,Starter,Monthly,North America,2.1,91.43,4.2,31,10,2,0,3,5,2021-04-28,1
+CUST-00042,SMB,Starter,Monthly,North America,40.6,68.72,46.0,2,3,1,7,5,3,2022-03-23,0
+CUST-00043,SMB,Starter,Annual,Europe,0.7,99.9,6.9,16,7,1,9,4,5,2021-12-03,0
+CUST-00044,Enterprise,Pro,Multi-year,North America,35.8,2821.25,7.7,5,18,1,7,1,1,2021-06-07,0
+CUST-00045,SMB,Pro,Annual,North America,8.0,93.12,8.3,7,16,2,9,4,1,2021-06-16,0
+CUST-00046,Mid-Market,Pro,Annual,North America,18.4,357.86,25.9,42,17,1,7,4,4,2022-05-02,0
+CUST-00047,SMB,Starter,Monthly,North America,46.0,74.4,11.1,4,6,1,5,5,5,2021-02-19,1
+CUST-00048,SMB,Starter,Annual,North America,3.0,116.88,14.2,1,12,1,4,5,5,2021-08-16,0
+CUST-00049,SMB,Pro,Annual,LATAM,15.1,46.01,5.9,1,19,1,7,5,4,2021-10-21,0
+CUST-00050,SMB,Pro,Monthly,North America,26.0,34.63,0.4,11,3,1,0,5,3,2021-03-19,0
+CUST-00051,Enterprise,Enterprise,Annual,Europe,25.5,3656.04,32.1,15,3,4,7,4,4,2021-09-01,0
+CUST-00052,Mid-Market,Pro,Annual,North America,13.4,613.5,35.7,6,18,0,1,4,1,2021-10-15,0
+CUST-00053,Enterprise,Pro,Multi-year,Europe,17.6,2549.35,35.7,18,11,1,10,1,5,2021-08-28,0
+CUST-00054,Enterprise,Enterprise,Multi-year,Europe,25.5,1300.07,34.5,1,6,1,8,5,2,2021-05-15,0
+CUST-00055,Mid-Market,Pro,Annual,North America,33.1,671.57,20.3,29,19,2,8,1,2,2021-12-20,0
+CUST-00056,Enterprise,Enterprise,Annual,APAC,25.8,2232.78,13.8,25,5,1,5,4,1,2022-03-04,0
+CUST-00057,SMB,Starter,Annual,Europe,7.9,42.45,22.3,64,13,0,4,2,5,2021-03-12,1
+CUST-00058,SMB,Starter,Monthly,APAC,72.0,141.42,11.0,41,5,2,9,4,5,2021-04-25,0
+CUST-00059,SMB,Pro,Monthly,North America,10.3,85.24,1.7,7,3,2,8,3,4,2021-05-17,0
+CUST-00060,SMB,Pro,Monthly,LATAM,0.5,68.28,6.0,8,19,1,3,3,3,2021-08-17,1
+CUST-00061,SMB,Starter,Annual,APAC,8.1,68.77,42.6,21,17,2,4,2,4,2021-09-23,0
+CUST-00062,SMB,Starter,Annual,LATAM,2.5,35.73,5.2,2,3,2,10,4,2,2022-02-11,0
+CUST-00063,Mid-Market,Pro,Annual,Europe,2.3,633.93,24.3,6,15,1,5,4,5,2021-08-26,0
+CUST-00064,SMB,Starter,Monthly,Europe,6.0,88.83,1.2,2,17,1,0,4,3,2021-06-19,0
+CUST-00065,SMB,Starter,Annual,APAC,1.0,74.02,4.9,9,13,1,1,4,4,2022-04-22,0
+CUST-00066,SMB,Pro,Monthly,APAC,21.0,133.41,5.2,12,14,1,9,4,3,2022-04-16,1
+CUST-00067,SMB,Starter,Monthly,LATAM,1.4,45.99,0.6,4,16,1,9,5,2,2022-03-13,0
+CUST-00068,Mid-Market,Enterprise,Annual,North America,4.1,393.82,1.5,0,11,1,6,4,3,2021-06-12,0
+CUST-00069,SMB,Starter,Annual,APAC,1.8,56.94,2.6,19,17,1,3,1,5,2021-02-26,0
+CUST-00070,Enterprise,Enterprise,Multi-year,North America,1.2,1788.95,21.8,0,5,1,7,3,3,2021-08-11,0
+CUST-00071,Mid-Market,Pro,Annual,Europe,5.6,513.68,0.8,54,15,1,6,4,3,2021-12-27,0
+CUST-00072,SMB,Starter,Monthly,North America,15.3,95.01,4.3,4,18,0,6,5,4,2021-04-09,0
+CUST-00073,SMB,Starter,Monthly,North America,60.2,69.63,0.1,16,16,1,5,2,3,2022-04-04,0
+CUST-00074,Mid-Market,Pro,Monthly,LATAM,37.5,352.01,14.3,9,14,2,1,5,3,2021-12-09,0
+CUST-00075,Mid-Market,Pro,Annual,North America,37.6,981.43,11.6,1,14,4,9,1,2,2021-05-02,0
+CUST-00076,Mid-Market,Pro,Monthly,Europe,3.5,1311.94,12.4,10,13,3,8,4,3,2022-05-02,0
+CUST-00077,Mid-Market,Pro,Monthly,Europe,5.5,529.49,5.6,11,1,2,9,5,4,2021-07-02,0
+CUST-00078,SMB,Starter,Monthly,North America,1.4,59.1,2.8,29,6,4,7,4,4,2021-12-17,1
+CUST-00079,SMB,Starter,Monthly,North America,27.1,144.35,15.3,20,11,2,10,4,5,2021-02-25,0
+CUST-00080,SMB,Starter,Annual,Europe,1.3,44.85,20.0,1,11,3,10,5,2,2021-12-27,0
+CUST-00081,Enterprise,Pro,Annual,North America,14.6,1749.34,1.8,4,16,0,5,2,1,2021-08-17,0
+CUST-00082,Mid-Market,Pro,Annual,APAC,5.1,378.48,8.0,6,3,0,6,4,5,2021-02-21,0
+CUST-00083,SMB,Starter,Monthly,LATAM,5.0,50.31,3.4,2,17,1,9,4,3,2021-11-04,0
+CUST-00084,SMB,Starter,Monthly,North America,72.0,71.52,2.2,9,14,1,9,5,2,2021-08-20,0
+CUST-00085,SMB,Starter,Monthly,North America,25.4,56.62,15.9,62,2,0,10,5,5,2021-08-31,0
+CUST-00086,SMB,Starter,Monthly,Europe,32.6,80.41,9.3,11,9,1,8,2,4,2022-01-03,0
+CUST-00087,Mid-Market,Starter,Annual,Europe,15.3,505.47,2.9,20,8,3,7,5,2,2022-05-09,0
+CUST-00088,Mid-Market,Pro,Annual,North America,36.9,389.97,4.5,17,11,1,6,3,2,2021-02-19,0
+CUST-00089,Enterprise,Enterprise,Annual,North America,18.7,1724.51,40.8,28,7,3,7,2,3,2021-01-29,0
+CUST-00090,SMB,Starter,Monthly,Europe,52.6,72.94,22.7,4,2,1,10,4,2,2021-08-10,0
+CUST-00091,SMB,Starter,Monthly,LATAM,5.9,110.6,25.4,21,4,4,10,5,2,2022-01-18,0
+CUST-00092,Mid-Market,Pro,Monthly,North America,16.3,471.18,7.4,32,14,2,1,5,1,2022-01-24,1
+CUST-00093,Mid-Market,Pro,Annual,North America,21.1,695.4,11.7,3,13,3,8,4,3,2021-10-15,0
+CUST-00094,Mid-Market,Enterprise,Annual,LATAM,9.0,632.03,5.7,6,13,0,8,4,2,2021-11-08,0
+CUST-00095,Mid-Market,Pro,Annual,Europe,38.1,628.43,1.0,53,13,2,6,5,2,2022-03-18,0
+CUST-00096,SMB,Pro,Monthly,Europe,70.2,139.37,6.2,23,5,3,10,5,1,2021-10-06,0
+CUST-00097,SMB,Starter,Monthly,Europe,12.3,51.12,10.8,5,12,3,8,5,1,2021-01-26,1
+CUST-00098,SMB,Pro,Annual,LATAM,8.9,66.2,4.1,12,6,2,6,3,4,2021-01-16,0
+CUST-00099,SMB,Starter,Annual,Europe,11.5,161.96,22.6,8,14,2,7,5,3,2022-03-14,0
+CUST-00100,SMB,Pro,Annual,APAC,34.5,72.18,2.0,10,8,1,6,5,1,2021-12-13,0
+CUST-00101,SMB,Starter,Monthly,Europe,18.7,25.94,5.5,7,8,0,7,5,2,2022-01-02,0
+CUST-00102,Mid-Market,Pro,Annual,Europe,0.8,461.01,1.6,5,7,0,1,3,1,2021-03-14,0
+CUST-00103,SMB,Starter,Annual,North America,14.1,84.44,6.2,17,17,2,2,5,5,2022-01-12,1
+CUST-00104,SMB,Pro,Annual,North America,0.5,28.08,0.5,23,11,2,8,5,4,2021-06-20,0
+CUST-00105,Enterprise,Enterprise,Multi-year,APAC,27.1,3410.03,3.8,31,10,2,8,4,4,2021-05-20,0
+CUST-00106,SMB,Starter,Annual,North America,7.2,60.13,6.1,3,13,2,8,5,3,2022-01-24,0
+CUST-00107,SMB,Starter,Annual,Europe,11.5,91.24,7.8,26,10,3,9,5,4,2021-03-25,0
+CUST-00108,Mid-Market,Starter,Annual,North America,28.9,456.79,9.4,4,14,1,10,4,3,2022-04-08,0
+CUST-00109,SMB,Starter,Monthly,APAC,0.9,47.78,3.9,8,9,3,10,5,5,2022-03-19,0
+CUST-00110,SMB,Pro,Monthly,North America,3.1,52.13,8.9,35,7,2,7,1,2,2021-11-19,1
+CUST-00111,SMB,Pro,Monthly,APAC,9.1,55.04,8.5,9,7,0,4,4,5,2021-08-04,0
+CUST-00112,SMB,Starter,Annual,Europe,4.7,123.51,4.6,3,18,1,6,3,3,2021-08-07,0
+CUST-00113,Enterprise,Pro,Multi-year,North America,7.4,1885.38,21.3,3,16,1,8,3,3,2021-04-20,0
+CUST-00114,Mid-Market,Starter,Annual,Europe,72.0,405.8,9.5,10,8,2,10,5,3,2022-03-30,0
+CUST-00115,Mid-Market,Pro,Monthly,North America,31.4,344.04,4.8,22,16,2,9,1,2,2022-04-19,0
+CUST-00116,Enterprise,Pro,Annual,North America,38.8,3227.18,35.3,88,19,1,8,5,3,2022-04-01,0
+CUST-00117,Mid-Market,Enterprise,Monthly,North America,49.8,898.11,22.4,23,15,0,8,4,5,2022-04-23,0
+CUST-00118,SMB,Pro,Annual,North America,7.5,128.5,48.6,31,15,0,8,4,2,2022-02-14,0
+CUST-00119,Enterprise,Pro,Annual,LATAM,6.3,2435.43,14.1,21,6,2,10,3,5,2021-02-13,0
+CUST-00120,SMB,Starter,Annual,North America,4.8,89.83,5.7,34,9,2,9,3,2,2021-07-16,0
+CUST-00121,Mid-Market,Pro,Monthly,Europe,31.9,307.43,4.0,1,15,3,9,3,3,2021-08-27,0
+CUST-00122,Enterprise,Enterprise,Multi-year,North America,20.5,1812.7,13.1,40,7,1,7,3,2,2021-12-04,0
+CUST-00123,SMB,Starter,Monthly,Europe,4.8,60.85,47.4,8,8,1,6,5,1,2021-09-29,0
+CUST-00124,SMB,Pro,Annual,North America,8.5,38.54,11.8,38,18,1,0,5,5,2021-10-26,1
+CUST-00125,SMB,Pro,Monthly,Europe,12.7,122.1,25.6,1,16,0,0,5,1,2021-07-27,0
+CUST-00126,SMB,Pro,Annual,Europe,13.5,60.56,4.8,19,15,0,0,5,1,2021-06-06,0
+CUST-00127,Mid-Market,Pro,Annual,Europe,39.5,806.73,6.3,20,3,0,10,4,3,2021-10-27,0
+CUST-00128,Enterprise,Pro,Multi-year,North America,8.6,2845.8,28.4,87,1,0,2,4,3,2022-04-04,0
+CUST-00129,SMB,Starter,Annual,Europe,43.1,99.95,17.0,22,13,2,3,3,1,2021-10-24,0
+CUST-00130,SMB,Starter,Monthly,North America,10.5,102.23,47.8,7,12,4,7,5,2,2021-09-21,0
+CUST-00131,SMB,Starter,Monthly,North America,24.7,62.55,17.9,12,9,4,7,3,3,2022-02-17,0
+CUST-00132,SMB,Pro,Monthly,North America,47.9,168.2,7.1,7,2,1,10,4,5,2021-04-21,0
+CUST-00133,SMB,Starter,Monthly,North America,42.9,81.39,9.1,3,9,3,1,3,1,2021-02-01,0
+CUST-00134,SMB,Starter,Monthly,Europe,1.1,90.27,27.7,4,8,1,10,4,5,2021-06-12,0
+CUST-00135,Enterprise,Enterprise,Multi-year,Europe,4.1,1542.67,9.6,4,5,3,4,4,5,2021-02-14,0
+CUST-00136,SMB,Starter,Monthly,North America,11.7,55.12,3.5,12,13,2,10,2,5,2021-02-05,0
+CUST-00137,SMB,Starter,Annual,North America,10.2,96.83,6.9,35,2,2,8,4,1,2021-08-08,0
+CUST-00138,Mid-Market,Pro,Annual,North America,18.4,545.45,8.7,37,10,3,8,3,4,2021-05-25,0
+CUST-00139,SMB,Starter,Monthly,Europe,52.1,58.34,1.2,1,6,0,6,3,3,2022-03-09,0
+CUST-00140,Enterprise,Enterprise,Annual,Europe,2.1,1124.99,16.3,1,7,2,8,4,5,2021-08-23,0
+CUST-00141,Enterprise,Enterprise,Annual,North America,10.8,1203.43,1.4,4,3,1,9,4,1,2021-09-12,0
+CUST-00142,SMB,Starter,Annual,Europe,3.8,129.09,6.2,4,14,0,0,5,4,2022-03-25,0
+CUST-00143,SMB,Starter,Annual,Europe,40.4,62.6,19.6,1,16,0,0,4,1,2021-03-22,0
+CUST-00144,SMB,Pro,Monthly,Europe,60.1,69.86,7.6,7,6,1,10,5,3,2021-04-02,0
+CUST-00145,SMB,Pro,Monthly,Europe,11.7,142.9,22.1,13,8,1,7,3,1,2021-03-25,0
+CUST-00146,SMB,Starter,Monthly,Europe,2.0,51.07,5.0,13,1,1,10,4,2,2021-12-12,0
+CUST-00147,Mid-Market,Starter,Annual,Europe,27.7,373.83,37.9,12,15,2,9,4,2,2021-05-12,0
+CUST-00148,SMB,Starter,Monthly,North America,21.5,58.82,2.8,6,17,3,6,3,5,2022-01-25,0
+CUST-00149,SMB,Starter,Monthly,North America,7.9,152.82,0.5,18,18,2,3,2,1,2021-12-28,0
+CUST-00150,SMB,Pro,Monthly,North America,39.3,177.57,24.7,26,3,0,10,5,1,2021-07-26,0
+CUST-00151,Enterprise,Enterprise,Multi-year,Europe,67.0,2701.41,16.7,6,6,1,8,5,5,2021-09-10,0
+CUST-00152,SMB,Starter,Monthly,APAC,14.7,109.44,3.2,1,17,1,4,3,5,2022-05-09,1
+CUST-00153,SMB,Starter,Monthly,North America,15.0,63.43,50.2,5,13,4,8,3,4,2021-03-02,0
+CUST-00154,SMB,Starter,Annual,North America,6.4,174.33,8.4,2,17,0,2,5,1,2021-12-11,0
+CUST-00155,Enterprise,Pro,Multi-year,APAC,15.8,2226.04,36.2,9,16,2,10,2,3,2022-03-13,0
+CUST-00156,SMB,Starter,Monthly,APAC,10.4,112.54,8.4,3,17,4,2,5,3,2021-03-23,0
+CUST-00157,Mid-Market,Pro,Monthly,APAC,6.5,479.33,7.7,9,1,4,4,5,3,2022-04-08,0
+CUST-00158,Mid-Market,Enterprise,Monthly,Europe,1.3,449.17,7.2,4,16,2,2,5,5,2021-11-11,1
+CUST-00159,SMB,Starter,Monthly,APAC,5.2,155.59,4.9,20,6,1,2,3,5,2021-12-20,0
+CUST-00160,Mid-Market,Pro,Annual,North America,4.0,620.48,9.2,0,8,2,8,1,5,2022-02-28,0
+CUST-00161,SMB,Starter,Monthly,North America,14.1,142.96,7.2,12,1,0,8,5,3,2021-02-16,0
+CUST-00162,Mid-Market,Starter,Annual,North America,16.6,553.76,0.4,3,2,1,9,4,4,2021-10-14,0
+CUST-00163,Mid-Market,Pro,Annual,Europe,16.9,356.12,3.6,0,15,2,8,4,2,2021-08-06,0
+CUST-00164,SMB,Starter,Monthly,North America,8.8,63.35,2.9,31,5,1,6,3,1,2022-01-27,1
+CUST-00165,SMB,Starter,Monthly,Europe,9.8,83.36,24.2,17,15,1,8,3,2,2021-01-10,0
+CUST-00166,Mid-Market,Pro,Monthly,Europe,32.3,389.17,11.0,2,10,0,10,5,1,2022-01-22,0
+CUST-00167,SMB,Starter,Annual,North America,11.6,51.37,17.3,16,5,0,6,5,5,2021-05-26,0
+CUST-00168,SMB,Pro,Annual,APAC,72.0,129.36,37.7,14,3,3,5,5,3,2021-03-06,0
+CUST-00169,SMB,Starter,Monthly,North America,10.4,64.33,12.4,10,6,2,7,5,2,2021-03-04,0
+CUST-00170,Mid-Market,Starter,Annual,North America,18.9,528.42,48.6,8,15,2,5,4,5,2021-02-13,0
+CUST-00171,Mid-Market,Starter,Annual,APAC,0.9,562.88,4.5,33,18,1,5,4,1,2021-08-13,0
+CUST-00172,SMB,Starter,Annual,North America,19.1,63.23,2.5,4,14,2,9,3,2,2021-09-05,0
+CUST-00173,SMB,Starter,Monthly,Europe,34.3,142.93,6.2,8,10,4,10,2,2,2022-01-15,0
+CUST-00174,SMB,Pro,Annual,APAC,51.4,51.17,7.6,6,4,0,7,2,2,2021-07-25,0
+CUST-00175,Mid-Market,Enterprise,Monthly,LATAM,72.0,555.16,27.1,22,11,4,9,4,2,2021-07-12,0
+CUST-00176,SMB,Starter,Annual,APAC,6.0,88.28,9.9,37,7,1,4,1,2,2021-09-07,1
+CUST-00177,Mid-Market,Pro,Annual,North America,15.4,489.27,4.1,28,15,1,8,5,5,2021-08-01,0
+CUST-00178,SMB,Starter,Monthly,Europe,10.8,47.62,16.3,24,9,1,8,5,1,2021-04-30,0
+CUST-00179,Enterprise,Enterprise,Annual,North America,14.9,2833.39,8.5,65,15,0,7,3,1,2022-02-17,0
+CUST-00180,SMB,Starter,Monthly,North America,3.1,107.71,2.1,18,12,3,2,4,4,2021-01-10,0
+CUST-00181,SMB,Starter,Monthly,North America,34.9,61.06,10.3,21,18,0,9,5,3,2021-05-25,0
+CUST-00182,SMB,Starter,Annual,North America,43.3,106.17,29.1,61,6,3,9,5,2,2021-11-25,0
+CUST-00183,Enterprise,Pro,Annual,APAC,10.7,2323.58,22.2,0,18,1,8,5,1,2021-04-29,0
+CUST-00184,Enterprise,Enterprise,Multi-year,North America,5.9,1198.3,10.6,15,18,2,3,3,3,2021-05-26,0
+CUST-00185,SMB,Starter,Monthly,Europe,2.7,56.85,5.7,20,6,2,1,2,3,2021-12-11,1
+CUST-00186,Mid-Market,Pro,Annual,North America,20.7,788.33,1.1,37,15,0,5,4,5,2021-02-17,0
+CUST-00187,Mid-Market,Starter,Annual,Europe,6.7,565.88,7.6,32,19,1,0,4,2,2021-11-24,0
+CUST-00188,Mid-Market,Pro,Annual,LATAM,43.3,398.97,16.7,28,5,1,9,4,4,2021-11-03,0
+CUST-00189,SMB,Starter,Monthly,North America,20.0,56.75,5.4,44,4,1,9,5,3,2021-06-24,0
+CUST-00190,SMB,Starter,Monthly,Europe,18.7,65.1,3.2,12,17,2,8,3,5,2021-10-22,1
+CUST-00191,SMB,Starter,Monthly,North America,14.8,66.97,32.2,0,10,1,10,5,2,2021-12-08,0
+CUST-00192,Enterprise,Enterprise,Annual,North America,0.8,1425.84,20.7,0,12,0,2,3,1,2021-10-01,0
+CUST-00193,Enterprise,Enterprise,Annual,Europe,48.4,996.45,12.2,12,5,3,9,4,4,2022-03-08,0
+CUST-00194,Mid-Market,Pro,Annual,APAC,17.8,788.88,1.8,9,7,1,3,4,2,2021-07-06,0
+CUST-00195,SMB,Starter,Monthly,North America,72.0,117.95,1.9,9,12,2,1,4,5,2021-09-24,0
+CUST-00196,SMB,Starter,Monthly,North America,13.9,48.07,1.3,8,2,3,3,5,5,2021-04-27,1
+CUST-00197,Mid-Market,Starter,Annual,North America,22.3,528.02,11.5,37,17,0,10,4,5,2021-05-25,0
+CUST-00198,Enterprise,Enterprise,Annual,APAC,1.0,1394.1,1.5,7,13,1,7,5,5,2021-07-30,0
+CUST-00199,Enterprise,Enterprise,Multi-year,Europe,18.0,1801.32,22.2,29,5,3,0,5,5,2021-10-04,0
+CUST-00200,Mid-Market,Pro,Monthly,Europe,26.0,435.59,59.5,35,5,2,8,5,4,2021-05-15,0
+CUST-00201,Mid-Market,Enterprise,Annual,Europe,27.1,421.35,5.5,10,12,1,4,4,3,2021-06-05,0
+CUST-00202,SMB,Starter,Annual,APAC,26.5,178.25,7.3,9,12,1,0,4,3,2021-12-24,0
+CUST-00203,SMB,Pro,Monthly,APAC,4.6,67.08,14.9,21,7,2,9,3,1,2021-03-16,0
+CUST-00204,Enterprise,Pro,Annual,APAC,66.7,1447.51,33.2,18,6,2,3,4,3,2021-09-22,0
+CUST-00205,Mid-Market,Starter,Monthly,APAC,72.0,368.55,26.9,6,10,5,10,5,5,2022-02-02,0
+CUST-00206,SMB,Pro,Monthly,Europe,1.4,121.45,0.7,2,19,2,8,2,3,2021-05-15,0
+CUST-00207,SMB,Starter,Annual,Europe,49.6,41.31,2.2,5,16,6,2,5,3,2021-05-04,0
+CUST-00208,Mid-Market,Pro,Monthly,APAC,6.2,368.54,16.9,2,2,0,4,5,5,2021-08-21,0
+CUST-00209,SMB,Starter,Monthly,LATAM,21.0,142.7,14.0,5,4,0,8,5,4,2022-03-12,0
+CUST-00210,SMB,Starter,Monthly,North America,7.4,88.2,1.7,5,9,0,6,4,5,2021-03-07,0
+CUST-00211,SMB,Starter,Monthly,North America,61.8,86.38,8.4,15,5,2,8,4,3,2021-01-30,0
+CUST-00212,Mid-Market,Pro,Monthly,LATAM,1.9,1173.17,18.2,46,1,3,9,3,3,2022-03-02,0
+CUST-00213,Mid-Market,Pro,Monthly,North America,12.4,551.78,3.0,17,11,1,9,5,1,2021-03-11,0
+CUST-00214,SMB,Starter,Annual,APAC,10.1,60.27,24.6,39,19,2,8,3,5,2021-05-05,0
+CUST-00215,Mid-Market,Pro,Annual,North America,7.1,446.65,0.7,23,3,2,10,3,1,2021-01-02,0
+CUST-00216,SMB,Pro,Monthly,North America,18.7,50.8,18.3,20,1,1,4,4,1,2022-05-11,0
+CUST-00217,SMB,Starter,Monthly,North America,2.5,132.21,11.5,8,4,2,3,4,2,2021-05-03,0
+CUST-00218,Mid-Market,Pro,Monthly,North America,22.7,629.19,4.5,6,9,3,9,4,1,2021-01-17,0
+CUST-00219,Mid-Market,Pro,Annual,North America,71.0,783.97,15.3,28,16,1,6,4,3,2021-06-29,0
+CUST-00220,Mid-Market,Pro,Monthly,Europe,29.4,812.24,18.3,35,7,2,7,5,3,2021-06-03,0
+CUST-00221,Mid-Market,Pro,Annual,Europe,35.4,423.66,32.6,9,5,1,9,3,2,2021-08-21,0
+CUST-00222,Mid-Market,Pro,Annual,LATAM,8.0,342.65,5.5,0,13,1,6,5,2,2021-08-03,0
+CUST-00223,SMB,Starter,Monthly,North America,7.1,78.36,13.9,24,11,1,3,5,5,2021-07-23,0
+CUST-00224,SMB,Starter,Monthly,Europe,13.1,56.43,11.1,5,14,3,8,2,2,2021-05-26,0
+CUST-00225,SMB,Starter,Annual,Europe,0.8,85.46,8.9,0,17,2,9,5,4,2021-09-23,0
+CUST-00226,SMB,Starter,Monthly,Europe,52.3,125.82,26.5,25,12,3,0,2,3,2021-05-17,0
+CUST-00227,Enterprise,Enterprise,Annual,Europe,2.8,1869.91,0.0,11,19,1,8,5,3,2021-03-05,0
+CUST-00228,SMB,Pro,Monthly,North America,42.0,84.95,4.0,17,5,3,7,5,2,2021-09-24,0
+CUST-00229,Enterprise,Pro,Multi-year,North America,1.6,1926.32,9.3,37,8,1,5,5,2,2021-04-29,0
+CUST-00230,Mid-Market,Starter,Monthly,North America,31.1,689.32,2.4,12,2,2,3,3,3,2022-01-09,0
+CUST-00231,Mid-Market,Pro,Annual,North America,3.0,382.79,28.6,10,17,1,4,4,2,2021-01-31,0
+CUST-00232,SMB,Pro,Annual,Europe,0.7,33.23,12.5,5,2,0,9,5,5,2021-07-06,0
+CUST-00233,Mid-Market,Pro,Annual,North America,22.9,603.63,7.8,5,3,3,8,4,2,2021-05-30,0
+CUST-00234,SMB,Starter,Monthly,APAC,5.9,118.77,20.2,24,18,2,10,5,2,2022-03-03,0
+CUST-00235,SMB,Starter,Monthly,LATAM,22.6,95.64,7.2,9,15,2,5,5,5,2021-03-19,0
+CUST-00236,Mid-Market,Pro,Annual,LATAM,14.6,387.04,9.8,3,5,0,10,3,5,2022-05-07,0
+CUST-00237,SMB,Starter,Annual,LATAM,2.1,50.81,0.0,1,17,3,7,3,5,2021-09-07,0
+CUST-00238,SMB,Starter,Annual,North America,48.4,97.5,5.5,10,14,0,3,4,3,2022-05-01,0
+CUST-00239,Mid-Market,Pro,Annual,Europe,10.8,529.11,1.8,9,1,1,3,5,2,2021-04-05,0
+CUST-00240,SMB,Pro,Annual,North America,23.9,76.07,14.0,16,14,2,8,3,5,2021-09-01,0
+CUST-00241,Enterprise,Enterprise,Multi-year,APAC,12.5,4145.95,7.8,10,9,2,9,3,5,2022-05-08,0
+CUST-00242,Enterprise,Pro,Multi-year,APAC,16.7,1369.47,4.3,2,5,1,9,1,3,2021-10-06,0
+CUST-00243,Enterprise,Enterprise,Annual,APAC,6.5,4068.04,7.6,11,4,2,8,4,4,2022-04-30,0
+CUST-00244,SMB,Pro,Annual,North America,4.0,81.02,2.8,36,1,3,3,4,2,2021-01-13,1
+CUST-00245,SMB,Pro,Monthly,APAC,14.1,38.39,31.1,3,3,0,2,4,4,2021-12-08,0
+CUST-00246,Enterprise,Enterprise,Multi-year,North America,10.4,1861.66,0.7,18,11,3,0,4,4,2021-11-14,0
+CUST-00247,SMB,Starter,Monthly,North America,8.9,117.43,24.1,14,16,0,2,4,5,2022-05-01,0
+CUST-00248,Enterprise,Enterprise,Multi-year,APAC,20.1,1728.28,8.6,21,11,3,9,5,3,2021-10-26,0
+CUST-00249,Enterprise,Enterprise,Multi-year,North America,21.1,1108.75,11.6,2,10,1,10,3,2,2021-01-25,0
+CUST-00250,Enterprise,Pro,Multi-year,LATAM,0.8,1872.63,4.3,43,12,2,5,3,2,2022-01-20,0
+CUST-00251,SMB,Starter,Annual,North America,7.4,56.78,40.8,15,5,0,9,5,2,2021-09-06,0
+CUST-00252,SMB,Starter,Annual,APAC,9.6,97.39,4.0,28,10,1,4,5,4,2021-06-17,0
+CUST-00253,Enterprise,Enterprise,Annual,Europe,1.8,2725.11,10.7,4,13,3,5,4,1,2021-05-31,0
+CUST-00254,SMB,Starter,Monthly,APAC,4.8,52.43,60.0,20,19,2,4,5,3,2021-03-09,0
+CUST-00255,SMB,Starter,Annual,APAC,1.0,60.32,25.6,23,7,3,1,2,1,2021-03-06,0
+CUST-00256,Mid-Market,Pro,Monthly,LATAM,72.0,676.73,9.2,8,16,4,4,2,4,2021-09-10,0
+CUST-00257,Enterprise,Enterprise,Annual,North America,24.0,1418.51,55.7,7,6,2,6,4,5,2021-10-28,0
+CUST-00258,Mid-Market,Pro,Annual,LATAM,1.6,324.32,14.5,16,10,2,7,5,1,2021-10-19,0
+CUST-00259,Mid-Market,Pro,Annual,North America,0.5,312.04,2.8,1,10,4,5,4,1,2021-11-15,0
+CUST-00260,SMB,Starter,Annual,North America,22.9,92.1,6.2,20,11,0,7,4,3,2021-10-26,0
+CUST-00261,Mid-Market,Starter,Annual,North America,10.4,565.82,4.9,1,10,0,6,1,4,2021-06-15,0
+CUST-00262,Enterprise,Enterprise,Annual,APAC,27.8,1521.24,5.1,3,14,3,10,4,3,2021-10-09,0
+CUST-00263,SMB,Starter,Annual,Europe,46.3,80.16,17.1,16,15,1,9,3,5,2021-01-11,0
+CUST-00264,SMB,Pro,Monthly,APAC,16.5,147.36,10.5,2,7,3,10,4,2,2021-09-09,0
+CUST-00265,Enterprise,Enterprise,Multi-year,Europe,3.7,1354.62,0.5,54,13,2,8,4,4,2022-02-13,0
+CUST-00266,Mid-Market,Pro,Monthly,North America,27.4,229.04,25.2,30,11,1,8,5,5,2021-07-12,0
+CUST-00267,Mid-Market,Pro,Annual,LATAM,56.1,599.83,4.2,15,7,1,3,4,5,2021-11-30,0
+CUST-00268,Mid-Market,Starter,Annual,North America,15.6,478.4,60.0,26,11,1,9,4,1,2021-07-05,0
+CUST-00269,SMB,Starter,Monthly,APAC,20.6,60.22,37.0,33,14,1,4,4,3,2022-05-06,0
+CUST-00270,SMB,Starter,Monthly,North America,7.4,103.84,33.9,5,17,4,3,5,1,2021-06-23,0
+CUST-00271,Mid-Market,Pro,Annual,Europe,8.6,699.45,20.0,28,16,1,0,5,1,2021-07-29,0
+CUST-00272,Mid-Market,Enterprise,Annual,North America,23.9,206.71,3.0,3,1,7,7,5,2,2021-10-25,0
+CUST-00273,Enterprise,Enterprise,Annual,North America,47.3,1540.5,9.1,8,9,4,5,4,3,2021-02-20,0
+CUST-00274,Enterprise,Enterprise,Multi-year,North America,17.8,5053.87,3.0,12,9,0,10,4,2,2022-05-15,0
+CUST-00275,SMB,Starter,Monthly,North America,28.1,101.03,3.6,19,10,1,5,4,5,2022-04-12,0
+CUST-00276,SMB,Starter,Monthly,North America,3.4,104.84,11.3,0,19,1,10,5,2,2021-08-28,0
+CUST-00277,Mid-Market,Pro,Annual,North America,4.3,799.32,0.5,5,15,1,6,3,5,2021-12-24,0
+CUST-00278,Mid-Market,Pro,Annual,Europe,13.7,503.43,41.9,14,16,0,9,1,1,2021-02-18,0
+CUST-00279,Mid-Market,Starter,Annual,APAC,3.5,687.65,30.1,7,11,2,8,5,2,2021-04-18,0
+CUST-00280,Mid-Market,Pro,Annual,Europe,18.1,666.36,5.8,22,17,4,8,3,3,2021-01-25,0
+CUST-00281,Enterprise,Pro,Annual,APAC,6.2,2481.25,8.7,16,19,1,7,5,2,2021-05-01,0
+CUST-00282,SMB,Starter,Annual,Europe,28.2,70.33,7.5,4,13,1,8,5,5,2021-09-27,0
+CUST-00283,SMB,Pro,Monthly,Europe,29.7,85.7,25.7,2,6,0,7,4,4,2021-02-03,0
+CUST-00284,SMB,Pro,Monthly,Europe,11.2,63.22,14.0,15,15,2,8,4,3,2021-04-11,0
+CUST-00285,Mid-Market,Pro,Monthly,North America,3.6,502.57,3.9,9,16,2,8,4,5,2022-01-15,0
+CUST-00286,SMB,Starter,Annual,Europe,18.7,50.13,7.1,3,4,1,5,4,4,2021-11-26,0
+CUST-00287,SMB,Pro,Annual,North America,72.0,58.31,6.7,6,8,0,6,4,3,2021-12-13,0
+CUST-00288,SMB,Starter,Monthly,APAC,17.5,71.46,38.4,5,7,1,0,5,4,2021-10-17,0
+CUST-00289,SMB,Pro,Monthly,APAC,0.7,54.85,2.3,2,17,0,10,3,1,2021-10-23,0
+CUST-00290,Mid-Market,Enterprise,Monthly,North America,0.5,408.54,1.1,12,16,4,9,5,1,2021-02-15,0
+CUST-00291,SMB,Starter,Monthly,APAC,7.0,74.92,25.5,22,2,1,4,5,2,2022-02-08,1
+CUST-00292,SMB,Starter,Monthly,North America,3.9,93.97,27.2,13,17,2,6,5,2,2022-02-18,0
+CUST-00293,Mid-Market,Pro,Monthly,North America,30.2,730.93,24.6,26,4,2,7,4,2,2022-03-21,0
+CUST-00294,SMB,Starter,Monthly,North America,33.5,66.45,8.6,2,14,1,6,4,2,2021-05-15,0
+CUST-00295,SMB,Pro,Monthly,APAC,5.4,136.47,12.9,9,8,1,9,5,4,2021-05-14,0
+CUST-00296,SMB,Pro,Annual,APAC,7.1,116.45,9.9,14,5,1,9,5,3,2021-05-01,1
+CUST-00297,Mid-Market,Starter,Annual,APAC,4.9,611.7,0.9,17,5,3,9,5,3,2021-06-16,0
+CUST-00298,SMB,Starter,Monthly,North America,43.0,85.07,10.9,18,5,4,10,5,2,2021-04-14,0
+CUST-00299,Mid-Market,Pro,Monthly,Europe,12.6,568.08,0.2,20,5,0,8,4,1,2021-12-10,0
+CUST-00300,SMB,Starter,Monthly,Europe,19.2,128.62,4.7,16,3,0,8,1,5,2021-05-04,0
+CUST-00301,SMB,Pro,Annual,North America,9.7,130.51,32.3,1,6,5,9,3,2,2022-02-09,0
+CUST-00302,SMB,Starter,Monthly,Europe,17.9,136.46,4.3,18,1,0,8,4,2,2022-05-09,0
+CUST-00303,SMB,Starter,Monthly,North America,8.8,81.33,33.7,19,8,4,10,4,1,2021-07-07,0
+CUST-00304,Mid-Market,Pro,Annual,North America,7.5,624.28,3.5,75,13,0,9,4,5,2021-05-08,0
+CUST-00305,Mid-Market,Enterprise,Monthly,Europe,18.1,855.79,4.5,18,6,3,3,4,4,2022-04-03,1
+CUST-00306,Enterprise,Enterprise,Annual,Europe,16.1,1558.4,11.9,17,18,0,10,4,4,2021-06-27,0
+CUST-00307,SMB,Starter,Monthly,North America,6.3,70.43,17.2,11,18,2,8,3,5,2022-02-13,0
+CUST-00308,SMB,Starter,Annual,North America,2.9,80.51,8.4,30,16,4,3,5,5,2022-02-08,0
+CUST-00309,Mid-Market,Enterprise,Annual,North America,8.3,716.55,25.7,86,8,1,9,5,4,2022-01-31,0
+CUST-00310,SMB,Pro,Annual,North America,9.7,115.36,0.5,23,17,1,6,5,2,2021-05-08,0
+CUST-00311,SMB,Starter,Monthly,North America,17.8,72.94,30.6,14,8,0,9,2,2,2021-08-07,0
+CUST-00312,SMB,Starter,Annual,North America,44.3,43.75,2.6,1,15,2,10,4,1,2021-01-24,0
+CUST-00313,SMB,Starter,Monthly,Europe,0.7,88.28,25.9,19,10,0,5,5,5,2021-11-11,0
+CUST-00314,Enterprise,Enterprise,Multi-year,North America,5.0,1385.17,6.1,18,1,1,10,4,2,2021-06-04,0
+CUST-00315,Mid-Market,Enterprise,Annual,APAC,3.9,275.51,21.5,22,9,2,9,4,2,2021-08-30,0
+CUST-00316,Mid-Market,Starter,Annual,Europe,12.6,301.59,13.4,2,17,1,8,4,1,2021-04-24,0
+CUST-00317,SMB,Pro,Monthly,North America,10.1,91.16,2.3,16,1,1,6,4,5,2021-03-15,0
+CUST-00318,SMB,Starter,Monthly,North America,23.5,137.89,30.0,5,9,1,2,3,1,2022-01-16,0
+CUST-00319,SMB,Starter,Monthly,APAC,5.0,81.25,3.4,21,14,3,7,3,1,2021-04-28,0
+CUST-00320,SMB,Starter,Annual,North America,16.2,87.06,3.4,4,5,1,2,4,4,2022-01-28,0
+CUST-00321,SMB,Starter,Monthly,North America,38.8,128.4,20.2,17,6,0,7,4,1,2021-09-08,0
+CUST-00322,Mid-Market,Enterprise,Monthly,North America,43.5,269.57,1.3,5,5,1,9,5,5,2022-04-30,0
+CUST-00323,Mid-Market,Pro,Annual,Europe,57.4,615.65,3.0,0,4,1,10,4,2,2021-08-06,0
+CUST-00324,SMB,Starter,Monthly,Europe,26.7,79.63,8.4,15,16,0,4,4,2,2022-02-17,0
+CUST-00325,Enterprise,Enterprise,Annual,LATAM,42.6,2508.21,21.3,2,16,0,4,5,4,2022-02-26,0
+CUST-00326,Mid-Market,Enterprise,Monthly,APAC,4.8,412.08,1.9,16,10,2,9,5,5,2021-05-20,0
+CUST-00327,Mid-Market,Starter,Annual,North America,4.0,360.48,9.5,39,14,1,7,4,2,2022-04-18,0
+CUST-00328,Mid-Market,Enterprise,Monthly,North America,0.5,528.91,14.9,52,13,1,10,4,1,2022-04-28,0
+CUST-00329,SMB,Starter,Annual,North America,22.1,154.73,23.6,4,4,2,9,4,3,2021-03-26,0
+CUST-00330,SMB,Starter,Monthly,North America,49.9,112.89,32.9,25,14,3,9,5,3,2021-07-07,0
+CUST-00331,SMB,Starter,Monthly,North America,3.7,65.3,18.4,7,9,1,2,5,3,2021-01-04,1
+CUST-00332,Mid-Market,Starter,Annual,North America,18.2,292.43,12.7,35,3,2,0,4,3,2022-01-12,0
+CUST-00333,SMB,Starter,Annual,North America,24.7,40.82,6.8,23,10,0,6,5,1,2021-10-02,0
+CUST-00334,SMB,Starter,Annual,North America,47.3,135.43,1.4,1,15,0,4,4,2,2021-06-15,0
+CUST-00335,SMB,Starter,Monthly,North America,18.7,54.6,14.8,8,19,2,9,1,4,2021-04-04,0
+CUST-00336,SMB,Pro,Monthly,LATAM,63.3,70.23,59.1,6,2,0,7,5,1,2021-11-12,0
+CUST-00337,Enterprise,Enterprise,Multi-year,Europe,7.6,3392.72,16.0,23,2,1,8,4,2,2022-01-06,0
+CUST-00338,Mid-Market,Enterprise,Annual,LATAM,7.8,262.18,0.2,8,9,2,9,3,5,2021-06-24,0
+CUST-00339,SMB,Starter,Annual,North America,14.1,145.32,8.2,17,4,0,7,5,2,2021-03-02,1
+CUST-00340,SMB,Starter,Monthly,Europe,8.7,72.28,11.4,14,5,2,8,4,2,2021-02-20,1
+CUST-00341,SMB,Starter,Annual,North America,0.5,50.53,14.0,56,2,1,9,3,2,2021-05-05,0
+CUST-00342,SMB,Starter,Monthly,North America,23.7,72.46,15.3,42,7,2,7,4,1,2021-06-28,0
+CUST-00343,SMB,Starter,Monthly,North America,25.1,59.92,9.8,8,19,1,2,4,2,2021-12-22,0
+CUST-00344,SMB,Pro,Annual,LATAM,24.7,95.43,3.0,19,6,0,8,2,2,2021-05-25,0
+CUST-00345,SMB,Starter,Monthly,LATAM,7.6,61.73,34.2,27,16,2,8,4,5,2021-09-18,0
+CUST-00346,Mid-Market,Pro,Annual,North America,13.3,232.75,14.3,34,14,1,7,5,5,2022-03-15,1
+CUST-00347,Mid-Market,Pro,Annual,North America,8.0,457.78,3.2,1,12,1,5,5,3,2021-01-05,0
+CUST-00348,SMB,Pro,Annual,North America,0.5,46.5,4.7,5,6,1,4,4,1,2021-12-31,1
+CUST-00349,SMB,Starter,Monthly,North America,14.9,86.81,30.6,6,13,1,6,4,2,2021-04-03,0
+CUST-00350,Mid-Market,Pro,Annual,North America,2.4,310.99,26.2,9,15,2,3,4,3,2022-01-18,0
+CUST-00351,SMB,Starter,Annual,North America,1.5,65.81,6.2,3,14,1,8,2,3,2022-01-28,0
+CUST-00352,Enterprise,Enterprise,Annual,Europe,25.4,2151.54,0.5,10,8,2,8,4,1,2021-11-09,0
+CUST-00353,Mid-Market,Pro,Monthly,North America,0.5,459.26,0.6,16,11,0,8,5,3,2021-11-09,0
+CUST-00354,SMB,Starter,Monthly,North America,57.5,88.43,4.0,10,9,5,4,5,3,2021-12-23,0
+CUST-00355,SMB,Pro,Monthly,North America,13.0,105.02,11.9,16,12,0,5,4,1,2021-10-06,0
+CUST-00356,Mid-Market,Pro,Monthly,North America,72.0,314.64,10.5,1,6,3,9,1,4,2021-09-13,0
+CUST-00357,SMB,Starter,Annual,LATAM,1.1,77.97,12.1,31,19,3,8,1,3,2022-03-27,1
+CUST-00358,Mid-Market,Pro,Annual,North America,15.8,132.0,15.2,42,3,2,10,4,5,2022-03-21,0
+CUST-00359,Enterprise,Enterprise,Annual,APAC,7.7,2207.99,0.2,14,1,4,7,4,3,2021-08-02,0
+CUST-00360,Mid-Market,Starter,Annual,APAC,33.4,443.32,1.3,32,15,4,8,4,1,2021-06-30,0
+CUST-00361,SMB,Starter,Annual,LATAM,8.1,53.98,5.3,2,15,2,9,5,1,2021-12-03,0
+CUST-00362,Mid-Market,Pro,Annual,APAC,5.4,567.3,2.0,24,5,1,10,5,4,2021-08-13,0
+CUST-00363,SMB,Starter,Monthly,Europe,35.1,127.88,0.9,2,11,4,10,5,4,2021-08-29,0
+CUST-00364,SMB,Starter,Monthly,APAC,8.5,66.13,12.3,8,1,0,10,5,5,2021-07-07,0
+CUST-00365,Enterprise,Enterprise,Multi-year,North America,0.5,1370.56,20.3,6,10,2,10,4,5,2021-10-03,0
+CUST-00366,SMB,Starter,Monthly,Europe,8.9,85.46,16.8,13,11,1,8,3,3,2022-03-19,0
+CUST-00367,Enterprise,Pro,Annual,LATAM,19.1,1172.23,20.4,5,7,1,0,4,4,2021-08-22,0
+CUST-00368,Enterprise,Enterprise,Multi-year,APAC,5.3,1535.71,13.2,15,17,0,8,4,5,2022-04-24,0
+CUST-00369,SMB,Starter,Monthly,LATAM,10.2,130.45,16.0,7,12,1,4,5,3,2021-01-20,0
+CUST-00370,SMB,Pro,Annual,APAC,1.1,82.01,3.8,30,4,1,1,2,2,2022-02-20,0
+CUST-00371,SMB,Starter,Monthly,APAC,16.0,37.72,59.6,15,12,0,8,5,3,2021-04-06,0
+CUST-00372,SMB,Starter,Monthly,Europe,25.4,38.99,2.4,4,3,5,9,5,5,2021-06-18,0
+CUST-00373,SMB,Pro,Monthly,APAC,9.6,85.36,2.9,6,18,2,8,5,3,2021-05-14,0
+CUST-00374,Mid-Market,Pro,Annual,Europe,9.8,705.96,4.1,28,12,3,6,5,2,2021-12-10,0
+CUST-00375,SMB,Starter,Annual,LATAM,1.7,41.89,44.4,7,19,4,7,3,5,2022-04-04,0
+CUST-00376,SMB,Starter,Annual,APAC,4.1,95.77,53.4,12,13,0,10,1,3,2022-01-05,0
+CUST-00377,Mid-Market,Pro,Monthly,APAC,3.0,851.28,19.0,16,16,0,9,3,5,2021-11-07,0
+CUST-00378,SMB,Pro,Annual,Europe,11.8,170.23,11.9,6,8,1,7,5,3,2021-01-09,0
+CUST-00379,Mid-Market,Starter,Annual,North America,13.6,570.83,8.8,5,6,0,8,2,1,2021-04-09,0
+CUST-00380,SMB,Pro,Annual,North America,53.5,97.98,42.3,10,10,0,10,4,5,2021-08-23,0
+CUST-00381,SMB,Starter,Monthly,LATAM,1.4,34.08,14.3,4,10,1,6,4,5,2021-12-06,0
+CUST-00382,Mid-Market,Starter,Annual,Europe,16.5,1158.07,34.7,5,6,0,2,4,5,2021-03-10,0
+CUST-00383,Mid-Market,Pro,Monthly,North America,13.5,397.19,4.6,1,8,1,6,4,5,2021-01-06,0
+CUST-00384,Enterprise,Enterprise,Multi-year,North America,13.1,1376.8,4.9,5,18,2,7,5,3,2021-07-04,0
+CUST-00385,Mid-Market,Enterprise,Annual,APAC,37.2,451.48,23.1,6,17,1,5,1,4,2021-12-05,0
+CUST-00386,Mid-Market,Pro,Monthly,APAC,4.1,915.32,1.9,49,10,3,8,4,3,2021-11-09,0
+CUST-00387,SMB,Starter,Annual,APAC,0.7,193.49,35.0,13,2,0,5,4,2,2021-04-25,0
+CUST-00388,SMB,Pro,Monthly,Europe,20.1,84.12,8.5,23,12,2,2,4,1,2021-11-28,1
+CUST-00389,Mid-Market,Starter,Annual,North America,7.6,745.34,31.3,1,10,2,4,4,3,2021-12-23,0
+CUST-00390,Mid-Market,Starter,Annual,North America,0.5,508.72,4.9,2,9,2,10,5,3,2021-07-22,0
+CUST-00391,Enterprise,Enterprise,Multi-year,North America,5.2,1320.52,15.1,25,16,0,8,5,5,2022-05-05,0
+CUST-00392,SMB,Starter,Annual,APAC,6.7,144.42,7.9,15,7,1,6,2,2,2021-04-04,0
+CUST-00393,SMB,Pro,Annual,North America,17.3,62.38,11.8,3,9,1,6,5,5,2022-04-18,1
+CUST-00394,Mid-Market,Starter,Annual,Europe,3.4,924.1,8.4,8,6,4,7,5,5,2022-03-03,0
+CUST-00395,SMB,Pro,Annual,Europe,9.6,134.48,41.0,12,10,1,8,2,4,2021-06-11,0
+CUST-00396,Enterprise,Enterprise,Multi-year,Europe,11.9,2556.81,14.1,28,7,1,8,4,1,2022-03-03,0
+CUST-00397,Enterprise,Pro,Multi-year,LATAM,11.1,4156.76,3.5,1,18,4,10,4,4,2021-02-08,0
+CUST-00398,SMB,Starter,Monthly,North America,65.7,195.38,28.9,14,11,1,8,3,5,2021-10-26,0
+CUST-00399,Mid-Market,Starter,Annual,APAC,0.8,466.15,4.2,19,1,3,10,4,1,2021-03-05,0
+CUST-00400,Mid-Market,Starter,Annual,North America,54.3,361.8,5.6,57,19,1,0,3,3,2022-04-29,0
+CUST-00401,SMB,Starter,Annual,North America,15.7,37.95,1.3,25,5,1,10,5,2,2021-07-18,0
+CUST-00402,Enterprise,Pro,Multi-year,North America,28.6,4908.75,27.6,5,6,3,9,4,4,2021-07-15,0
+CUST-00403,SMB,Starter,Monthly,North America,10.1,67.1,4.0,19,7,1,3,5,2,2022-02-23,1
+CUST-00404,Mid-Market,Pro,Monthly,APAC,10.9,787.31,3.6,22,4,1,5,1,5,2021-09-04,0
+CUST-00405,SMB,Starter,Annual,Europe,38.1,59.47,30.3,20,16,2,8,2,1,2021-05-18,0
+CUST-00406,Enterprise,Enterprise,Annual,North America,40.7,3700.45,19.6,26,10,3,3,4,3,2021-01-30,0
+CUST-00407,SMB,Starter,Monthly,North America,4.9,60.46,1.8,35,15,3,9,5,1,2022-02-26,1
+CUST-00408,SMB,Starter,Monthly,Europe,4.0,49.67,17.6,2,13,0,9,4,2,2022-04-22,0
+CUST-00409,Enterprise,Enterprise,Multi-year,APAC,12.3,1839.96,29.3,2,8,2,5,5,2,2022-01-04,0
+CUST-00410,SMB,Pro,Annual,North America,41.5,64.67,1.0,24,13,2,1,4,3,2021-03-29,1
+CUST-00411,SMB,Starter,Annual,Europe,7.0,101.55,20.9,4,7,6,10,1,3,2021-12-01,0
+CUST-00412,Enterprise,Pro,Multi-year,APAC,19.0,1959.3,9.5,1,17,0,5,4,1,2021-01-11,0
+CUST-00413,Enterprise,Enterprise,Annual,Europe,22.2,2570.83,13.3,8,4,1,1,4,4,2021-08-03,0
+CUST-00414,Mid-Market,Pro,Monthly,North America,27.1,445.06,8.1,26,7,0,6,2,1,2021-10-22,0
+CUST-00415,Mid-Market,Pro,Annual,Europe,14.9,383.2,14.4,2,16,4,10,3,2,2022-02-19,0
+CUST-00416,SMB,Starter,Monthly,Europe,9.3,63.35,0.4,17,2,0,9,4,1,2021-02-07,0
+CUST-00417,SMB,Starter,Monthly,Europe,61.4,181.27,17.3,0,14,1,7,4,5,2021-11-27,0
+CUST-00418,SMB,Pro,Monthly,Europe,17.0,87.54,0.4,2,14,1,5,5,1,2021-04-28,0
+CUST-00419,Mid-Market,Pro,Annual,LATAM,23.5,226.13,7.3,6,8,1,7,4,1,2021-12-22,0
+CUST-00420,Mid-Market,Starter,Annual,North America,7.6,406.07,2.0,1,6,3,0,5,5,2021-01-02,1
+CUST-00421,Mid-Market,Starter,Monthly,LATAM,20.0,519.75,20.8,28,7,4,9,5,2,2022-02-05,0
+CUST-00422,Mid-Market,Enterprise,Annual,Europe,5.4,1046.04,4.5,30,7,1,2,4,3,2022-01-26,0
+CUST-00423,SMB,Starter,Monthly,Europe,5.1,120.72,7.3,21,2,0,7,4,1,2021-11-25,0
+CUST-00424,SMB,Starter,Monthly,North America,22.6,55.33,6.7,4,4,1,8,5,4,2022-02-03,0
+CUST-00425,SMB,Starter,Annual,North America,13.3,210.48,17.8,11,13,5,0,5,3,2021-04-30,0
+CUST-00426,SMB,Starter,Annual,APAC,20.7,79.01,7.9,3,10,3,10,5,4,2022-01-15,0
+CUST-00427,SMB,Pro,Monthly,Europe,5.7,131.7,18.7,5,9,1,5,4,1,2022-01-19,0
+CUST-00428,Enterprise,Enterprise,Multi-year,North America,16.4,1260.04,0.9,11,15,3,1,3,4,2022-04-12,0
+CUST-00429,SMB,Starter,Monthly,Europe,10.6,30.65,2.6,20,12,1,10,4,3,2022-04-29,0
+CUST-00430,SMB,Starter,Monthly,North America,16.4,45.54,9.6,1,10,1,3,4,4,2021-07-02,0
+CUST-00431,SMB,Pro,Annual,LATAM,6.2,21.8,35.3,5,19,2,0,2,4,2022-03-22,0
+CUST-00432,Mid-Market,Pro,Monthly,APAC,22.6,1163.8,0.9,39,5,3,7,5,3,2021-07-14,1
+CUST-00433,Mid-Market,Pro,Annual,North America,29.5,544.8,0.5,8,7,0,3,4,3,2021-09-18,0
+CUST-00434,SMB,Starter,Monthly,APAC,5.4,55.27,2.0,42,11,0,10,4,3,2022-01-23,0
+CUST-00435,SMB,Pro,Monthly,LATAM,6.4,95.88,12.3,71,16,0,0,4,3,2022-04-11,1
+CUST-00436,Mid-Market,Pro,Annual,North America,19.5,539.34,6.1,11,13,3,1,4,5,2021-02-08,0
+CUST-00437,SMB,Starter,Monthly,Europe,21.4,102.56,21.0,5,4,2,9,1,1,2021-09-08,0
+CUST-00438,Mid-Market,Pro,Annual,North America,21.9,811.12,0.9,23,16,0,4,2,3,2021-06-07,1
+CUST-00439,Mid-Market,Enterprise,Annual,Europe,20.7,445.25,2.6,3,13,1,10,5,2,2021-12-27,0
+CUST-00440,SMB,Starter,Monthly,North America,9.0,56.27,4.3,4,1,6,6,3,4,2021-07-27,0
+CUST-00441,SMB,Starter,Annual,North America,9.0,111.4,11.8,23,4,1,1,2,3,2021-10-19,0
+CUST-00442,Enterprise,Enterprise,Annual,North America,5.3,2756.83,13.9,9,15,2,0,4,3,2022-02-24,0
+CUST-00443,SMB,Pro,Annual,North America,3.1,83.29,1.6,3,16,0,5,3,1,2021-10-25,0
+CUST-00444,SMB,Starter,Monthly,APAC,21.2,191.15,34.5,16,4,3,7,1,3,2021-07-17,0
+CUST-00445,Mid-Market,Pro,Monthly,North America,1.8,419.67,5.0,20,17,1,0,4,5,2021-02-12,1
+CUST-00446,Enterprise,Enterprise,Multi-year,North America,50.0,1395.43,15.0,2,11,2,8,1,2,2022-01-06,0
+CUST-00447,Enterprise,Pro,Multi-year,APAC,31.5,2364.07,8.9,5,5,4,6,1,2,2021-06-06,0
+CUST-00448,Mid-Market,Pro,Annual,Europe,35.1,381.7,3.0,4,13,0,6,5,3,2021-01-21,0
+CUST-00449,SMB,Starter,Annual,Europe,42.7,97.54,22.5,7,12,1,5,4,1,2021-09-13,0
+CUST-00450,SMB,Starter,Monthly,LATAM,9.5,57.33,20.5,22,3,1,8,4,3,2021-12-02,1
+CUST-00451,Mid-Market,Pro,Annual,APAC,33.8,426.03,6.1,19,4,1,4,4,4,2021-08-10,0
+CUST-00452,Mid-Market,Pro,Annual,North America,3.1,1065.23,10.7,16,10,0,3,5,2,2021-08-14,0
+CUST-00453,SMB,Starter,Monthly,Europe,0.5,68.02,3.6,0,9,1,10,5,4,2022-01-02,0
+CUST-00454,Enterprise,Enterprise,Annual,LATAM,27.7,1452.97,14.0,2,10,1,6,4,5,2021-05-02,0
+CUST-00455,SMB,Pro,Monthly,North America,1.4,127.78,4.4,4,13,1,1,3,2,2021-03-07,0
+CUST-00456,SMB,Starter,Monthly,North America,72.0,52.54,22.3,5,1,0,4,3,2,2021-01-01,0
+CUST-00457,SMB,Starter,Monthly,North America,20.2,60.63,2.9,2,12,0,5,5,5,2021-11-13,0
+CUST-00458,SMB,Starter,Monthly,North America,25.2,100.75,0.2,8,11,2,9,4,4,2022-02-20,0
+CUST-00459,SMB,Starter,Monthly,Europe,5.1,116.44,3.8,1,8,0,0,3,3,2021-11-22,0
+CUST-00460,SMB,Starter,Monthly,APAC,20.2,130.35,2.5,21,14,2,7,5,1,2021-02-23,0
+CUST-00461,SMB,Starter,Monthly,LATAM,0.8,59.33,8.5,23,14,1,7,4,4,2021-11-21,0
+CUST-00462,Mid-Market,Pro,Annual,APAC,32.7,634.61,2.7,13,17,0,10,4,5,2021-09-05,0
+CUST-00463,Mid-Market,Enterprise,Annual,North America,3.3,414.95,17.3,1,19,1,4,5,5,2021-11-20,0
+CUST-00464,Mid-Market,Starter,Annual,North America,21.5,392.43,3.3,33,17,3,8,5,5,2021-08-29,0
+CUST-00465,Enterprise,Enterprise,Multi-year,LATAM,4.6,3236.31,14.7,51,6,2,4,4,2,2021-01-28,0
+CUST-00466,SMB,Starter,Monthly,North America,1.3,64.21,10.4,3,14,2,8,5,3,2022-01-17,0
+CUST-00467,SMB,Starter,Monthly,North America,11.8,89.42,51.4,18,18,1,8,5,2,2021-05-12,0
+CUST-00468,Enterprise,Pro,Multi-year,LATAM,3.3,2128.42,60.0,28,17,1,1,5,2,2021-07-18,0
+CUST-00469,SMB,Pro,Monthly,Europe,23.5,52.13,24.4,12,6,1,7,4,2,2021-11-24,0
+CUST-00470,Enterprise,Enterprise,Annual,North America,4.9,2943.46,17.1,6,5,1,7,4,5,2021-05-20,0
+CUST-00471,SMB,Starter,Annual,APAC,7.5,100.1,5.9,10,13,1,6,3,4,2022-03-20,0
+CUST-00472,Enterprise,Enterprise,Annual,LATAM,15.1,903.6,16.8,11,16,4,5,5,1,2022-03-31,0
+CUST-00473,SMB,Starter,Monthly,North America,6.0,89.39,37.7,8,9,1,4,2,1,2021-10-05,0
+CUST-00474,Enterprise,Enterprise,Annual,APAC,8.5,1468.08,0.3,40,12,0,0,4,3,2022-05-02,0
+CUST-00475,SMB,Pro,Annual,North America,30.4,124.07,9.3,20,10,0,0,1,3,2021-03-08,0
+CUST-00476,Enterprise,Enterprise,Multi-year,Europe,3.6,1121.86,3.0,4,13,0,8,4,5,2022-01-13,0
+CUST-00477,SMB,Starter,Monthly,LATAM,1.5,69.37,9.8,13,19,2,5,5,1,2021-01-06,0
+CUST-00478,Mid-Market,Pro,Monthly,LATAM,7.2,577.91,7.5,18,16,3,3,3,4,2022-01-25,0
+CUST-00479,Enterprise,Pro,Multi-year,North America,9.9,2043.95,10.3,2,17,0,8,5,5,2021-12-17,0
+CUST-00480,SMB,Starter,Monthly,North America,14.1,108.55,9.6,7,16,0,8,4,3,2021-03-18,0
+CUST-00481,Mid-Market,Starter,Monthly,North America,8.4,272.39,38.7,35,14,1,10,4,5,2021-01-14,0
+CUST-00482,Mid-Market,Pro,Annual,Europe,28.1,968.14,9.6,13,16,3,9,5,3,2022-03-21,0
+CUST-00483,SMB,Starter,Monthly,North America,0.7,98.7,22.5,4,15,1,9,4,1,2021-01-20,0
+CUST-00484,Mid-Market,Pro,Monthly,North America,10.2,861.35,4.6,2,12,2,3,3,5,2021-05-01,1
+CUST-00485,Mid-Market,Pro,Monthly,North America,8.7,709.32,6.9,11,5,1,8,5,2,2021-11-08,0
+CUST-00486,Enterprise,Enterprise,Multi-year,North America,18.8,1990.73,7.6,12,11,0,8,4,3,2021-07-14,0
+CUST-00487,SMB,Pro,Monthly,North America,61.0,47.86,3.9,6,5,2,9,4,2,2021-11-12,0
+CUST-00488,SMB,Starter,Monthly,APAC,12.9,63.85,5.7,15,11,3,5,5,3,2021-08-30,1
+CUST-00489,Enterprise,Enterprise,Annual,North America,72.0,3777.16,11.0,1,2,1,8,4,2,2022-03-31,0
+CUST-00490,Enterprise,Enterprise,Annual,North America,6.5,3481.01,10.4,2,19,0,8,4,1,2021-02-18,0
+CUST-00491,SMB,Starter,Annual,APAC,0.6,62.44,12.1,12,17,2,6,3,1,2021-12-26,0
+CUST-00492,Mid-Market,Pro,Monthly,Europe,3.3,161.95,5.2,1,19,2,8,4,4,2021-04-18,0
+CUST-00493,SMB,Starter,Monthly,North America,9.0,73.48,4.6,32,12,1,2,4,4,2021-09-25,0
+CUST-00494,SMB,Starter,Monthly,North America,6.8,71.3,11.3,2,5,4,8,4,4,2021-11-23,0
+CUST-00495,SMB,Pro,Monthly,Europe,1.8,72.39,1.7,17,12,1,8,5,5,2021-02-07,0
+CUST-00496,SMB,Starter,Annual,North America,10.2,98.83,3.5,7,16,0,4,4,3,2022-04-01,1
+CUST-00497,Mid-Market,Pro,Annual,APAC,7.4,709.88,0.5,8,1,2,9,5,5,2021-12-25,0
+CUST-00498,SMB,Starter,Monthly,North America,2.4,118.88,0.9,22,2,3,10,1,4,2021-06-29,0
+CUST-00499,Enterprise,Enterprise,Annual,North America,6.3,2390.33,3.3,10,10,3,4,2,3,2022-02-23,0
+CUST-00500,Enterprise,Enterprise,Annual,Europe,39.2,973.2,0.2,19,2,2,1,3,5,2021-05-12,1
+CUST-00501,Mid-Market,Pro,Monthly,Europe,6.5,436.21,3.4,11,10,1,8,5,1,2022-01-10,0
+CUST-00502,SMB,Starter,Monthly,LATAM,22.5,201.07,12.8,13,18,2,7,5,3,2022-04-01,0
+CUST-00503,SMB,Starter,Monthly,North America,17.0,92.92,0.8,21,1,1,7,5,4,2022-01-21,0
+CUST-00504,Mid-Market,Starter,Monthly,Europe,10.0,579.25,6.9,14,5,2,9,3,1,2021-10-17,0
+CUST-00505,Mid-Market,Pro,Annual,North America,4.9,577.32,29.3,14,12,1,10,4,3,2021-04-21,0
+CUST-00506,SMB,Pro,Annual,Europe,8.3,94.46,18.8,23,17,5,7,4,5,2021-02-23,0
+CUST-00507,Enterprise,Enterprise,Annual,APAC,16.1,770.98,4.4,45,19,2,0,4,4,2022-02-26,0
+CUST-00508,Mid-Market,Starter,Annual,North America,7.8,454.32,31.1,7,18,2,8,5,5,2021-02-21,0
+CUST-00509,Enterprise,Enterprise,Multi-year,LATAM,4.4,1969.91,4.8,13,13,2,8,4,1,2021-12-10,0
+CUST-00510,Mid-Market,Enterprise,Monthly,Europe,2.2,834.81,0.9,1,3,1,9,5,1,2022-02-04,0
+CUST-00511,Mid-Market,Starter,Monthly,LATAM,38.1,509.63,60.0,7,10,1,4,5,1,2021-03-13,0
+CUST-00512,SMB,Pro,Annual,APAC,10.4,41.41,24.5,8,14,3,8,4,3,2022-04-26,0
+CUST-00513,Enterprise,Enterprise,Multi-year,North America,17.7,2375.44,7.5,27,8,0,7,5,4,2022-03-05,0
+CUST-00514,Enterprise,Enterprise,Multi-year,North America,12.1,1450.08,13.2,11,10,2,8,4,1,2021-09-14,0
+CUST-00515,SMB,Starter,Annual,North America,37.1,49.17,13.3,20,2,1,1,5,5,2021-06-22,0
+CUST-00516,SMB,Starter,Monthly,North America,14.3,57.3,2.6,0,13,2,10,5,4,2021-10-01,0
+CUST-00517,SMB,Pro,Monthly,Europe,11.8,99.39,2.7,9,5,1,7,4,5,2021-11-19,0
+CUST-00518,Mid-Market,Enterprise,Annual,Europe,46.5,827.25,7.6,35,11,0,10,4,5,2021-12-01,0
+CUST-00519,Enterprise,Enterprise,Annual,LATAM,22.9,2426.18,29.1,4,1,0,6,5,1,2021-01-27,0
+CUST-00520,SMB,Starter,Monthly,North America,2.1,103.01,0.1,0,10,2,8,2,4,2021-01-19,0
+CUST-00521,Mid-Market,Enterprise,Annual,APAC,3.5,604.15,18.3,9,13,2,10,5,2,2022-04-28,0
+CUST-00522,SMB,Starter,Annual,LATAM,27.8,83.31,0.7,18,4,0,10,3,3,2022-04-24,0
+CUST-00523,Enterprise,Pro,Annual,APAC,32.5,2643.01,7.8,9,10,0,10,3,2,2021-11-02,0
+CUST-00524,Mid-Market,Pro,Annual,North America,14.2,190.01,12.2,9,12,1,0,5,3,2022-04-13,0
+CUST-00525,Mid-Market,Enterprise,Annual,Europe,14.6,522.72,13.9,17,14,3,7,3,4,2021-07-04,0
+CUST-00526,SMB,Pro,Monthly,North America,18.0,52.67,0.7,4,3,2,1,3,1,2022-05-10,1
+CUST-00527,SMB,Starter,Monthly,North America,10.4,127.38,6.5,21,2,1,5,5,4,2021-07-21,0
+CUST-00528,SMB,Pro,Monthly,North America,20.5,75.43,10.5,2,19,3,3,3,2,2021-11-15,0
+CUST-00529,SMB,Starter,Monthly,APAC,2.1,81.0,0.8,8,11,0,8,2,5,2022-05-12,0
+CUST-00530,Enterprise,Enterprise,Multi-year,Europe,58.5,1095.4,1.7,16,7,1,9,3,3,2021-12-13,0
+CUST-00531,Mid-Market,Pro,Annual,Europe,25.0,750.95,13.1,26,18,2,7,5,3,2021-12-07,0
+CUST-00532,Enterprise,Enterprise,Annual,LATAM,18.0,2570.44,8.8,24,14,2,9,4,2,2021-04-13,0
+CUST-00533,Enterprise,Pro,Multi-year,North America,6.8,2499.09,2.1,19,7,1,0,5,1,2021-12-31,0
+CUST-00534,Mid-Market,Pro,Monthly,Europe,3.2,361.19,9.2,7,7,2,9,4,4,2021-01-03,0
+CUST-00535,Mid-Market,Pro,Annual,APAC,9.5,366.92,29.3,2,9,1,3,3,2,2021-04-20,0
+CUST-00536,Enterprise,Enterprise,Annual,North America,19.5,2187.12,0.2,4,12,1,7,3,4,2021-03-16,0
+CUST-00537,Mid-Market,Pro,Monthly,Europe,18.1,378.72,12.3,30,6,2,7,5,1,2021-07-16,0
+CUST-00538,SMB,Pro,Annual,North America,8.7,95.2,0.9,29,7,0,10,4,5,2021-01-07,0
+CUST-00539,SMB,Starter,Monthly,APAC,17.1,33.71,0.1,45,4,0,10,2,4,2021-05-24,0
+CUST-00540,SMB,Starter,Monthly,North America,30.3,65.83,2.0,1,16,0,5,3,1,2022-05-03,0
+CUST-00541,Enterprise,Enterprise,Multi-year,North America,0.5,4103.53,6.6,12,7,0,1,4,2,2022-01-12,0
+CUST-00542,Mid-Market,Pro,Annual,Europe,10.8,596.1,19.5,16,8,1,8,4,5,2021-02-10,1
+CUST-00543,SMB,Pro,Annual,North America,25.6,85.52,4.0,19,8,1,7,3,5,2022-04-25,0
+CUST-00544,Mid-Market,Pro,Annual,North America,14.2,1106.21,11.8,15,3,1,8,3,5,2021-08-14,0
+CUST-00545,Mid-Market,Pro,Annual,North America,19.0,196.41,6.4,22,9,1,0,5,3,2021-12-19,1
+CUST-00546,SMB,Starter,Monthly,North America,13.1,57.74,3.2,7,19,2,9,4,1,2021-10-07,0
+CUST-00547,SMB,Starter,Monthly,Europe,72.0,68.14,8.7,3,13,1,4,1,4,2022-01-10,0
+CUST-00548,Mid-Market,Pro,Annual,Europe,1.0,704.82,19.2,3,7,2,6,2,2,2021-12-16,0
+CUST-00549,SMB,Starter,Monthly,Europe,12.2,113.56,21.4,0,15,1,4,4,5,2022-05-15,0
+CUST-00550,Mid-Market,Pro,Monthly,Europe,1.7,353.61,22.5,6,19,5,10,2,5,2021-04-26,0
+CUST-00551,SMB,Starter,Monthly,North America,3.1,119.25,5.0,1,2,2,3,3,5,2021-08-04,0
+CUST-00552,Enterprise,Pro,Annual,North America,8.7,1702.03,18.9,6,12,0,9,5,1,2022-04-20,0
+CUST-00553,Mid-Market,Starter,Annual,APAC,3.0,811.81,2.9,15,8,3,5,4,2,2021-07-30,0
+CUST-00554,Mid-Market,Enterprise,Annual,APAC,59.7,330.81,16.1,34,8,2,7,4,1,2021-12-26,0
+CUST-00555,Enterprise,Pro,Annual,North America,52.8,1903.74,35.6,27,13,1,10,4,2,2021-05-18,0
+CUST-00556,SMB,Pro,Monthly,North America,7.4,65.76,0.2,4,1,1,2,5,4,2021-02-19,0
+CUST-00557,SMB,Starter,Annual,Europe,18.4,122.05,7.0,2,10,1,10,3,3,2021-04-15,0
+CUST-00558,SMB,Starter,Monthly,Europe,13.7,64.9,12.5,3,9,1,10,3,2,2022-04-11,0
+CUST-00559,Mid-Market,Enterprise,Monthly,Europe,30.4,491.58,14.5,53,2,3,8,2,1,2022-01-30,0
+CUST-00560,Mid-Market,Enterprise,Annual,North America,17.8,612.37,2.3,12,19,3,0,5,1,2021-08-04,0
+CUST-00561,Mid-Market,Pro,Monthly,Europe,0.5,621.86,43.0,3,14,0,9,4,1,2022-04-23,0
+CUST-00562,SMB,Starter,Monthly,North America,25.9,114.07,11.5,28,10,3,10,2,3,2022-04-18,0
+CUST-00563,SMB,Starter,Annual,Europe,24.7,87.05,2.2,8,10,2,10,3,2,2022-05-11,0
+CUST-00564,SMB,Starter,Annual,APAC,12.8,67.68,0.2,34,8,0,9,5,2,2021-11-14,1
+CUST-00565,SMB,Starter,Monthly,Europe,42.0,69.56,18.3,5,14,1,7,1,2,2022-02-23,0
+CUST-00566,Mid-Market,Enterprise,Annual,North America,43.0,505.16,1.0,7,13,0,8,5,2,2021-02-06,0
+CUST-00567,SMB,Starter,Annual,LATAM,13.4,88.4,1.8,11,6,1,7,5,5,2021-02-10,0
+CUST-00568,SMB,Starter,Monthly,APAC,16.9,75.43,10.3,33,13,0,6,2,5,2021-01-13,0
+CUST-00569,Enterprise,Enterprise,Annual,APAC,72.0,2015.42,11.1,30,3,1,8,3,1,2022-02-03,0
+CUST-00570,SMB,Starter,Monthly,North America,6.4,43.6,13.9,13,13,1,9,1,5,2021-04-08,0
+CUST-00571,SMB,Starter,Annual,North America,7.1,104.48,6.0,4,19,0,8,2,2,2021-09-14,0
+CUST-00572,Mid-Market,Pro,Annual,LATAM,3.6,537.57,17.8,8,16,4,9,4,2,2021-12-14,0
+CUST-00573,SMB,Starter,Monthly,Europe,40.7,119.44,44.0,56,4,2,3,1,5,2021-03-25,0
+CUST-00574,Mid-Market,Pro,Annual,APAC,24.6,500.03,3.8,14,3,2,6,4,4,2021-09-30,0
+CUST-00575,Enterprise,Pro,Multi-year,North America,2.0,997.79,14.6,23,15,1,6,4,1,2021-03-20,0
+CUST-00576,Enterprise,Enterprise,Annual,North America,72.0,1732.85,31.7,9,15,5,4,5,3,2021-11-03,0
+CUST-00577,SMB,Pro,Monthly,LATAM,23.6,73.85,13.9,11,18,2,7,4,1,2021-01-02,0
+CUST-00578,Enterprise,Enterprise,Annual,Europe,34.2,2692.06,13.7,8,7,0,10,3,1,2021-06-09,0
+CUST-00579,SMB,Starter,Monthly,North America,0.9,34.95,3.0,18,5,2,8,4,1,2021-11-26,0
+CUST-00580,SMB,Starter,Monthly,North America,12.7,81.33,9.2,29,8,1,5,5,5,2021-12-24,0
+CUST-00581,SMB,Pro,Annual,Europe,21.6,98.25,9.9,11,10,1,6,2,1,2021-07-11,0
+CUST-00582,Enterprise,Enterprise,Multi-year,North America,14.1,1535.03,14.5,10,1,1,8,3,2,2021-11-21,0
+CUST-00583,SMB,Pro,Annual,Europe,19.8,82.42,60.0,6,11,3,6,5,1,2021-11-03,0
+CUST-00584,SMB,Starter,Annual,North America,30.7,62.25,0.4,3,3,2,8,1,2,2022-03-12,0
+CUST-00585,Mid-Market,Pro,Annual,APAC,8.4,373.45,0.8,42,3,1,5,3,5,2021-02-05,0
+CUST-00586,SMB,Starter,Monthly,North America,34.0,67.94,1.0,6,15,1,6,5,5,2021-09-11,0
+CUST-00587,SMB,Starter,Monthly,LATAM,3.2,60.2,16.3,24,17,3,9,2,1,2021-12-28,0
+CUST-00588,SMB,Starter,Annual,North America,5.7,105.16,1.8,19,18,0,8,1,2,2021-03-20,1
+CUST-00589,SMB,Starter,Annual,Europe,0.8,59.62,11.7,23,8,1,2,2,2,2021-09-02,0
+CUST-00590,SMB,Pro,Annual,North America,8.2,55.75,4.7,41,13,1,10,5,2,2022-05-03,0
+CUST-00591,SMB,Starter,Annual,Europe,8.6,162.26,7.3,15,10,4,0,5,2,2022-04-03,0
+CUST-00592,Mid-Market,Pro,Annual,LATAM,29.5,734.29,2.9,34,3,0,2,4,3,2021-06-16,0
+CUST-00593,SMB,Starter,Monthly,APAC,19.1,37.99,24.1,3,14,0,9,2,5,2022-01-10,0
+CUST-00594,SMB,Pro,Monthly,Europe,10.3,58.92,10.6,15,13,1,9,3,2,2022-03-01,1
+CUST-00595,Enterprise,Pro,Multi-year,Europe,19.0,2203.69,34.7,22,3,1,0,4,3,2021-03-29,0
+CUST-00596,SMB,Starter,Monthly,APAC,1.0,91.06,10.3,5,13,6,8,5,3,2021-01-18,0
+CUST-00597,Mid-Market,Pro,Annual,LATAM,3.6,275.45,1.6,20,9,1,0,5,5,2021-07-09,0
+CUST-00598,SMB,Starter,Monthly,LATAM,17.7,127.16,2.2,23,16,0,10,4,4,2022-04-02,0
+CUST-00599,SMB,Pro,Monthly,North America,18.5,111.29,54.2,27,8,1,8,5,1,2021-03-03,0
+CUST-00600,SMB,Starter,Monthly,LATAM,26.8,97.01,15.5,6,12,2,4,3,5,2021-05-03,0
+CUST-00601,SMB,Starter,Monthly,North America,9.3,137.65,0.6,17,12,0,3,3,4,2022-02-10,1
+CUST-00602,SMB,Starter,Monthly,North America,23.1,95.87,14.6,5,19,1,8,5,1,2021-06-08,0
+CUST-00603,SMB,Starter,Monthly,North America,20.7,95.72,6.4,20,17,0,8,4,1,2021-08-25,0
+CUST-00604,SMB,Pro,Monthly,North America,59.5,149.17,4.4,9,15,2,9,4,1,2022-05-07,0
+CUST-00605,SMB,Starter,Annual,APAC,4.4,124.28,2.0,14,18,0,10,4,3,2021-07-31,0
+CUST-00606,SMB,Starter,Monthly,APAC,14.4,57.14,22.0,8,7,4,6,4,2,2021-10-30,0
+CUST-00607,SMB,Starter,Monthly,APAC,16.6,103.06,0.8,3,13,0,9,4,1,2021-01-14,0
+CUST-00608,SMB,Starter,Annual,Europe,72.0,61.33,4.1,3,19,1,8,5,2,2021-02-06,0
+CUST-00609,SMB,Pro,Annual,Europe,4.0,97.87,4.4,1,16,1,7,2,1,2021-04-23,0
+CUST-00610,Mid-Market,Pro,Annual,Europe,13.3,605.02,2.1,14,11,1,8,4,3,2022-02-08,0
+CUST-00611,SMB,Pro,Monthly,North America,7.6,46.0,8.5,28,5,0,2,1,1,2021-01-02,1
+CUST-00612,Mid-Market,Starter,Annual,APAC,13.4,476.22,0.1,0,2,4,5,5,5,2022-02-09,0
+CUST-00613,Mid-Market,Pro,Monthly,Europe,4.8,555.97,4.3,1,1,1,9,3,4,2021-11-12,0
+CUST-00614,SMB,Starter,Monthly,Europe,0.9,67.19,32.6,9,16,0,7,5,1,2021-02-20,0
+CUST-00615,Enterprise,Enterprise,Annual,Europe,15.3,2268.3,4.5,20,5,0,10,3,4,2021-06-29,0
+CUST-00616,Enterprise,Pro,Multi-year,APAC,7.4,2760.76,5.4,3,7,1,2,4,4,2021-05-28,0
+CUST-00617,SMB,Starter,Monthly,North America,3.6,79.03,7.7,5,9,1,6,5,3,2021-01-23,0
+CUST-00618,SMB,Starter,Monthly,North America,7.0,87.52,9.9,4,4,0,6,3,4,2022-05-13,1
+CUST-00619,Mid-Market,Pro,Monthly,APAC,0.9,869.55,19.8,8,19,1,7,4,3,2021-03-12,0
+CUST-00620,Mid-Market,Enterprise,Monthly,Europe,54.1,604.19,2.5,4,15,2,10,5,1,2021-11-04,1
+CUST-00621,SMB,Starter,Annual,APAC,15.7,86.69,24.6,7,7,3,6,3,2,2021-02-15,0
+CUST-00622,SMB,Starter,Annual,North America,30.4,54.53,17.0,20,18,1,7,5,3,2021-01-21,0
+CUST-00623,SMB,Starter,Annual,North America,9.9,104.63,15.4,14,5,0,8,3,4,2021-01-05,0
+CUST-00624,SMB,Starter,Monthly,APAC,42.1,91.29,1.1,1,13,1,9,5,4,2021-04-17,0
+CUST-00625,Mid-Market,Enterprise,Annual,Europe,11.9,835.56,0.3,15,3,2,7,5,1,2021-03-17,0
+CUST-00626,SMB,Starter,Monthly,Europe,15.4,81.51,10.8,10,6,1,8,4,3,2022-01-03,0
+CUST-00627,SMB,Pro,Monthly,North America,12.2,38.69,23.9,41,12,5,9,3,1,2022-01-07,0
+CUST-00628,Mid-Market,Pro,Annual,North America,23.8,253.3,10.5,5,18,1,2,3,3,2021-12-06,0
+CUST-00629,SMB,Starter,Monthly,Europe,15.1,107.37,2.9,19,18,2,10,5,2,2021-01-13,0
+CUST-00630,SMB,Starter,Annual,North America,5.7,63.69,1.1,20,4,0,9,5,5,2021-12-16,0
+CUST-00631,Mid-Market,Starter,Annual,APAC,2.8,595.45,14.4,4,14,1,6,4,1,2021-10-17,0
+CUST-00632,Enterprise,Enterprise,Annual,APAC,16.8,2093.51,15.4,35,14,0,9,3,4,2022-02-13,0
+CUST-00633,SMB,Starter,Monthly,North America,12.1,74.84,2.3,10,1,1,9,1,1,2022-05-11,0
+CUST-00634,SMB,Starter,Monthly,Europe,1.8,76.98,0.3,17,11,0,10,5,3,2022-02-21,1
+CUST-00635,SMB,Starter,Annual,Europe,9.1,56.59,6.3,2,9,2,4,5,1,2021-04-27,0
+CUST-00636,SMB,Starter,Monthly,North America,13.0,79.5,10.5,4,18,2,9,2,2,2021-08-20,0
+CUST-00637,SMB,Pro,Annual,North America,31.6,63.32,14.7,13,5,0,0,5,3,2021-07-30,0
+CUST-00638,SMB,Starter,Annual,North America,1.4,68.93,19.9,6,10,0,2,3,4,2021-06-16,0
+CUST-00639,SMB,Starter,Monthly,Europe,7.7,70.29,11.3,10,15,4,9,5,4,2021-08-12,0
+CUST-00640,SMB,Starter,Annual,Europe,31.1,73.06,1.4,7,10,0,9,4,3,2021-11-07,0
+CUST-00641,SMB,Pro,Monthly,Europe,18.8,115.69,13.8,15,16,3,8,5,2,2021-12-30,0
+CUST-00642,SMB,Pro,Annual,APAC,6.2,75.95,49.8,10,4,2,8,5,1,2021-09-16,0
+CUST-00643,SMB,Starter,Annual,APAC,33.6,120.48,28.3,0,4,3,9,4,5,2021-05-13,0
+CUST-00644,SMB,Pro,Annual,Europe,12.2,147.99,24.6,16,8,0,10,5,4,2021-05-23,0
+CUST-00645,SMB,Starter,Monthly,APAC,12.4,112.62,4.3,8,6,3,7,3,2,2021-09-26,0
+CUST-00646,Enterprise,Enterprise,Annual,North America,67.6,2476.72,16.7,6,11,0,2,5,2,2022-01-30,0
+CUST-00647,Mid-Market,Pro,Annual,APAC,52.9,569.83,22.9,1,13,4,9,5,2,2022-04-26,0
+CUST-00648,Mid-Market,Pro,Annual,Europe,8.0,706.8,13.6,4,19,1,6,2,1,2022-03-29,0
+CUST-00649,Mid-Market,Enterprise,Annual,APAC,2.7,518.2,3.5,4,11,0,3,4,2,2021-02-09,0
+CUST-00650,SMB,Pro,Annual,Europe,7.1,118.61,36.9,41,2,0,8,5,2,2022-03-14,0
+CUST-00651,SMB,Starter,Monthly,North America,0.6,102.28,7.2,8,3,1,8,2,3,2022-03-06,1
+CUST-00652,SMB,Pro,Monthly,Europe,0.5,69.28,1.7,1,15,3,7,4,3,2021-09-20,0
+CUST-00653,Mid-Market,Pro,Annual,North America,9.1,715.48,1.4,2,13,5,10,5,2,2022-03-03,0
+CUST-00654,Mid-Market,Enterprise,Annual,Europe,50.9,518.63,12.5,1,10,2,5,1,2,2021-09-15,0
+CUST-00655,SMB,Starter,Monthly,Europe,36.9,76.67,6.9,13,5,2,0,5,3,2021-10-08,0
+CUST-00656,SMB,Starter,Monthly,APAC,12.9,66.13,1.2,3,11,1,6,4,1,2022-03-18,1
+CUST-00657,SMB,Starter,Annual,Europe,15.0,85.49,16.2,10,14,3,0,3,3,2021-07-16,0
+CUST-00658,SMB,Starter,Monthly,Europe,0.5,119.18,19.3,7,15,4,8,4,3,2022-02-21,0
+CUST-00659,Mid-Market,Starter,Annual,North America,4.4,713.5,15.5,24,13,2,6,4,3,2021-09-20,0
+CUST-00660,Mid-Market,Pro,Annual,LATAM,0.5,575.92,2.7,6,3,2,9,5,3,2022-04-28,0
+CUST-00661,SMB,Starter,Monthly,APAC,25.3,101.69,14.0,9,9,1,9,5,5,2021-06-21,0
+CUST-00662,Enterprise,Enterprise,Annual,APAC,2.8,3326.18,0.1,19,8,4,7,4,4,2021-08-03,0
+CUST-00663,Mid-Market,Pro,Annual,North America,36.6,470.89,4.4,9,15,3,4,5,1,2021-03-21,0
+CUST-00664,SMB,Pro,Annual,Europe,18.6,51.21,6.1,24,1,1,7,5,1,2021-03-04,0
+CUST-00665,SMB,Pro,Monthly,North America,4.7,134.62,21.6,16,2,2,8,5,2,2022-02-03,0
+CUST-00666,SMB,Pro,Monthly,Europe,3.1,64.72,5.9,8,9,0,4,5,5,2021-12-30,0
+CUST-00667,SMB,Starter,Annual,North America,17.8,60.7,0.1,11,17,0,9,4,2,2021-04-07,0
+CUST-00668,SMB,Pro,Annual,Europe,41.6,39.0,5.2,51,9,2,6,4,1,2021-09-15,1
+CUST-00669,SMB,Starter,Monthly,Europe,22.8,100.54,8.3,16,1,1,10,5,1,2021-10-29,1
+CUST-00670,SMB,Starter,Monthly,North America,7.7,41.82,35.7,35,8,1,7,5,2,2021-07-13,0
+CUST-00671,SMB,Starter,Monthly,Europe,15.9,59.26,34.0,3,5,3,9,2,4,2021-07-02,0
+CUST-00672,Enterprise,Enterprise,Annual,APAC,6.7,2530.56,2.4,10,11,0,8,5,2,2022-02-21,0
+CUST-00673,SMB,Starter,Monthly,North America,72.0,106.78,2.5,36,6,3,8,4,4,2021-09-30,0
+CUST-00674,SMB,Starter,Monthly,APAC,24.9,61.64,2.1,6,17,3,8,2,4,2021-10-20,0
+CUST-00675,SMB,Starter,Monthly,North America,17.2,75.82,18.7,51,18,0,9,4,3,2022-02-22,0
+CUST-00676,Enterprise,Pro,Annual,North America,9.9,1410.73,0.1,2,18,3,8,3,1,2021-12-01,0
+CUST-00677,SMB,Starter,Monthly,North America,17.3,64.24,1.6,35,5,4,9,5,3,2021-03-18,0
+CUST-00678,SMB,Starter,Annual,APAC,7.5,88.99,9.3,9,5,3,4,3,1,2022-01-27,0
+CUST-00679,Enterprise,Pro,Multi-year,North America,0.5,1636.38,3.4,1,19,2,5,3,3,2021-08-24,0
+CUST-00680,Enterprise,Enterprise,Annual,APAC,9.0,1813.87,1.2,32,13,4,4,2,4,2022-03-24,0
+CUST-00681,Mid-Market,Pro,Annual,Europe,48.0,278.31,5.4,4,7,2,9,4,3,2022-04-19,0
+CUST-00682,SMB,Starter,Annual,North America,17.7,125.86,3.8,0,14,1,2,3,5,2021-03-30,0
+CUST-00683,SMB,Pro,Monthly,Europe,1.6,98.11,8.6,2,8,2,9,5,3,2021-12-15,0
+CUST-00684,Mid-Market,Pro,Annual,North America,38.9,686.61,46.5,16,3,1,6,1,3,2021-11-28,0
+CUST-00685,Enterprise,Enterprise,Annual,APAC,5.6,3351.2,1.6,57,4,2,1,5,3,2021-06-13,1
+CUST-00686,Mid-Market,Pro,Monthly,North America,5.0,359.43,5.6,2,10,1,7,4,5,2021-04-15,0
+CUST-00687,Mid-Market,Starter,Annual,North America,6.3,433.22,32.3,9,4,0,5,5,1,2021-03-24,0
+CUST-00688,SMB,Starter,Monthly,APAC,15.5,37.49,25.1,3,18,2,8,3,3,2021-07-29,0
+CUST-00689,Mid-Market,Pro,Annual,LATAM,14.2,1755.97,6.0,20,12,1,7,2,1,2021-06-09,0
+CUST-00690,SMB,Starter,Monthly,North America,12.2,75.35,14.4,2,15,0,5,4,2,2022-04-10,0
+CUST-00691,SMB,Pro,Monthly,APAC,22.8,121.21,1.1,4,13,3,10,5,4,2021-03-28,0
+CUST-00692,SMB,Starter,Annual,North America,6.9,48.75,15.0,3,12,4,7,4,2,2022-01-24,0
+CUST-00693,SMB,Starter,Monthly,APAC,27.4,119.17,43.3,12,8,3,7,1,5,2022-04-09,0
+CUST-00694,SMB,Pro,Annual,Europe,3.5,168.18,9.3,31,9,3,9,4,5,2021-05-05,0
+CUST-00695,SMB,Starter,Annual,North America,27.5,78.09,8.3,11,9,2,2,3,1,2021-08-18,0
+CUST-00696,Mid-Market,Enterprise,Annual,North America,19.6,333.7,2.5,1,17,1,6,4,1,2021-10-23,0
+CUST-00697,SMB,Starter,Monthly,North America,20.7,75.68,12.1,12,1,0,7,4,3,2021-07-10,0
+CUST-00698,Mid-Market,Pro,Annual,North America,11.8,205.18,10.7,24,6,3,7,5,2,2021-05-07,0
+CUST-00699,SMB,Pro,Annual,North America,19.8,78.8,12.7,2,7,0,2,5,1,2021-04-23,0
+CUST-00700,SMB,Starter,Monthly,Europe,1.5,111.1,0.3,1,9,2,2,3,1,2021-11-19,0
+CUST-00701,SMB,Starter,Monthly,LATAM,34.3,78.86,9.5,3,10,3,7,5,1,2021-02-11,0
+CUST-00702,SMB,Pro,Monthly,North America,1.0,71.41,10.8,21,4,0,0,3,4,2021-10-17,1
+CUST-00703,SMB,Starter,Annual,Europe,2.9,98.8,2.8,13,16,2,5,3,1,2021-12-14,0
+CUST-00704,SMB,Starter,Annual,Europe,15.5,101.86,2.8,12,12,2,4,4,4,2021-05-21,1
+CUST-00705,SMB,Starter,Monthly,LATAM,24.2,41.18,3.9,4,9,0,7,5,5,2022-02-27,1
+CUST-00706,Enterprise,Enterprise,Multi-year,Europe,1.4,2072.34,14.9,6,3,2,0,5,3,2022-03-10,0
+CUST-00707,SMB,Pro,Monthly,Europe,45.6,211.96,11.2,51,9,4,8,5,2,2021-04-27,0
+CUST-00708,Mid-Market,Starter,Annual,Europe,65.4,293.13,22.4,4,17,0,10,3,1,2021-09-21,0
+CUST-00709,SMB,Starter,Monthly,North America,16.8,77.31,4.2,35,14,1,9,3,4,2022-01-29,0
+CUST-00710,Mid-Market,Pro,Monthly,North America,11.8,1087.14,29.2,13,5,1,9,5,1,2021-06-20,0
+CUST-00711,Mid-Market,Pro,Annual,North America,24.3,777.65,16.3,2,1,0,8,4,1,2021-05-10,0
+CUST-00712,Mid-Market,Pro,Monthly,North America,7.2,407.18,6.0,9,1,1,7,4,4,2021-09-17,0
+CUST-00713,SMB,Pro,Annual,Europe,12.2,86.88,1.2,45,3,1,4,4,1,2021-08-05,0
+CUST-00714,SMB,Pro,Monthly,North America,44.6,79.93,3.6,8,9,2,5,5,2,2021-10-24,1
+CUST-00715,SMB,Pro,Monthly,Europe,56.1,59.31,37.7,30,6,4,6,5,5,2022-04-14,0
+CUST-00716,Enterprise,Pro,Multi-year,North America,47.1,1941.47,4.5,4,9,1,0,4,3,2021-05-09,0
+CUST-00717,Mid-Market,Pro,Monthly,LATAM,5.5,447.03,4.8,13,4,2,10,5,1,2021-09-11,0
+CUST-00718,Enterprise,Enterprise,Multi-year,APAC,4.8,2092.26,2.5,28,19,0,10,5,4,2021-08-26,0
+CUST-00719,SMB,Starter,Annual,North America,6.4,59.3,19.7,38,5,0,2,1,2,2021-06-17,0
+CUST-00720,Mid-Market,Enterprise,Monthly,North America,10.5,300.05,3.9,10,5,3,8,2,1,2021-11-13,0
+CUST-00721,Enterprise,Enterprise,Annual,Europe,6.8,1967.25,4.8,15,14,1,7,4,5,2021-09-17,0
+CUST-00722,SMB,Starter,Monthly,North America,8.4,158.87,6.4,0,10,1,8,4,5,2021-01-19,0
+CUST-00723,SMB,Pro,Annual,North America,17.4,82.67,6.8,4,16,5,8,5,4,2021-11-05,0
+CUST-00724,Mid-Market,Pro,Annual,North America,25.9,437.89,6.4,5,6,2,3,5,1,2021-09-08,0
+CUST-00725,Mid-Market,Pro,Annual,LATAM,23.9,676.03,8.4,1,14,2,8,3,1,2021-05-26,0
+CUST-00726,Mid-Market,Starter,Annual,APAC,30.3,469.32,20.2,5,18,0,8,5,1,2021-04-14,0
+CUST-00727,SMB,Starter,Annual,Europe,0.6,168.89,20.5,6,9,0,8,4,5,2021-07-19,0
+CUST-00728,Mid-Market,Enterprise,Annual,Europe,0.9,499.22,19.2,52,7,2,7,4,1,2021-08-01,0
+CUST-00729,SMB,Pro,Monthly,LATAM,28.0,105.87,1.3,17,18,0,10,5,1,2021-12-08,1
+CUST-00730,SMB,Pro,Monthly,LATAM,13.7,59.16,19.3,8,10,1,9,4,1,2021-09-24,0
+CUST-00731,SMB,Starter,Monthly,LATAM,15.5,97.83,1.5,66,2,2,8,4,1,2022-02-18,1
+CUST-00732,Mid-Market,Starter,Annual,North America,1.0,558.16,1.6,2,13,3,0,2,4,2021-12-18,0
+CUST-00733,Mid-Market,Pro,Annual,North America,5.3,488.83,35.4,10,6,3,7,4,5,2021-07-08,0
+CUST-00734,SMB,Starter,Monthly,Europe,18.3,65.45,20.5,16,9,4,9,4,3,2021-12-30,0
+CUST-00735,SMB,Starter,Monthly,Europe,35.3,61.98,9.6,1,8,1,2,4,4,2022-02-17,0
+CUST-00736,Enterprise,Enterprise,Multi-year,North America,44.8,2239.13,25.0,19,10,3,7,3,1,2021-07-11,0
+CUST-00737,SMB,Pro,Monthly,North America,12.5,102.88,54.5,2,16,0,4,4,3,2021-07-15,0
+CUST-00738,Mid-Market,Pro,Annual,APAC,14.2,475.2,11.3,2,15,0,6,3,2,2021-07-08,0
+CUST-00739,SMB,Starter,Annual,APAC,32.2,89.74,11.4,3,13,1,0,2,3,2021-04-22,1
+CUST-00740,SMB,Pro,Annual,North America,13.9,78.8,16.8,40,18,4,3,3,4,2021-05-31,1
+CUST-00741,SMB,Starter,Annual,APAC,13.1,83.22,3.2,17,6,1,7,5,5,2021-09-28,1
+CUST-00742,SMB,Starter,Monthly,Europe,42.4,73.84,2.2,16,9,1,10,1,4,2022-04-09,0
+CUST-00743,Mid-Market,Starter,Monthly,APAC,28.1,503.61,17.1,12,18,6,7,5,5,2021-12-27,0
+CUST-00744,SMB,Pro,Monthly,North America,43.2,235.39,5.1,5,7,0,7,2,5,2021-07-19,1
+CUST-00745,SMB,Starter,Annual,North America,4.4,90.62,1.7,15,5,0,9,4,5,2021-02-23,0
+CUST-00746,Enterprise,Enterprise,Multi-year,North America,13.4,2588.99,4.5,8,11,2,5,5,2,2021-04-16,0
+CUST-00747,SMB,Starter,Monthly,Europe,33.3,95.32,5.3,2,13,2,2,3,3,2021-04-23,0
+CUST-00748,SMB,Starter,Annual,Europe,2.1,72.02,40.3,18,3,2,4,3,4,2021-10-15,0
+CUST-00749,Enterprise,Enterprise,Annual,North America,28.5,3355.98,14.4,2,1,0,9,4,4,2021-10-16,0
+CUST-00750,Mid-Market,Enterprise,Monthly,LATAM,3.6,445.03,9.1,3,4,0,8,5,5,2021-03-23,0
+CUST-00751,SMB,Starter,Monthly,North America,29.7,122.0,41.6,26,19,0,2,3,2,2022-02-03,0
+CUST-00752,Enterprise,Enterprise,Annual,North America,17.0,1749.74,28.0,16,18,1,8,4,2,2022-03-08,0
+CUST-00753,Mid-Market,Pro,Annual,Europe,3.9,340.57,8.6,15,6,1,10,3,1,2021-07-14,0
+CUST-00754,SMB,Starter,Monthly,Europe,11.5,92.59,28.3,8,10,0,0,4,2,2022-03-27,0
+CUST-00755,SMB,Starter,Annual,North America,20.6,51.43,6.2,8,7,3,8,4,5,2021-04-04,0
+CUST-00756,Mid-Market,Enterprise,Annual,APAC,18.1,619.47,3.1,18,12,0,6,2,5,2021-08-29,0
+CUST-00757,Mid-Market,Starter,Monthly,Europe,10.0,310.12,3.2,20,8,1,7,5,3,2021-04-06,0
+CUST-00758,SMB,Starter,Annual,Europe,41.3,70.42,13.0,11,13,0,8,5,5,2021-10-21,0
+CUST-00759,Enterprise,Enterprise,Annual,Europe,13.2,1128.01,8.3,52,18,2,9,3,3,2021-11-04,0
+CUST-00760,Mid-Market,Enterprise,Annual,North America,12.7,1547.31,12.9,47,14,1,8,5,2,2022-01-14,0
+CUST-00761,SMB,Starter,Monthly,Europe,1.2,41.28,13.9,8,11,2,8,4,1,2021-11-27,1
+CUST-00762,SMB,Starter,Monthly,APAC,45.9,80.31,0.3,26,10,2,6,5,4,2021-06-30,1
+CUST-00763,SMB,Starter,Monthly,North America,3.5,126.39,0.7,12,6,3,3,4,5,2021-01-18,0
+CUST-00764,Mid-Market,Pro,Monthly,North America,13.5,756.85,9.1,11,13,1,8,5,2,2021-12-02,0
+CUST-00765,SMB,Pro,Annual,LATAM,29.3,112.46,2.5,1,10,2,0,4,5,2021-10-06,1
+CUST-00766,Mid-Market,Enterprise,Annual,North America,4.4,440.41,12.0,13,12,2,6,5,3,2022-03-16,0
+CUST-00767,Mid-Market,Enterprise,Annual,Europe,13.5,858.38,9.6,35,1,3,4,5,2,2021-07-26,0
+CUST-00768,Enterprise,Pro,Annual,LATAM,5.0,2882.06,10.6,23,18,3,6,3,4,2021-12-15,0
+CUST-00769,SMB,Pro,Monthly,North America,25.7,87.09,4.3,23,13,2,6,3,3,2021-03-20,0
+CUST-00770,Mid-Market,Pro,Annual,North America,15.0,550.51,12.3,3,4,2,9,5,2,2021-10-28,0
+CUST-00771,SMB,Starter,Annual,APAC,34.9,70.84,21.2,7,6,0,5,4,4,2022-01-12,0
+CUST-00772,Mid-Market,Pro,Annual,APAC,40.5,347.49,60.0,4,18,0,8,5,3,2021-08-09,0
+CUST-00773,SMB,Starter,Monthly,Europe,18.8,131.22,21.9,6,5,3,7,5,4,2021-07-11,1
+CUST-00774,SMB,Starter,Monthly,Europe,23.3,135.22,9.8,13,18,0,9,5,2,2022-01-14,0
+CUST-00775,Mid-Market,Pro,Monthly,APAC,14.3,351.06,2.6,7,5,1,7,4,3,2021-11-21,0
+CUST-00776,SMB,Starter,Monthly,Europe,8.7,75.23,13.7,12,7,6,10,3,1,2022-05-13,0
+CUST-00777,SMB,Pro,Monthly,North America,18.8,75.54,33.3,9,9,3,0,5,5,2021-02-01,0
+CUST-00778,Mid-Market,Pro,Annual,North America,43.0,493.51,2.9,5,3,3,8,2,1,2022-02-10,0
+CUST-00779,Mid-Market,Pro,Annual,Europe,9.7,513.03,3.5,2,12,1,0,4,4,2021-05-07,0
+CUST-00780,Mid-Market,Pro,Monthly,APAC,6.8,730.22,1.9,33,14,2,9,4,2,2021-06-24,0
+CUST-00781,Mid-Market,Starter,Annual,APAC,8.9,370.82,16.0,0,8,2,4,5,5,2022-05-11,0
+CUST-00782,SMB,Starter,Annual,LATAM,10.3,57.02,6.3,0,12,1,6,2,2,2021-02-24,1
+CUST-00783,SMB,Starter,Monthly,APAC,1.4,131.19,0.8,26,7,0,6,5,4,2022-04-05,0
+CUST-00784,SMB,Starter,Monthly,Europe,12.4,66.48,24.9,86,9,0,9,4,2,2021-10-11,0
+CUST-00785,SMB,Pro,Monthly,North America,12.3,48.27,9.8,19,12,4,2,1,3,2021-01-22,1
+CUST-00786,Enterprise,Pro,Annual,APAC,16.0,1647.23,4.8,0,4,2,8,5,3,2021-12-12,0
+CUST-00787,Mid-Market,Enterprise,Monthly,Europe,8.1,438.16,5.1,4,5,2,10,2,4,2021-07-17,0
+CUST-00788,SMB,Pro,Annual,Europe,17.1,149.01,4.1,54,9,0,0,3,2,2021-04-03,1
+CUST-00789,SMB,Pro,Monthly,North America,37.9,115.81,7.3,25,7,2,10,5,4,2022-01-02,0
+CUST-00790,Enterprise,Enterprise,Multi-year,LATAM,56.0,3165.01,4.9,13,14,2,0,3,5,2021-08-01,0
+CUST-00791,SMB,Pro,Monthly,Europe,15.8,111.05,9.5,4,17,1,9,4,2,2021-02-22,0
+CUST-00792,Mid-Market,Enterprise,Monthly,North America,0.8,730.04,17.8,0,1,3,10,4,3,2022-04-17,0
+CUST-00793,SMB,Starter,Annual,Europe,62.7,60.75,13.5,0,15,0,10,4,1,2021-05-08,0
+CUST-00794,Mid-Market,Pro,Monthly,Europe,22.0,461.82,4.2,14,15,1,7,5,3,2021-07-26,0
+CUST-00795,SMB,Starter,Monthly,North America,7.4,53.84,9.0,0,1,0,10,3,2,2021-04-24,0
+CUST-00796,Enterprise,Enterprise,Annual,APAC,2.9,1838.5,22.0,76,15,4,3,3,2,2021-04-14,0
+CUST-00797,Enterprise,Pro,Annual,North America,2.8,2629.49,0.8,3,2,1,7,3,2,2021-12-04,0
+CUST-00798,Mid-Market,Pro,Monthly,North America,3.3,527.65,1.0,19,4,1,5,4,2,2021-10-23,0
+CUST-00799,Mid-Market,Starter,Annual,North America,0.8,844.88,9.7,3,17,1,6,4,5,2021-01-23,0
+CUST-00800,Enterprise,Pro,Annual,Europe,41.8,1266.91,12.2,12,16,1,9,1,1,2021-09-26,0
+CUST-00801,Mid-Market,Starter,Annual,LATAM,14.0,610.76,2.9,1,18,2,2,5,3,2022-03-17,0
+CUST-00802,SMB,Starter,Monthly,APAC,21.7,48.56,16.4,22,16,1,10,5,5,2021-06-06,0
+CUST-00803,Mid-Market,Enterprise,Monthly,LATAM,31.7,519.19,12.5,13,8,2,8,5,4,2022-05-01,0
+CUST-00804,Mid-Market,Starter,Annual,North America,28.2,672.32,30.8,1,6,2,10,1,2,2021-07-17,0
+CUST-00805,SMB,Starter,Annual,North America,38.6,73.42,2.2,28,2,1,9,4,3,2021-06-07,0
+CUST-00806,Mid-Market,Pro,Monthly,Europe,61.5,623.32,16.7,12,19,1,9,5,4,2021-01-22,0
+CUST-00807,Enterprise,Enterprise,Annual,North America,10.4,1362.41,1.0,38,13,0,0,4,1,2022-01-03,0
+CUST-00808,Enterprise,Pro,Multi-year,APAC,54.0,1028.06,10.0,37,6,2,7,5,3,2022-03-06,0
+CUST-00809,SMB,Starter,Monthly,Europe,23.1,99.97,9.6,38,6,0,6,5,5,2021-09-20,0
+CUST-00810,SMB,Starter,Monthly,LATAM,1.3,160.71,5.9,1,13,1,2,3,4,2021-10-08,1
+CUST-00811,Enterprise,Pro,Annual,North America,20.6,1342.76,22.3,2,1,1,6,4,3,2021-07-04,0
+CUST-00812,Mid-Market,Enterprise,Annual,Europe,20.9,815.24,0.1,66,9,1,8,1,5,2021-09-30,0
+CUST-00813,SMB,Starter,Monthly,Europe,42.5,81.4,8.8,10,12,4,4,4,2,2021-09-07,0
+CUST-00814,Enterprise,Pro,Annual,North America,8.4,1172.19,2.9,4,12,0,7,5,3,2021-07-28,0
+CUST-00815,Enterprise,Enterprise,Multi-year,Europe,15.8,1271.94,16.3,22,4,1,7,5,2,2022-03-09,0
+CUST-00816,SMB,Starter,Monthly,North America,0.5,80.51,0.5,5,19,3,1,5,4,2021-04-17,1
+CUST-00817,Mid-Market,Enterprise,Annual,North America,7.3,425.31,21.4,19,16,4,8,1,4,2022-01-30,0
+CUST-00818,SMB,Pro,Annual,North America,1.2,47.32,21.8,27,12,0,8,5,4,2021-01-26,0
+CUST-00819,SMB,Pro,Monthly,North America,13.3,40.63,21.5,23,1,0,10,5,2,2022-03-20,0
+CUST-00820,SMB,Pro,Monthly,Europe,30.6,57.02,2.0,5,4,0,5,5,2,2022-01-30,0
+CUST-00821,Mid-Market,Pro,Annual,North America,4.2,540.3,11.9,8,9,4,7,5,5,2021-08-21,0
+CUST-00822,SMB,Starter,Monthly,North America,13.5,79.8,0.2,8,7,1,7,4,3,2021-01-17,0
+CUST-00823,SMB,Pro,Monthly,North America,4.1,65.47,22.6,10,10,1,10,3,5,2022-02-01,0
+CUST-00824,SMB,Pro,Monthly,North America,2.3,86.73,15.4,3,13,1,7,1,2,2022-01-22,0
+CUST-00825,SMB,Starter,Annual,North America,12.9,121.27,9.1,9,8,2,7,1,3,2021-01-04,0
+CUST-00826,Enterprise,Enterprise,Annual,North America,1.5,2341.51,15.7,11,10,1,5,4,4,2022-01-04,0
+CUST-00827,SMB,Starter,Annual,Europe,15.9,76.21,1.2,11,10,2,0,4,5,2021-10-31,1
+CUST-00828,SMB,Starter,Monthly,Europe,0.6,115.96,9.0,26,8,1,2,4,5,2021-01-29,1
+CUST-00829,Mid-Market,Pro,Annual,Europe,2.0,340.59,4.1,11,15,1,9,3,5,2021-04-17,0
+CUST-00830,SMB,Starter,Monthly,APAC,14.4,73.12,43.2,4,1,0,8,5,2,2021-06-25,0
+CUST-00831,SMB,Pro,Monthly,Europe,16.1,73.82,23.3,16,15,0,6,2,3,2021-03-17,0
+CUST-00832,SMB,Starter,Monthly,Europe,0.5,48.78,15.9,24,17,0,7,4,4,2022-03-07,0
+CUST-00833,SMB,Starter,Monthly,APAC,15.3,67.63,32.6,6,13,1,5,4,2,2021-08-16,0
+CUST-00834,SMB,Pro,Monthly,North America,32.8,34.88,5.1,16,12,3,9,1,4,2021-07-03,0
+CUST-00835,SMB,Pro,Monthly,Europe,23.1,171.9,27.7,2,3,2,9,5,1,2022-02-20,0
+CUST-00836,SMB,Starter,Annual,North America,2.5,54.99,4.7,6,19,1,10,4,1,2022-03-12,0
+CUST-00837,Enterprise,Enterprise,Multi-year,North America,16.2,3771.95,15.8,36,5,2,3,4,4,2021-06-02,0
+CUST-00838,SMB,Starter,Monthly,APAC,20.1,81.23,16.0,36,3,1,8,5,1,2021-10-12,0
+CUST-00839,Mid-Market,Starter,Annual,North America,0.7,626.75,0.2,13,5,2,10,3,3,2021-04-14,0
+CUST-00840,Mid-Market,Pro,Annual,North America,34.8,411.2,5.4,18,9,2,8,5,3,2021-01-14,0
+CUST-00841,SMB,Pro,Annual,North America,42.6,86.94,0.2,29,6,1,6,5,2,2021-10-11,0
+CUST-00842,Mid-Market,Enterprise,Annual,North America,34.2,648.59,60.0,48,16,2,8,5,4,2021-01-04,0
+CUST-00843,SMB,Starter,Monthly,North America,31.3,104.36,1.6,10,10,1,8,4,2,2021-05-29,0
+CUST-00844,Enterprise,Enterprise,Multi-year,Europe,24.6,2726.6,9.4,12,16,2,6,3,3,2022-05-04,0
+CUST-00845,SMB,Pro,Monthly,APAC,18.1,69.04,18.8,8,3,1,2,4,3,2021-12-18,1
+CUST-00846,SMB,Starter,Monthly,APAC,20.4,66.02,2.7,1,18,1,8,3,3,2021-09-22,0
+CUST-00847,SMB,Starter,Annual,North America,29.6,42.28,8.0,8,11,1,9,2,5,2021-09-12,0
+CUST-00848,Enterprise,Pro,Multi-year,LATAM,19.6,2465.6,11.2,23,19,1,10,3,1,2021-06-22,0
+CUST-00849,SMB,Starter,Monthly,Europe,7.1,123.34,2.1,25,15,1,4,4,2,2021-07-27,1
+CUST-00850,Mid-Market,Starter,Monthly,North America,8.5,954.32,18.1,33,11,0,9,2,2,2021-11-20,0
+CUST-00851,SMB,Starter,Monthly,APAC,40.9,90.39,4.3,1,10,0,0,5,3,2021-02-25,1
+CUST-00852,Mid-Market,Pro,Annual,Europe,0.5,367.98,2.8,11,9,4,10,5,5,2021-09-14,0
+CUST-00853,SMB,Pro,Annual,Europe,21.6,40.58,9.8,2,3,1,0,3,2,2021-11-02,0
+CUST-00854,Enterprise,Enterprise,Multi-year,North America,55.7,3033.79,6.3,3,9,1,6,5,2,2021-01-31,0
+CUST-00855,SMB,Starter,Monthly,Europe,22.0,39.0,30.4,35,18,0,1,5,5,2022-01-05,0
+CUST-00856,SMB,Starter,Monthly,APAC,72.0,69.81,25.4,10,12,2,8,3,3,2022-02-10,0
+CUST-00857,SMB,Starter,Annual,Europe,20.9,73.13,7.9,21,16,1,6,3,5,2021-07-20,0
+CUST-00858,SMB,Starter,Monthly,Europe,0.6,77.81,5.3,1,4,2,9,4,1,2021-07-18,1
+CUST-00859,Mid-Market,Enterprise,Annual,Europe,31.6,507.21,4.7,8,1,1,7,5,2,2022-04-30,0
+CUST-00860,SMB,Starter,Monthly,APAC,6.0,84.55,3.7,17,13,0,7,3,1,2021-08-19,0
+CUST-00861,Mid-Market,Pro,Annual,North America,10.6,190.27,9.4,2,8,2,6,5,2,2022-05-12,0
+CUST-00862,SMB,Pro,Annual,Europe,6.7,80.47,19.6,6,6,4,2,5,1,2021-03-17,0
+CUST-00863,SMB,Pro,Monthly,North America,5.6,32.79,4.5,1,8,1,4,5,2,2021-09-26,0
+CUST-00864,SMB,Starter,Monthly,Europe,10.2,107.22,2.5,16,19,1,8,4,3,2022-02-02,0
+CUST-00865,SMB,Starter,Monthly,Europe,8.6,64.07,7.7,53,12,2,7,4,4,2021-04-11,1
+CUST-00866,Mid-Market,Pro,Annual,North America,18.1,210.99,0.9,26,1,2,1,2,5,2022-03-07,0
+CUST-00867,SMB,Starter,Monthly,Europe,30.2,57.76,14.5,55,4,3,8,4,2,2022-01-20,0
+CUST-00868,SMB,Starter,Monthly,North America,6.3,63.69,8.8,28,13,1,1,4,5,2021-02-27,1
+CUST-00869,Enterprise,Pro,Multi-year,North America,4.3,3220.15,8.2,29,17,1,7,5,2,2021-05-07,0
+CUST-00870,Enterprise,Enterprise,Annual,North America,19.8,2163.66,4.3,13,19,0,10,5,4,2021-12-14,0
+CUST-00871,SMB,Starter,Annual,North America,20.0,91.82,28.2,11,19,7,5,1,3,2021-11-10,0
+CUST-00872,SMB,Starter,Annual,North America,41.7,128.32,1.1,8,5,0,9,3,3,2022-03-18,0
+CUST-00873,Mid-Market,Starter,Annual,North America,0.5,481.14,24.5,26,11,0,9,5,5,2022-03-09,0
+CUST-00874,SMB,Starter,Monthly,Europe,34.5,108.17,5.7,3,7,2,7,5,4,2021-08-25,0
+CUST-00875,SMB,Pro,Annual,APAC,13.2,105.17,25.5,1,3,1,8,2,5,2021-03-27,0
+CUST-00876,SMB,Starter,Monthly,Europe,17.5,47.82,15.7,44,11,0,7,5,3,2021-11-12,0
+CUST-00877,Mid-Market,Pro,Annual,North America,1.7,901.27,1.3,0,17,1,5,4,1,2022-03-16,0
+CUST-00878,Mid-Market,Pro,Annual,LATAM,10.2,283.29,21.4,56,11,0,9,4,5,2021-01-28,0
+CUST-00879,SMB,Pro,Monthly,Europe,4.6,115.47,13.8,20,15,1,9,4,2,2021-09-11,0
+CUST-00880,SMB,Starter,Monthly,North America,5.3,43.61,0.4,6,19,0,10,5,3,2021-06-10,0
+CUST-00881,SMB,Pro,Annual,APAC,12.6,101.75,1.7,18,8,2,8,3,2,2021-11-15,0
+CUST-00882,Mid-Market,Pro,Monthly,North America,30.1,1052.97,12.1,26,16,2,6,5,4,2021-06-13,0
+CUST-00883,SMB,Starter,Monthly,Europe,24.5,73.47,13.0,4,15,3,9,4,3,2022-01-01,0
+CUST-00884,SMB,Starter,Monthly,Europe,16.1,72.2,16.5,22,3,1,8,4,3,2021-03-30,0
+CUST-00885,Mid-Market,Starter,Annual,North America,14.0,638.28,15.3,24,6,2,8,4,5,2022-03-12,0
+CUST-00886,SMB,Pro,Monthly,APAC,10.0,70.12,12.9,4,3,1,9,1,5,2021-10-03,0
+CUST-00887,Mid-Market,Pro,Monthly,North America,64.8,1034.75,17.4,1,5,2,10,1,2,2021-09-03,0
+CUST-00888,SMB,Starter,Monthly,North America,14.8,86.39,10.3,3,1,3,4,4,5,2021-07-10,0
+CUST-00889,SMB,Starter,Annual,LATAM,5.3,70.38,3.6,3,14,0,6,4,1,2022-03-04,0
+CUST-00890,SMB,Starter,Annual,LATAM,4.7,64.45,29.2,1,12,1,8,2,3,2022-05-14,0
+CUST-00891,Mid-Market,Pro,Annual,Europe,17.0,344.27,0.2,19,13,2,8,4,4,2021-04-21,0
+CUST-00892,Enterprise,Enterprise,Multi-year,Europe,13.3,1555.89,5.5,7,14,1,8,5,3,2021-04-21,0
+CUST-00893,Mid-Market,Pro,Annual,North America,0.5,434.56,15.7,32,12,1,7,4,2,2021-10-14,0
+CUST-00894,SMB,Starter,Annual,APAC,31.9,65.82,6.7,4,13,0,7,4,5,2022-05-12,0
+CUST-00895,Mid-Market,Pro,Annual,North America,21.9,384.27,0.3,9,6,0,2,5,3,2021-06-22,0
+CUST-00896,SMB,Pro,Monthly,North America,19.5,185.22,0.8,15,15,2,8,3,5,2021-10-24,0
+CUST-00897,SMB,Pro,Monthly,Europe,1.3,52.98,12.6,31,16,1,3,4,2,2021-06-27,0
+CUST-00898,Enterprise,Pro,Multi-year,North America,8.1,2120.81,40.2,11,9,3,8,3,5,2022-04-06,0
+CUST-00899,SMB,Starter,Annual,North America,49.3,101.4,9.6,7,8,3,10,4,4,2021-02-05,0
+CUST-00900,SMB,Starter,Monthly,North America,35.7,102.93,8.5,30,5,1,5,4,2,2021-07-01,0
+CUST-00901,SMB,Starter,Annual,North America,6.1,78.15,4.6,6,15,1,3,2,3,2021-12-20,0
+CUST-00902,SMB,Starter,Monthly,North America,3.1,72.66,3.6,1,7,1,0,2,3,2021-01-03,1
+CUST-00903,SMB,Starter,Monthly,North America,10.7,95.84,0.3,9,17,2,6,3,4,2021-11-01,1
+CUST-00904,Mid-Market,Pro,Annual,North America,7.9,556.25,3.8,23,16,2,4,4,1,2021-05-10,0
+CUST-00905,SMB,Starter,Annual,Europe,20.6,72.13,7.2,0,11,0,7,3,5,2021-10-16,0
+CUST-00906,Enterprise,Pro,Multi-year,APAC,61.1,1070.79,2.6,13,7,1,8,3,3,2021-05-23,0
+CUST-00907,Mid-Market,Enterprise,Annual,Europe,8.1,414.65,1.1,14,11,2,6,5,4,2021-11-22,1
+CUST-00908,SMB,Pro,Annual,Europe,1.2,50.57,15.2,40,2,4,9,3,5,2021-07-06,0
+CUST-00909,SMB,Pro,Annual,North America,41.0,61.26,27.0,5,2,0,10,4,2,2021-05-10,0
+CUST-00910,SMB,Starter,Annual,North America,0.7,81.07,33.1,5,6,0,4,5,4,2021-12-31,0
+CUST-00911,Mid-Market,Enterprise,Monthly,North America,54.9,577.15,11.5,9,3,2,9,5,2,2022-03-07,0
+CUST-00912,SMB,Pro,Annual,Europe,19.7,163.07,0.7,7,1,4,3,3,2,2021-06-02,0
+CUST-00913,Mid-Market,Pro,Monthly,Europe,51.2,403.29,16.2,20,16,1,4,4,2,2021-04-19,0
+CUST-00914,SMB,Starter,Monthly,Europe,4.0,109.06,1.4,15,14,4,8,5,5,2022-05-08,0
+CUST-00915,Mid-Market,Starter,Annual,North America,0.7,565.09,13.3,21,17,5,5,5,1,2021-07-01,0
+CUST-00916,SMB,Starter,Monthly,North America,12.1,134.35,18.1,26,18,4,0,4,2,2021-12-13,1
+CUST-00917,SMB,Starter,Monthly,APAC,10.8,100.74,15.5,38,4,0,5,4,3,2022-02-14,0
+CUST-00918,Enterprise,Enterprise,Multi-year,North America,7.2,1336.1,36.4,8,3,0,10,5,5,2021-06-15,0
+CUST-00919,Mid-Market,Pro,Annual,Europe,56.9,250.98,16.1,63,8,1,3,2,5,2021-07-20,0
+CUST-00920,SMB,Starter,Monthly,Europe,31.1,90.61,14.2,4,4,1,9,4,2,2021-09-27,0
+CUST-00921,Enterprise,Enterprise,Multi-year,Europe,19.5,1618.93,3.6,19,15,1,9,4,3,2021-12-16,0
+CUST-00922,SMB,Starter,Monthly,LATAM,3.2,54.05,31.0,11,13,1,2,5,4,2021-04-11,0
+CUST-00923,Enterprise,Enterprise,Multi-year,LATAM,23.9,1204.56,2.4,25,14,1,6,5,5,2022-05-14,0
+CUST-00924,Mid-Market,Enterprise,Monthly,Europe,23.4,533.25,28.2,10,14,0,4,3,2,2021-03-10,0
+CUST-00925,SMB,Starter,Monthly,Europe,10.0,146.22,4.5,23,5,1,0,4,2,2021-05-24,0
+CUST-00926,SMB,Starter,Monthly,North America,46.6,67.94,1.7,40,5,4,3,3,1,2021-01-22,1
+CUST-00927,SMB,Starter,Monthly,LATAM,3.3,101.3,21.0,20,13,1,4,2,1,2021-06-09,0
+CUST-00928,SMB,Starter,Monthly,Europe,5.6,76.79,0.0,22,4,0,3,4,4,2021-05-28,0
+CUST-00929,Mid-Market,Pro,Annual,North America,1.2,298.53,21.4,1,18,2,2,4,4,2021-10-05,0
+CUST-00930,SMB,Starter,Annual,North America,28.6,107.33,3.7,3,6,2,8,4,4,2021-07-05,0
+CUST-00931,SMB,Starter,Monthly,North America,17.5,51.63,25.9,55,5,0,6,5,4,2022-03-18,1
+CUST-00932,Mid-Market,Pro,Annual,Europe,6.8,504.34,14.1,18,3,2,10,2,2,2021-03-13,0
+CUST-00933,Enterprise,Pro,Annual,Europe,3.2,1744.62,13.2,12,3,3,4,4,2,2022-01-04,0
+CUST-00934,SMB,Starter,Monthly,North America,0.7,114.35,5.5,7,3,1,8,5,2,2022-01-08,0
+CUST-00935,SMB,Pro,Annual,North America,3.3,52.39,0.7,1,2,0,10,4,3,2021-02-18,0
+CUST-00936,SMB,Starter,Annual,LATAM,10.9,93.54,21.3,7,18,3,0,2,4,2021-09-07,0
+CUST-00937,SMB,Starter,Monthly,APAC,5.1,57.17,2.2,10,10,1,7,2,3,2021-04-25,0
+CUST-00938,Enterprise,Enterprise,Multi-year,APAC,5.4,1630.2,5.6,4,7,2,7,4,5,2022-04-10,0
+CUST-00939,SMB,Starter,Monthly,North America,37.5,20.0,11.0,3,14,2,10,5,5,2021-04-30,0
+CUST-00940,Mid-Market,Enterprise,Monthly,APAC,13.0,1154.53,7.9,11,10,2,8,3,2,2022-05-13,0
+CUST-00941,SMB,Pro,Monthly,Europe,23.5,99.71,2.7,13,16,0,6,5,5,2021-10-07,0
+CUST-00942,Mid-Market,Pro,Annual,North America,0.7,367.85,1.8,4,6,2,9,5,2,2021-01-01,0
+CUST-00943,Mid-Market,Enterprise,Monthly,North America,8.2,318.86,1.6,13,17,4,8,4,4,2022-02-14,1
+CUST-00944,Mid-Market,Pro,Monthly,North America,11.7,410.08,23.9,35,6,0,6,4,3,2021-01-07,0
+CUST-00945,SMB,Starter,Monthly,North America,3.7,106.57,0.4,10,18,3,9,4,2,2021-05-16,0
+CUST-00946,SMB,Pro,Monthly,LATAM,2.3,37.53,45.3,29,10,2,8,5,1,2021-10-21,0
+CUST-00947,SMB,Starter,Monthly,North America,36.8,75.6,2.7,39,10,1,0,2,1,2021-08-05,0
+CUST-00948,Enterprise,Enterprise,Multi-year,North America,50.5,4060.9,1.4,1,9,4,10,5,4,2021-03-05,0
+CUST-00949,Enterprise,Enterprise,Annual,Europe,1.5,1270.7,10.3,2,15,0,6,4,3,2021-06-26,0
+CUST-00950,Mid-Market,Enterprise,Annual,North America,7.7,516.34,1.0,10,11,3,8,4,2,2021-10-13,0
+CUST-00951,Mid-Market,Pro,Monthly,Europe,57.2,1207.05,11.1,13,7,2,6,4,4,2022-01-26,0
+CUST-00952,Mid-Market,Starter,Annual,North America,1.6,643.85,22.8,8,18,0,10,4,3,2021-02-28,0
+CUST-00953,SMB,Starter,Monthly,APAC,18.6,84.13,0.6,6,2,4,8,4,1,2022-01-16,0
+CUST-00954,Enterprise,Enterprise,Multi-year,North America,64.5,2449.3,19.3,15,2,1,8,4,2,2021-11-01,0
+CUST-00955,SMB,Pro,Monthly,Europe,68.9,68.15,6.0,0,13,1,10,2,3,2021-08-24,0
+CUST-00956,SMB,Starter,Annual,Europe,11.5,134.54,2.1,52,11,2,5,3,5,2021-11-03,1
+CUST-00957,SMB,Starter,Annual,APAC,3.2,68.19,2.3,4,19,0,1,3,2,2022-01-03,0
+CUST-00958,SMB,Starter,Annual,APAC,4.1,36.54,30.1,37,1,2,7,4,5,2021-11-13,0
+CUST-00959,SMB,Pro,Monthly,Europe,39.7,68.41,1.4,2,17,1,7,4,4,2022-01-20,0
+CUST-00960,Mid-Market,Pro,Annual,North America,43.7,339.65,24.2,4,18,1,7,5,3,2021-06-27,0
+CUST-00961,SMB,Starter,Monthly,Europe,16.9,71.49,9.4,4,8,2,8,3,3,2021-12-18,0
+CUST-00962,Mid-Market,Pro,Annual,APAC,26.2,450.78,0.5,83,13,2,8,2,3,2022-01-20,0
+CUST-00963,SMB,Pro,Annual,APAC,24.2,129.15,7.5,0,4,1,6,2,3,2021-06-10,0
+CUST-00964,SMB,Starter,Monthly,North America,19.5,105.65,20.4,15,19,4,10,1,2,2022-03-06,0
+CUST-00965,SMB,Starter,Monthly,North America,31.6,88.88,15.5,31,3,2,8,1,5,2021-08-05,0
+CUST-00966,SMB,Starter,Monthly,APAC,20.8,79.91,8.1,17,6,2,10,5,5,2021-11-13,1
+CUST-00967,Mid-Market,Enterprise,Monthly,North America,13.7,327.36,23.6,7,6,2,10,5,4,2021-03-22,0
+CUST-00968,SMB,Starter,Annual,North America,4.9,33.43,1.5,48,6,2,3,5,4,2021-03-18,0
+CUST-00969,Mid-Market,Enterprise,Annual,North America,24.5,523.15,28.9,34,8,3,8,1,3,2022-04-19,0
+CUST-00970,SMB,Starter,Monthly,Europe,11.5,109.93,22.5,9,17,1,6,5,1,2021-03-23,0
+CUST-00971,Mid-Market,Pro,Annual,LATAM,6.3,478.8,14.8,13,10,2,9,5,1,2022-01-11,0
+CUST-00972,Enterprise,Pro,Multi-year,Europe,29.1,1614.79,20.4,51,5,2,9,4,3,2021-05-11,0
+CUST-00973,Mid-Market,Pro,Monthly,North America,21.5,602.09,9.4,61,19,1,4,4,5,2021-09-04,0
+CUST-00974,SMB,Starter,Monthly,North America,49.9,77.38,13.5,9,11,2,10,4,4,2021-03-15,0
+CUST-00975,SMB,Starter,Annual,North America,3.3,157.01,9.9,28,10,2,8,5,2,2021-05-03,0
+CUST-00976,SMB,Starter,Annual,Europe,18.9,130.99,5.3,5,3,1,10,5,1,2021-10-29,0
+CUST-00977,Mid-Market,Starter,Annual,Europe,5.0,733.93,10.1,7,10,0,4,5,4,2021-03-21,0
+CUST-00978,SMB,Pro,Monthly,North America,42.1,108.32,3.6,3,2,1,10,1,1,2022-02-09,0
+CUST-00979,SMB,Pro,Monthly,Europe,1.9,47.75,7.0,4,9,2,8,3,5,2021-06-28,0
+CUST-00980,Mid-Market,Starter,Annual,Europe,19.2,651.84,4.0,16,5,1,8,5,5,2021-04-01,0
+CUST-00981,SMB,Starter,Monthly,North America,28.2,93.0,1.6,11,17,0,9,4,3,2022-04-13,0
+CUST-00982,Mid-Market,Pro,Annual,North America,7.9,637.26,4.7,4,6,3,8,5,3,2022-04-06,0
+CUST-00983,SMB,Pro,Monthly,LATAM,55.5,97.42,22.9,8,11,1,8,4,1,2021-08-10,0
+CUST-00984,SMB,Pro,Annual,North America,34.2,95.88,5.8,7,5,4,5,5,1,2021-12-06,0
+CUST-00985,Mid-Market,Pro,Monthly,APAC,6.3,1472.85,16.5,66,7,1,9,2,4,2021-05-08,0
+CUST-00986,SMB,Starter,Annual,Europe,0.5,77.6,2.3,29,7,1,8,1,3,2021-05-23,0
+CUST-00987,Mid-Market,Pro,Monthly,APAC,6.3,727.16,6.6,7,4,2,9,4,5,2021-03-04,0
+CUST-00988,SMB,Starter,Monthly,APAC,5.9,66.26,1.5,37,10,1,6,4,4,2021-03-03,0
+CUST-00989,SMB,Starter,Monthly,Europe,39.7,109.76,1.8,6,18,0,6,4,4,2021-08-19,1
+CUST-00990,Mid-Market,Pro,Annual,APAC,61.5,728.03,11.5,17,1,0,0,5,2,2021-08-06,0
+CUST-00991,Mid-Market,Enterprise,Annual,LATAM,1.3,578.47,11.2,51,14,0,9,4,5,2021-11-26,0
+CUST-00992,Mid-Market,Pro,Annual,Europe,11.5,974.87,2.9,7,6,0,6,5,4,2021-04-28,0
+CUST-00993,SMB,Starter,Monthly,North America,14.3,56.17,7.7,17,11,2,6,2,2,2021-09-24,0
+CUST-00994,Mid-Market,Pro,Annual,North America,1.8,411.46,23.9,5,14,4,8,2,3,2022-02-20,0
+CUST-00995,SMB,Pro,Monthly,APAC,8.5,87.09,2.3,5,3,2,5,5,5,2021-06-23,0
+CUST-00996,SMB,Starter,Annual,Europe,6.9,113.79,0.2,13,16,1,10,5,3,2021-07-02,0
+CUST-00997,Enterprise,Pro,Annual,North America,13.8,2148.82,12.7,58,16,1,8,5,2,2022-01-08,0
+CUST-00998,SMB,Pro,Annual,North America,19.5,133.8,0.7,9,7,2,10,1,5,2021-09-03,0
+CUST-00999,Enterprise,Pro,Annual,Europe,21.9,1534.91,46.9,42,8,0,1,5,1,2021-02-24,0
+CUST-01000,SMB,Starter,Monthly,North America,2.6,50.69,11.3,37,4,3,6,5,1,2021-07-11,1
+CUST-01001,SMB,Starter,Annual,Europe,30.2,90.49,7.6,4,12,1,6,5,1,2022-03-02,0
+CUST-01002,SMB,Starter,Monthly,Europe,20.4,77.57,6.7,8,12,1,9,5,4,2021-09-27,0
+CUST-01003,Enterprise,Pro,Multi-year,Europe,39.6,2485.05,10.2,15,10,0,4,4,1,2021-06-20,0
+CUST-01004,Mid-Market,Pro,Monthly,North America,10.7,494.55,1.1,11,12,2,6,4,4,2021-01-08,0
+CUST-01005,Mid-Market,Enterprise,Monthly,North America,40.4,436.42,31.9,2,11,2,10,4,4,2021-07-25,0
+CUST-01006,Mid-Market,Starter,Annual,North America,36.1,485.23,11.8,76,11,3,2,5,2,2021-01-27,1
+CUST-01007,Mid-Market,Pro,Annual,North America,10.4,505.8,2.4,21,15,1,9,5,1,2021-01-11,0
+CUST-01008,Mid-Market,Enterprise,Annual,Europe,8.6,442.58,9.9,9,6,2,9,4,5,2021-11-18,0
+CUST-01009,SMB,Starter,Monthly,Europe,48.6,73.76,1.7,14,11,3,3,3,4,2022-02-22,0
+CUST-01010,SMB,Starter,Monthly,North America,22.6,68.07,0.2,1,2,3,8,5,2,2022-01-19,0
+CUST-01011,SMB,Starter,Monthly,North America,47.4,112.7,11.9,10,9,2,8,4,4,2021-11-28,0
+CUST-01012,Enterprise,Pro,Annual,North America,28.7,2161.4,12.5,40,11,0,5,3,5,2021-03-14,0
+CUST-01013,Enterprise,Enterprise,Annual,LATAM,16.9,4932.51,10.5,34,16,1,6,4,5,2021-02-03,1
+CUST-01014,SMB,Starter,Monthly,Europe,2.2,85.31,2.4,6,13,1,9,5,1,2021-11-01,1
+CUST-01015,Mid-Market,Starter,Annual,APAC,6.2,401.12,11.1,11,13,2,4,4,4,2022-03-26,0
+CUST-01016,Enterprise,Enterprise,Annual,APAC,62.4,5820.68,0.7,18,18,1,7,2,5,2021-05-30,0
+CUST-01017,SMB,Starter,Annual,Europe,6.9,94.39,11.3,6,1,0,8,1,3,2021-04-07,0
+CUST-01018,Mid-Market,Pro,Annual,Europe,1.8,742.97,9.7,1,10,0,3,3,5,2021-09-06,0
+CUST-01019,Enterprise,Pro,Annual,North America,22.1,2534.48,12.8,11,19,6,10,3,5,2022-04-17,0
+CUST-01020,SMB,Pro,Annual,Europe,23.8,102.64,27.1,14,17,2,5,5,4,2022-04-16,0
+CUST-01021,Mid-Market,Pro,Annual,North America,6.1,619.47,22.8,0,1,0,6,3,5,2021-10-25,0
+CUST-01022,SMB,Pro,Annual,APAC,6.4,51.48,47.3,2,1,0,8,5,2,2021-02-03,0
+CUST-01023,Enterprise,Enterprise,Annual,North America,11.4,2316.73,44.9,3,17,3,1,2,5,2021-11-06,0
+CUST-01024,Enterprise,Enterprise,Annual,APAC,0.5,1177.28,17.8,6,15,1,8,5,3,2021-02-14,0
+CUST-01025,Enterprise,Pro,Multi-year,North America,28.0,1865.26,37.6,12,2,3,10,3,5,2022-04-05,0
+CUST-01026,SMB,Starter,Monthly,APAC,6.9,59.85,24.2,5,11,0,5,4,1,2022-03-01,0
+CUST-01027,Enterprise,Enterprise,Multi-year,North America,34.6,2307.43,15.6,5,2,1,6,3,4,2021-08-15,0
+CUST-01028,Mid-Market,Starter,Annual,Europe,29.2,571.5,0.9,31,9,1,4,4,3,2021-08-26,0
+CUST-01029,SMB,Starter,Monthly,Europe,19.5,96.98,0.6,2,19,2,9,2,2,2021-01-26,0
+CUST-01030,Mid-Market,Starter,Monthly,North America,7.1,560.89,21.8,10,2,2,3,4,5,2022-03-27,0
+CUST-01031,SMB,Starter,Monthly,Europe,13.1,62.76,8.1,46,16,1,6,4,5,2021-08-20,0
+CUST-01032,Mid-Market,Pro,Monthly,LATAM,10.6,450.43,20.2,15,9,1,8,5,2,2021-07-29,0
+CUST-01033,SMB,Starter,Monthly,North America,7.4,115.61,4.5,19,4,2,7,3,5,2021-11-02,0
+CUST-01034,SMB,Starter,Monthly,LATAM,33.9,122.63,6.1,8,13,0,1,3,1,2022-05-01,0
+CUST-01035,SMB,Starter,Monthly,Europe,11.9,50.57,14.5,0,15,1,10,3,3,2022-02-24,0
+CUST-01036,Mid-Market,Pro,Annual,APAC,32.2,271.03,29.6,16,2,2,6,4,5,2022-04-27,0
+CUST-01037,SMB,Starter,Monthly,North America,2.0,59.82,1.1,15,18,0,7,2,2,2021-07-31,0
+CUST-01038,Mid-Market,Enterprise,Monthly,Europe,2.7,759.52,23.7,2,9,0,3,3,2,2021-10-19,0
+CUST-01039,SMB,Starter,Monthly,APAC,68.2,130.06,18.9,9,1,3,10,5,3,2021-08-11,0
+CUST-01040,SMB,Starter,Annual,North America,16.0,55.27,4.5,37,3,1,5,2,1,2021-02-06,1
+CUST-01041,SMB,Pro,Monthly,Europe,12.8,90.46,5.3,3,17,1,0,5,3,2021-05-05,0
+CUST-01042,Mid-Market,Pro,Annual,North America,13.3,1041.46,0.6,9,11,1,6,2,5,2021-01-18,0
+CUST-01043,SMB,Starter,Annual,North America,4.4,94.46,0.2,9,8,3,10,4,1,2021-05-04,0
+CUST-01044,Mid-Market,Pro,Annual,Europe,22.8,882.9,7.8,25,12,1,3,5,1,2022-03-30,0
+CUST-01045,Enterprise,Enterprise,Annual,Europe,1.6,2982.13,1.2,26,11,0,0,3,2,2021-02-11,0
+CUST-01046,Mid-Market,Pro,Annual,Europe,15.3,347.42,2.6,21,13,3,8,3,1,2021-06-12,0
+CUST-01047,SMB,Pro,Monthly,North America,15.2,74.15,22.5,7,15,5,6,5,5,2021-02-16,0
+CUST-01048,SMB,Starter,Monthly,North America,44.2,81.12,10.2,1,17,2,9,4,5,2022-03-16,1
+CUST-01049,Enterprise,Enterprise,Multi-year,North America,13.4,2085.07,12.0,6,12,1,9,4,5,2021-06-27,0
+CUST-01050,SMB,Starter,Monthly,Europe,2.7,115.42,2.5,17,19,0,4,4,4,2021-02-13,0
+CUST-01051,Enterprise,Pro,Multi-year,APAC,15.3,2355.19,21.2,18,11,1,8,4,1,2022-01-23,0
+CUST-01052,SMB,Starter,Monthly,APAC,1.7,24.72,24.3,50,10,1,0,5,1,2021-11-28,1
+CUST-01053,Enterprise,Pro,Annual,North America,4.1,1182.95,8.9,9,17,1,7,5,5,2021-06-26,0
+CUST-01054,Mid-Market,Starter,Annual,APAC,0.6,208.44,29.2,15,13,2,9,4,2,2021-12-17,0
+CUST-01055,Enterprise,Enterprise,Multi-year,Europe,13.0,2145.33,22.4,12,16,1,7,5,1,2021-11-30,0
+CUST-01056,SMB,Starter,Monthly,Europe,1.6,88.08,15.8,2,17,0,2,4,4,2021-10-01,0
+CUST-01057,Mid-Market,Pro,Annual,North America,11.4,559.98,15.9,9,5,1,1,4,1,2021-09-05,0
+CUST-01058,SMB,Starter,Monthly,Europe,48.6,54.51,1.3,12,9,3,10,5,3,2022-02-22,0
+CUST-01059,SMB,Pro,Annual,North America,22.9,104.76,3.8,45,4,0,10,3,4,2021-08-19,1
+CUST-01060,Mid-Market,Pro,Annual,North America,1.5,665.88,0.8,7,9,3,6,3,2,2021-04-19,1
+CUST-01061,Enterprise,Pro,Multi-year,North America,4.6,1210.57,0.1,59,16,2,3,3,4,2022-03-09,0
+CUST-01062,Enterprise,Pro,Multi-year,North America,20.2,1112.64,2.1,12,7,1,10,5,4,2022-02-10,0
+CUST-01063,Mid-Market,Pro,Annual,North America,40.5,499.97,25.5,4,14,2,8,5,1,2022-05-05,0
+CUST-01064,SMB,Pro,Annual,North America,0.6,163.82,3.3,3,14,1,7,4,4,2021-04-05,0
+CUST-01065,SMB,Starter,Monthly,North America,30.1,157.89,42.1,2,7,3,9,3,5,2021-12-21,0
+CUST-01066,Mid-Market,Starter,Monthly,Europe,14.9,626.39,10.9,9,16,2,3,2,4,2022-02-15,0
+CUST-01067,SMB,Starter,Monthly,North America,14.2,59.74,3.3,0,18,0,8,3,1,2021-01-03,0
+CUST-01068,SMB,Starter,Monthly,Europe,57.0,114.06,8.2,9,6,2,10,5,5,2021-03-22,0
+CUST-01069,SMB,Starter,Annual,North America,24.8,66.76,3.0,67,7,2,0,5,2,2022-04-15,1
+CUST-01070,SMB,Starter,Annual,LATAM,34.2,58.85,49.6,17,19,1,8,5,3,2021-06-19,0
+CUST-01071,SMB,Starter,Monthly,LATAM,7.9,33.93,22.5,21,8,1,8,4,4,2021-11-17,0
+CUST-01072,SMB,Starter,Annual,North America,14.5,83.34,0.3,2,1,3,10,4,5,2021-08-15,0
+CUST-01073,SMB,Starter,Monthly,Europe,17.2,62.18,35.4,10,17,2,5,4,5,2021-01-28,0
+CUST-01074,SMB,Starter,Monthly,North America,7.0,83.15,15.3,5,19,3,10,5,2,2021-05-10,0
+CUST-01075,Enterprise,Enterprise,Annual,LATAM,15.2,797.24,1.0,34,7,2,5,5,2,2021-04-02,0
+CUST-01076,SMB,Starter,Monthly,Europe,4.9,85.62,13.3,3,18,2,7,5,3,2021-07-09,0
+CUST-01077,SMB,Starter,Annual,North America,2.8,30.25,12.5,9,6,1,4,4,3,2022-01-05,0
+CUST-01078,Mid-Market,Pro,Monthly,North America,8.4,772.62,3.0,13,6,2,10,2,1,2021-06-18,0
+CUST-01079,SMB,Starter,Annual,North America,24.2,98.57,17.0,11,1,0,4,4,3,2021-03-12,0
+CUST-01080,Enterprise,Enterprise,Annual,North America,44.6,1789.04,1.1,27,10,2,10,2,3,2021-05-17,0
+CUST-01081,Mid-Market,Starter,Annual,Europe,11.0,626.22,8.1,4,8,1,7,3,5,2022-03-22,0
+CUST-01082,SMB,Pro,Monthly,Europe,18.5,54.1,0.1,7,7,1,9,3,4,2021-03-30,0
+CUST-01083,SMB,Starter,Monthly,North America,2.0,82.35,41.6,24,9,2,5,4,4,2021-09-26,0
+CUST-01084,Enterprise,Enterprise,Multi-year,North America,42.3,2748.5,16.7,11,1,2,3,4,3,2022-03-10,0
+CUST-01085,Enterprise,Enterprise,Annual,North America,15.1,580.09,2.1,8,11,0,8,4,1,2021-08-16,0
+CUST-01086,SMB,Starter,Monthly,North America,27.3,66.9,5.0,0,3,2,7,4,1,2021-10-11,0
+CUST-01087,Mid-Market,Pro,Annual,APAC,28.5,495.49,2.1,21,18,2,6,1,4,2021-09-18,0
+CUST-01088,SMB,Starter,Annual,North America,5.3,73.96,17.5,54,6,3,8,4,2,2022-04-27,0
+CUST-01089,Enterprise,Enterprise,Annual,Europe,13.6,3582.24,0.7,15,11,3,2,5,5,2022-04-03,0
+CUST-01090,SMB,Starter,Monthly,North America,58.2,51.03,22.0,29,5,2,8,2,3,2021-02-20,0
+CUST-01091,Enterprise,Enterprise,Annual,North America,1.7,1560.0,34.2,11,4,0,4,5,5,2021-05-21,0
+CUST-01092,Mid-Market,Starter,Annual,Europe,20.7,232.35,13.5,4,8,1,3,4,3,2022-04-26,0
+CUST-01093,Mid-Market,Enterprise,Monthly,Europe,59.0,914.82,2.9,0,10,5,10,4,3,2022-01-24,0
+CUST-01094,SMB,Starter,Monthly,North America,6.4,72.49,5.4,16,3,1,7,4,4,2021-06-25,0
+CUST-01095,SMB,Starter,Annual,Europe,35.6,67.13,7.8,10,13,2,9,4,5,2022-02-04,0
+CUST-01096,SMB,Starter,Annual,Europe,48.8,78.34,11.1,23,17,1,2,2,5,2022-03-24,0
+CUST-01097,SMB,Pro,Monthly,North America,24.7,103.18,13.3,18,5,2,1,5,2,2021-09-01,0
+CUST-01098,SMB,Starter,Monthly,Europe,4.7,91.92,9.7,66,8,3,7,4,2,2021-03-14,1
+CUST-01099,Mid-Market,Pro,Annual,Europe,7.3,1441.96,5.2,11,19,2,6,3,5,2022-04-15,0
+CUST-01100,SMB,Pro,Monthly,North America,0.7,95.93,26.6,8,18,1,0,5,2,2021-10-25,0
+CUST-01101,SMB,Starter,Monthly,Europe,32.0,66.42,1.0,5,1,1,4,5,2,2022-04-02,0
+CUST-01102,Enterprise,Enterprise,Multi-year,North America,34.1,1597.76,7.5,10,4,2,4,3,3,2021-06-02,0
+CUST-01103,Enterprise,Enterprise,Annual,North America,18.0,1709.23,17.9,31,18,1,5,5,4,2021-03-11,0
+CUST-01104,Enterprise,Enterprise,Multi-year,Europe,7.8,1096.82,0.8,1,14,1,10,4,3,2021-09-04,0
+CUST-01105,Enterprise,Pro,Annual,APAC,1.4,2032.15,14.7,57,11,2,7,3,2,2021-09-21,0
+CUST-01106,SMB,Starter,Monthly,APAC,25.2,109.44,20.6,75,9,1,8,5,3,2021-05-19,0
+CUST-01107,SMB,Starter,Monthly,North America,23.3,62.59,13.0,14,13,1,0,4,3,2021-04-02,0
+CUST-01108,Mid-Market,Starter,Annual,North America,43.9,362.0,0.2,6,17,3,9,3,1,2021-06-03,0
+CUST-01109,Mid-Market,Pro,Monthly,Europe,23.6,916.89,2.4,4,15,0,5,5,3,2021-04-22,0
+CUST-01110,SMB,Starter,Monthly,North America,31.8,45.22,5.0,5,2,2,5,5,3,2022-01-16,1
+CUST-01111,Mid-Market,Enterprise,Annual,APAC,24.7,218.65,3.2,1,6,2,0,5,4,2021-02-27,0
+CUST-01112,SMB,Pro,Monthly,Europe,17.9,50.44,39.4,10,7,2,7,4,5,2021-12-19,0
+CUST-01113,SMB,Starter,Monthly,LATAM,10.0,43.2,12.7,1,2,3,10,5,1,2021-03-16,0
+CUST-01114,SMB,Starter,Monthly,North America,41.8,93.37,4.2,19,13,2,6,5,1,2022-03-28,0
+CUST-01115,Mid-Market,Pro,Annual,North America,18.9,432.82,31.9,7,10,1,10,5,1,2022-04-14,0
+CUST-01116,Mid-Market,Pro,Annual,APAC,9.1,457.94,16.2,3,16,2,10,5,1,2022-04-09,0
+CUST-01117,SMB,Pro,Monthly,Europe,1.6,126.87,4.0,12,9,0,1,4,4,2021-10-20,0
+CUST-01118,Enterprise,Pro,Multi-year,APAC,6.2,1516.82,5.7,55,8,1,5,3,5,2021-05-14,0
+CUST-01119,SMB,Starter,Annual,North America,14.1,109.08,2.7,18,15,1,10,4,4,2021-11-23,0
+CUST-01120,SMB,Starter,Monthly,Europe,5.8,146.43,42.5,10,7,0,0,4,1,2021-06-11,0
+CUST-01121,Enterprise,Pro,Multi-year,Europe,4.5,1666.76,8.7,23,19,2,9,5,5,2021-06-28,0
+CUST-01122,Enterprise,Pro,Annual,North America,13.5,2685.74,27.2,20,4,0,10,5,4,2021-03-28,0
+CUST-01123,Enterprise,Pro,Multi-year,Europe,3.4,1815.61,5.1,33,9,1,9,5,5,2022-02-15,0
+CUST-01124,Mid-Market,Pro,Annual,Europe,29.0,723.61,23.7,3,19,4,9,4,4,2022-01-31,0
+CUST-01125,Mid-Market,Enterprise,Monthly,North America,11.9,266.67,0.7,29,2,1,9,3,5,2021-02-21,0
+CUST-01126,Mid-Market,Pro,Annual,North America,15.4,258.89,48.3,5,7,3,8,1,4,2022-01-01,0
+CUST-01127,SMB,Starter,Monthly,Europe,2.9,68.41,29.2,42,19,1,7,4,1,2022-01-27,0
+CUST-01128,SMB,Starter,Monthly,Europe,7.1,56.06,5.4,5,6,2,1,5,1,2022-04-14,0
+CUST-01129,SMB,Starter,Annual,APAC,9.5,65.06,17.9,39,15,1,9,5,1,2021-12-26,0
+CUST-01130,SMB,Pro,Monthly,North America,29.7,73.27,16.7,50,7,1,10,4,4,2021-12-05,0
+CUST-01131,Mid-Market,Pro,Annual,North America,26.5,666.88,27.8,2,6,1,7,5,5,2021-07-16,0
+CUST-01132,SMB,Starter,Monthly,LATAM,4.5,67.96,4.4,55,1,3,8,3,5,2021-08-14,1
+CUST-01133,SMB,Starter,Monthly,LATAM,17.2,57.54,7.5,1,14,1,7,4,2,2021-03-09,0
+CUST-01134,SMB,Starter,Monthly,North America,5.0,69.51,24.0,4,1,2,10,3,3,2021-09-09,0
+CUST-01135,Mid-Market,Enterprise,Annual,APAC,72.0,367.58,18.1,9,6,0,0,3,1,2021-06-13,0
+CUST-01136,SMB,Pro,Annual,North America,54.7,55.06,6.0,76,18,0,8,5,1,2021-10-07,1
+CUST-01137,Enterprise,Enterprise,Multi-year,North America,14.9,1049.11,22.4,10,17,1,10,5,1,2021-11-18,0
+CUST-01138,SMB,Starter,Monthly,North America,21.6,82.25,0.6,12,2,1,2,1,2,2021-05-18,1
+CUST-01139,SMB,Starter,Annual,North America,29.1,63.72,18.3,18,8,3,10,3,2,2021-07-10,0
+CUST-01140,Mid-Market,Enterprise,Annual,APAC,23.0,735.92,2.8,52,2,0,10,3,2,2021-02-10,0
+CUST-01141,Mid-Market,Pro,Annual,Europe,21.7,280.24,4.0,23,16,0,10,3,1,2021-09-02,0
+CUST-01142,SMB,Starter,Monthly,LATAM,57.3,64.41,8.2,4,4,1,7,5,5,2021-04-01,0
+CUST-01143,Mid-Market,Pro,Monthly,Europe,16.3,1032.53,7.2,5,2,2,6,4,1,2021-11-19,0
+CUST-01144,Mid-Market,Pro,Annual,North America,18.2,343.35,8.8,2,5,0,9,4,2,2021-09-22,1
+CUST-01145,SMB,Pro,Monthly,Europe,34.1,72.78,9.4,16,17,2,6,3,2,2021-04-10,1
+CUST-01146,Enterprise,Enterprise,Annual,LATAM,19.9,1229.75,4.8,3,2,1,1,3,3,2021-05-17,1
+CUST-01147,Mid-Market,Pro,Annual,Europe,23.8,291.56,2.3,4,14,1,10,4,4,2022-01-31,0
+CUST-01148,Mid-Market,Enterprise,Monthly,APAC,4.8,928.46,17.6,33,7,6,8,5,3,2022-01-05,0
+CUST-01149,Enterprise,Enterprise,Annual,LATAM,8.4,2141.62,6.1,6,15,1,4,5,3,2021-05-19,0
+CUST-01150,Enterprise,Enterprise,Multi-year,North America,2.9,2109.85,8.5,13,18,1,0,3,1,2021-11-29,0
+CUST-01151,Mid-Market,Pro,Monthly,Europe,12.7,253.68,12.4,8,13,2,9,4,4,2021-07-24,0
+CUST-01152,Mid-Market,Pro,Annual,APAC,10.9,577.15,28.8,1,12,1,10,4,4,2021-09-23,0
+CUST-01153,Mid-Market,Enterprise,Annual,LATAM,72.0,794.39,14.8,7,2,1,7,1,1,2021-11-05,0
+CUST-01154,Mid-Market,Pro,Annual,North America,17.0,791.87,0.6,8,12,0,2,3,5,2021-03-06,0
+CUST-01155,Mid-Market,Pro,Annual,Europe,27.8,653.24,21.9,34,6,2,8,5,1,2022-02-16,0
+CUST-01156,Mid-Market,Pro,Monthly,Europe,7.3,318.24,54.5,6,1,3,5,5,5,2021-10-10,0
+CUST-01157,SMB,Starter,Monthly,North America,32.1,90.67,7.7,7,1,0,3,3,5,2021-02-02,1
+CUST-01158,Enterprise,Pro,Multi-year,Europe,17.2,2612.17,41.9,23,15,1,7,4,4,2021-01-24,0
+CUST-01159,Enterprise,Enterprise,Multi-year,North America,21.5,975.67,9.5,21,16,3,7,4,1,2021-03-22,0
+CUST-01160,SMB,Starter,Monthly,North America,6.3,51.09,7.4,24,7,0,7,3,1,2021-11-04,0
+CUST-01161,Mid-Market,Pro,Monthly,North America,14.3,713.28,4.8,46,14,4,9,4,4,2021-02-04,1
+CUST-01162,SMB,Starter,Monthly,Europe,18.1,113.57,12.9,24,19,1,7,4,3,2022-02-06,1
+CUST-01163,SMB,Starter,Monthly,North America,16.0,43.06,3.1,8,19,0,10,4,1,2021-03-20,0
+CUST-01164,Mid-Market,Pro,Annual,Europe,44.4,687.19,1.3,26,13,3,9,5,2,2021-01-13,0
+CUST-01165,SMB,Pro,Monthly,North America,41.1,83.11,0.3,11,12,3,8,4,2,2022-01-25,1
+CUST-01166,Mid-Market,Enterprise,Annual,North America,63.7,683.35,4.2,5,1,2,1,3,1,2021-07-21,0
+CUST-01167,Mid-Market,Pro,Monthly,North America,19.8,387.92,6.0,5,12,2,10,4,5,2022-03-10,0
+CUST-01168,SMB,Starter,Monthly,North America,64.3,103.55,9.6,4,4,3,10,3,4,2022-03-05,0
+CUST-01169,SMB,Starter,Monthly,Europe,32.2,112.12,4.2,2,15,1,6,4,5,2021-07-08,0
+CUST-01170,SMB,Starter,Annual,APAC,5.7,69.51,49.7,3,16,1,8,4,2,2021-10-28,0
+CUST-01171,Mid-Market,Pro,Annual,North America,10.0,503.56,4.1,1,15,1,5,5,2,2021-05-19,0
+CUST-01172,Enterprise,Pro,Multi-year,North America,4.9,1543.02,7.0,33,8,1,0,5,4,2021-12-19,0
+CUST-01173,Mid-Market,Starter,Annual,Europe,0.5,968.03,1.3,40,19,2,7,5,2,2021-12-07,0
+CUST-01174,SMB,Pro,Annual,North America,3.7,76.24,3.6,13,15,3,3,4,3,2022-03-25,0
+CUST-01175,Mid-Market,Pro,Annual,LATAM,0.5,345.78,0.6,28,18,1,4,5,2,2021-07-07,0
+CUST-01176,SMB,Starter,Annual,Europe,22.9,60.08,9.8,3,11,0,7,5,5,2021-05-12,0
+CUST-01177,Mid-Market,Enterprise,Annual,North America,10.0,526.01,16.7,35,9,0,10,2,5,2021-11-17,0
+CUST-01178,SMB,Pro,Monthly,North America,6.7,108.13,2.6,11,1,2,9,4,3,2022-02-28,0
+CUST-01179,Mid-Market,Pro,Annual,Europe,25.8,293.03,5.5,1,9,1,10,3,5,2021-09-28,0
+CUST-01180,SMB,Starter,Monthly,North America,32.2,167.52,0.2,2,12,2,7,4,5,2021-04-22,0
+CUST-01181,Enterprise,Pro,Annual,North America,66.6,2262.83,22.0,6,2,3,8,5,5,2022-02-12,0
+CUST-01182,SMB,Starter,Monthly,North America,18.5,96.41,18.2,1,11,0,9,3,1,2021-07-31,0
+CUST-01183,Mid-Market,Starter,Annual,APAC,11.1,480.94,0.8,6,14,3,8,5,3,2021-04-19,0
+CUST-01184,Enterprise,Pro,Multi-year,Europe,6.6,2015.47,5.4,1,2,0,4,4,3,2021-05-19,0
+CUST-01185,SMB,Starter,Monthly,North America,4.5,75.39,37.3,4,15,1,6,5,2,2021-07-13,0
+CUST-01186,Enterprise,Enterprise,Multi-year,Europe,4.3,3004.96,6.0,5,18,1,10,4,3,2021-02-04,0
+CUST-01187,Mid-Market,Pro,Monthly,North America,9.5,498.42,9.0,78,14,1,3,5,4,2021-12-23,0
+CUST-01188,SMB,Starter,Annual,Europe,72.0,108.73,5.3,4,12,4,4,3,3,2022-03-27,0
+CUST-01189,SMB,Starter,Annual,North America,0.5,67.25,10.9,4,10,0,7,5,4,2022-05-07,0
+CUST-01190,Mid-Market,Pro,Annual,Europe,4.0,540.7,45.9,17,14,2,10,4,5,2022-04-10,0
+CUST-01191,SMB,Starter,Annual,LATAM,3.8,58.0,60.0,29,15,1,2,4,4,2021-10-10,0
+CUST-01192,Mid-Market,Pro,Monthly,North America,22.7,813.4,17.9,7,5,1,8,3,1,2022-02-24,0
+CUST-01193,SMB,Starter,Monthly,North America,7.8,57.31,6.2,31,2,1,3,5,5,2021-08-30,0
+CUST-01194,Mid-Market,Enterprise,Annual,North America,11.0,439.05,8.2,6,6,4,8,5,4,2021-05-16,0
+CUST-01195,SMB,Pro,Monthly,North America,2.9,70.53,5.3,3,12,3,8,5,5,2022-03-20,0
+CUST-01196,Enterprise,Enterprise,Annual,North America,9.3,1735.97,50.9,6,2,1,0,4,1,2021-01-10,0
+CUST-01197,Enterprise,Enterprise,Multi-year,APAC,2.0,2670.18,14.8,14,4,1,10,4,5,2021-12-15,0
+CUST-01198,Enterprise,Enterprise,Multi-year,LATAM,13.7,1762.06,7.2,7,7,3,9,4,5,2022-03-28,0
+CUST-01199,Mid-Market,Pro,Annual,North America,1.9,873.21,0.1,17,16,1,5,4,3,2021-02-28,0
+CUST-01200,SMB,Pro,Monthly,Europe,28.1,57.66,8.8,4,1,3,3,4,2,2021-02-14,0
+CUST-01201,Mid-Market,Pro,Monthly,Europe,15.0,535.05,49.6,18,1,1,6,5,4,2021-01-16,0
+CUST-01202,SMB,Starter,Monthly,Europe,23.2,58.66,8.9,6,14,1,10,5,2,2021-04-04,0
+CUST-01203,SMB,Starter,Monthly,North America,9.8,94.67,2.4,9,11,2,3,5,1,2021-11-20,0
+CUST-01204,SMB,Starter,Annual,North America,8.6,79.49,0.3,12,12,0,6,4,1,2021-05-13,0
+CUST-01205,SMB,Pro,Monthly,Europe,1.9,75.19,5.3,17,11,0,7,4,5,2021-07-06,0
+CUST-01206,Mid-Market,Pro,Annual,North America,13.4,804.32,30.0,4,6,3,0,4,2,2022-01-17,0
+CUST-01207,Mid-Market,Enterprise,Annual,APAC,13.0,384.86,60.0,27,12,0,5,5,4,2021-06-01,0
+CUST-01208,SMB,Starter,Annual,APAC,11.4,101.15,34.9,19,12,3,8,1,4,2022-05-08,0
+CUST-01209,SMB,Starter,Monthly,North America,24.3,58.82,15.7,4,10,3,6,5,5,2021-03-27,0
+CUST-01210,Enterprise,Enterprise,Multi-year,North America,32.2,2092.21,9.8,55,8,3,10,3,4,2021-12-28,0
+CUST-01211,SMB,Starter,Annual,LATAM,25.0,49.59,10.7,16,19,5,10,4,3,2022-02-07,0
+CUST-01212,SMB,Starter,Monthly,Europe,2.8,61.38,9.3,9,7,1,7,5,2,2021-09-16,0
+CUST-01213,SMB,Starter,Monthly,APAC,17.5,77.41,14.7,3,14,1,8,5,1,2021-08-14,0
+CUST-01214,Mid-Market,Pro,Monthly,North America,1.5,1033.25,6.5,11,4,4,8,5,4,2022-02-25,0
+CUST-01215,Mid-Market,Pro,Annual,Europe,21.4,520.57,13.3,3,1,0,8,1,4,2021-05-18,0
+CUST-01216,SMB,Starter,Monthly,Europe,8.7,155.07,1.6,8,8,3,1,4,4,2021-11-08,1
+CUST-01217,SMB,Starter,Monthly,APAC,2.6,87.37,3.7,8,5,0,1,3,5,2021-09-25,1
+CUST-01218,Mid-Market,Pro,Annual,North America,35.7,428.28,21.7,19,8,1,10,5,1,2021-09-06,0
+CUST-01219,Mid-Market,Pro,Annual,North America,17.1,925.52,28.1,3,8,3,4,3,2,2021-11-10,0
+CUST-01220,SMB,Pro,Monthly,North America,7.9,95.28,9.3,26,7,1,8,5,4,2021-06-01,0
+CUST-01221,Enterprise,Enterprise,Annual,APAC,0.6,1546.6,0.4,6,19,2,8,5,3,2022-03-11,0
+CUST-01222,SMB,Starter,Annual,LATAM,13.9,96.57,31.4,9,4,2,3,5,5,2022-03-19,0
+CUST-01223,SMB,Starter,Annual,LATAM,46.2,71.16,14.5,22,6,2,9,2,2,2021-08-08,0
+CUST-01224,Enterprise,Pro,Annual,LATAM,16.3,902.61,6.4,15,12,1,10,1,4,2022-01-25,0
+CUST-01225,SMB,Pro,Monthly,North America,64.1,116.33,10.9,6,18,1,5,5,2,2021-09-14,0
+CUST-01226,Mid-Market,Starter,Annual,North America,2.6,774.78,6.7,7,12,2,10,5,5,2021-09-11,0
+CUST-01227,SMB,Pro,Monthly,North America,15.1,166.87,7.5,5,18,1,2,5,3,2021-01-16,1
+CUST-01228,SMB,Starter,Annual,North America,28.8,94.72,26.1,14,3,2,9,3,4,2021-02-17,0
+CUST-01229,Enterprise,Pro,Annual,APAC,13.4,1810.6,2.1,6,10,1,8,5,3,2021-04-27,0
+CUST-01230,SMB,Starter,Monthly,APAC,1.7,111.72,1.3,19,7,1,8,4,5,2021-11-10,0
+CUST-01231,Enterprise,Enterprise,Annual,North America,15.7,2809.69,0.0,13,3,1,4,4,3,2021-07-23,0
+CUST-01232,SMB,Starter,Monthly,Europe,17.0,154.06,4.5,2,19,1,6,4,5,2021-01-05,0
+CUST-01233,SMB,Starter,Annual,LATAM,23.5,78.58,1.9,6,13,2,10,4,3,2021-09-04,0
+CUST-01234,SMB,Starter,Monthly,Europe,25.8,74.87,3.0,4,4,0,7,4,2,2021-12-28,0
+CUST-01235,Mid-Market,Pro,Monthly,North America,26.5,375.55,0.1,7,10,1,8,3,2,2021-07-28,0
+CUST-01236,SMB,Starter,Annual,Europe,19.6,99.19,3.1,11,6,2,10,4,5,2022-01-27,0
+CUST-01237,Enterprise,Pro,Annual,North America,4.4,1076.64,4.9,11,1,1,7,4,2,2021-06-19,0
+CUST-01238,SMB,Pro,Annual,Europe,9.3,109.12,0.4,21,6,2,6,4,3,2021-08-07,0
+CUST-01239,Enterprise,Enterprise,Annual,North America,26.9,2530.16,11.2,3,8,2,10,3,3,2021-03-21,0
+CUST-01240,SMB,Starter,Annual,North America,55.2,101.09,10.1,44,15,0,10,5,4,2021-01-21,0
+CUST-01241,Enterprise,Enterprise,Annual,LATAM,1.5,2113.69,1.2,6,8,2,6,5,5,2021-05-22,0
+CUST-01242,Mid-Market,Pro,Annual,Europe,13.8,923.16,10.8,5,6,0,8,5,2,2021-05-27,0
+CUST-01243,Mid-Market,Pro,Monthly,Europe,6.7,708.68,60.0,17,19,1,10,3,5,2021-03-26,0
+CUST-01244,Mid-Market,Enterprise,Annual,LATAM,4.6,392.2,34.7,25,14,2,1,3,2,2022-02-06,0
+CUST-01245,Mid-Market,Pro,Monthly,North America,12.7,395.02,0.0,7,2,2,0,5,4,2021-03-12,0
+CUST-01246,Mid-Market,Pro,Annual,North America,16.8,351.69,19.0,21,7,3,7,3,3,2021-07-22,0
+CUST-01247,SMB,Starter,Monthly,APAC,0.5,99.74,5.2,32,8,0,5,4,3,2021-01-19,0
+CUST-01248,SMB,Pro,Monthly,North America,27.3,53.62,0.8,22,10,0,8,3,1,2021-01-20,0
+CUST-01249,Enterprise,Enterprise,Annual,APAC,30.9,3084.85,4.2,1,13,2,9,4,5,2021-08-15,0
+CUST-01250,Mid-Market,Pro,Annual,North America,60.6,848.78,4.7,26,1,1,1,5,2,2021-11-30,0
+CUST-01251,Mid-Market,Pro,Annual,North America,3.6,351.78,8.9,22,9,2,10,5,1,2021-04-13,0
+CUST-01252,SMB,Pro,Monthly,Europe,16.2,74.28,13.0,17,10,0,5,5,5,2021-04-18,0
+CUST-01253,SMB,Starter,Monthly,North America,10.0,80.53,16.6,21,2,1,6,5,2,2021-08-24,0
+CUST-01254,SMB,Pro,Monthly,APAC,7.3,113.93,3.4,58,11,1,6,5,4,2021-10-04,0
+CUST-01255,Mid-Market,Enterprise,Monthly,Europe,15.0,951.79,4.7,8,5,1,9,4,5,2022-02-12,0
+CUST-01256,SMB,Starter,Monthly,LATAM,27.5,40.77,4.4,1,18,3,3,2,2,2021-04-13,0
+CUST-01257,SMB,Starter,Monthly,APAC,0.5,70.44,5.4,9,7,2,0,4,3,2022-04-16,0
+CUST-01258,SMB,Starter,Monthly,North America,62.8,71.92,60.0,1,3,0,10,3,5,2022-02-01,0
+CUST-01259,SMB,Pro,Monthly,APAC,29.9,45.68,18.1,5,16,1,10,5,2,2022-05-08,0
+CUST-01260,Mid-Market,Enterprise,Monthly,Europe,25.0,411.81,44.3,13,15,0,5,4,3,2021-11-16,0
+CUST-01261,SMB,Starter,Annual,Europe,25.7,94.93,14.2,6,8,0,0,5,3,2021-04-06,0
+CUST-01262,Mid-Market,Enterprise,Monthly,APAC,8.9,447.26,6.3,17,5,1,8,5,1,2021-02-22,0
+CUST-01263,SMB,Starter,Annual,Europe,25.1,43.13,5.9,26,3,3,8,4,2,2021-10-05,0
+CUST-01264,SMB,Starter,Annual,Europe,8.8,252.56,8.0,8,5,2,10,5,1,2021-04-13,1
+CUST-01265,SMB,Pro,Monthly,Europe,41.2,88.99,6.5,35,9,2,5,5,1,2021-11-27,0
+CUST-01266,SMB,Starter,Annual,North America,3.5,83.66,21.1,1,16,0,4,5,4,2022-01-14,0
+CUST-01267,SMB,Starter,Monthly,North America,6.2,51.57,7.5,27,14,1,8,5,1,2022-02-23,0
+CUST-01268,SMB,Starter,Annual,Europe,14.4,88.79,4.2,26,18,1,8,4,1,2021-06-01,0
+CUST-01269,Mid-Market,Enterprise,Annual,North America,6.9,468.21,17.9,6,7,2,9,5,4,2022-01-11,0
+CUST-01270,SMB,Starter,Annual,North America,9.9,37.59,23.1,5,15,2,10,4,4,2021-03-30,0
+CUST-01271,Mid-Market,Starter,Monthly,North America,12.2,325.87,6.5,5,8,2,8,5,5,2021-02-08,0
+CUST-01272,Enterprise,Pro,Multi-year,Europe,34.9,2748.67,13.2,25,3,4,3,5,1,2021-07-20,0
+CUST-01273,Mid-Market,Pro,Annual,North America,13.3,1088.13,0.7,27,11,2,8,2,3,2021-01-24,1
+CUST-01274,SMB,Starter,Monthly,APAC,8.1,92.66,9.0,6,18,2,6,5,4,2022-04-22,0
+CUST-01275,SMB,Starter,Annual,North America,5.1,124.37,0.6,13,15,4,7,5,2,2021-01-22,0
+CUST-01276,SMB,Pro,Monthly,Europe,9.5,75.17,0.4,2,10,1,10,4,5,2021-12-25,0
+CUST-01277,SMB,Starter,Monthly,North America,13.1,77.28,11.4,9,3,1,8,5,5,2021-10-20,0
+CUST-01278,Enterprise,Enterprise,Multi-year,Europe,24.7,3094.23,4.3,101,15,1,3,5,1,2021-12-12,1
+CUST-01279,SMB,Pro,Monthly,North America,2.3,155.58,16.3,3,6,0,7,1,3,2021-08-06,1
+CUST-01280,SMB,Starter,Annual,LATAM,4.5,134.62,27.2,44,11,1,4,5,4,2021-04-09,0
+CUST-01281,Mid-Market,Enterprise,Monthly,LATAM,8.6,326.38,1.8,26,11,1,3,4,2,2021-08-27,0
+CUST-01282,Mid-Market,Pro,Monthly,APAC,8.0,486.79,15.5,54,19,1,9,5,1,2022-04-05,0
+CUST-01283,Mid-Market,Starter,Annual,LATAM,8.9,558.7,8.7,3,3,2,8,4,3,2021-02-26,0
+CUST-01284,SMB,Starter,Monthly,North America,28.4,72.11,1.4,4,13,1,7,4,1,2021-12-10,0
+CUST-01285,SMB,Starter,Monthly,Europe,7.1,93.43,12.7,0,8,0,7,5,1,2021-09-19,0
+CUST-01286,SMB,Starter,Annual,Europe,12.5,111.08,11.3,19,11,2,6,4,5,2022-04-02,0
+CUST-01287,SMB,Starter,Annual,Europe,17.6,119.48,8.7,15,11,6,2,4,2,2022-02-06,0
+CUST-01288,SMB,Starter,Monthly,APAC,4.8,157.02,31.3,3,13,1,5,4,2,2021-10-10,1
+CUST-01289,SMB,Pro,Monthly,Europe,22.8,70.12,8.8,23,3,2,9,4,2,2021-09-09,0
+CUST-01290,SMB,Pro,Monthly,LATAM,14.3,46.36,55.9,5,6,2,9,4,2,2021-04-12,0
+CUST-01291,SMB,Pro,Monthly,North America,10.7,92.33,8.5,2,10,3,10,3,4,2022-03-26,0
+CUST-01292,SMB,Starter,Monthly,APAC,29.9,169.96,1.5,8,19,1,8,4,4,2022-05-13,0
+CUST-01293,Mid-Market,Starter,Annual,Europe,5.0,413.15,7.6,1,12,1,8,4,2,2022-02-21,0
+CUST-01294,Mid-Market,Starter,Annual,Europe,38.6,658.09,2.4,5,14,2,5,4,3,2021-10-08,0
+CUST-01295,Mid-Market,Pro,Monthly,North America,14.8,660.44,10.9,7,11,2,1,4,4,2021-01-16,1
+CUST-01296,SMB,Pro,Monthly,APAC,16.9,86.37,14.2,29,10,2,8,4,4,2021-03-31,0
+CUST-01297,SMB,Starter,Annual,LATAM,37.4,80.22,7.6,24,3,2,7,3,3,2021-01-08,0
+CUST-01298,SMB,Starter,Annual,North America,30.6,55.29,1.2,9,13,3,9,2,2,2021-05-06,0
+CUST-01299,Mid-Market,Pro,Annual,Europe,16.6,200.73,7.6,19,18,2,7,5,1,2021-03-31,0
+CUST-01300,Mid-Market,Starter,Monthly,North America,25.2,320.5,1.0,13,13,2,10,4,4,2021-10-13,0
+CUST-01301,SMB,Starter,Monthly,LATAM,10.2,68.44,13.8,6,14,2,6,4,1,2021-09-13,0
+CUST-01302,Enterprise,Enterprise,Annual,Europe,14.3,3102.21,18.7,19,14,7,6,2,1,2021-10-03,0
+CUST-01303,SMB,Starter,Monthly,North America,1.2,76.77,39.4,17,7,1,10,4,3,2021-06-23,0
+CUST-01304,SMB,Pro,Annual,North America,1.7,65.0,1.9,14,12,3,6,5,2,2021-06-14,1
+CUST-01305,Mid-Market,Pro,Monthly,Europe,31.8,350.1,9.1,14,4,2,10,4,1,2021-04-03,0
+CUST-01306,Enterprise,Enterprise,Annual,North America,1.1,2600.93,10.1,17,16,2,0,2,2,2021-08-24,0
+CUST-01307,Mid-Market,Pro,Annual,Europe,3.3,860.88,30.7,7,19,1,8,4,5,2022-02-07,0
+CUST-01308,Mid-Market,Pro,Monthly,LATAM,28.6,765.08,11.8,30,10,0,1,5,2,2021-05-22,0
+CUST-01309,SMB,Pro,Annual,APAC,0.5,101.95,1.9,3,16,2,3,4,3,2021-09-05,0
+CUST-01310,Mid-Market,Enterprise,Monthly,North America,6.0,277.1,6.9,32,5,4,9,4,3,2021-01-06,0
+CUST-01311,SMB,Pro,Monthly,LATAM,15.8,69.5,12.8,6,16,0,5,5,5,2021-03-29,0
+CUST-01312,Enterprise,Enterprise,Annual,Europe,16.3,4358.24,14.5,2,1,0,4,4,3,2021-09-25,0
+CUST-01313,SMB,Starter,Monthly,North America,27.0,125.31,23.9,14,5,1,9,5,2,2021-10-22,0
+CUST-01314,Mid-Market,Enterprise,Annual,North America,12.7,270.32,2.4,7,13,1,10,3,2,2022-04-12,0
+CUST-01315,SMB,Starter,Monthly,North America,12.8,78.24,36.3,25,13,0,4,3,2,2022-03-29,0
+CUST-01316,Mid-Market,Pro,Annual,APAC,23.3,578.16,0.7,8,3,0,6,4,3,2022-05-04,0
+CUST-01317,SMB,Starter,Monthly,North America,12.4,58.98,49.4,17,17,2,9,3,2,2022-04-01,0
+CUST-01318,Mid-Market,Enterprise,Annual,North America,16.9,198.53,23.4,6,19,3,9,1,4,2021-03-26,0
+CUST-01319,SMB,Starter,Annual,APAC,41.1,83.23,13.0,4,5,0,10,5,5,2021-08-02,0
+CUST-01320,SMB,Pro,Monthly,Europe,9.2,58.38,15.9,7,5,4,5,2,4,2021-08-12,0
+CUST-01321,SMB,Starter,Annual,APAC,8.8,58.47,0.9,14,15,2,8,5,2,2021-01-04,0
+CUST-01322,SMB,Starter,Monthly,Europe,0.5,69.42,0.5,16,10,2,3,4,3,2021-08-17,1
+CUST-01323,Enterprise,Enterprise,Multi-year,North America,17.1,1895.87,1.3,13,12,1,6,5,5,2022-05-04,0
+CUST-01324,SMB,Pro,Monthly,APAC,0.5,79.71,1.1,66,11,2,0,5,4,2021-07-21,1
+CUST-01325,Enterprise,Enterprise,Annual,North America,12.6,1404.32,9.5,18,1,1,4,4,2,2021-11-16,0
+CUST-01326,SMB,Starter,Monthly,Europe,29.4,73.25,2.9,40,3,2,7,4,3,2021-09-08,0
+CUST-01327,SMB,Starter,Monthly,Europe,14.4,39.61,23.6,2,4,1,3,5,2,2021-09-01,0
+CUST-01328,Mid-Market,Starter,Monthly,North America,5.7,566.24,7.1,1,19,1,10,2,4,2021-02-27,0
+CUST-01329,Mid-Market,Pro,Annual,LATAM,27.8,159.51,14.3,6,3,1,9,5,4,2022-01-22,0
+CUST-01330,SMB,Starter,Annual,Europe,5.7,71.25,12.7,2,18,0,0,5,5,2021-08-11,0
+CUST-01331,Mid-Market,Pro,Annual,North America,23.8,722.19,4.6,11,3,2,10,3,3,2021-09-29,0
+CUST-01332,Mid-Market,Pro,Monthly,LATAM,17.0,327.3,3.3,11,7,0,10,5,1,2022-05-06,0
+CUST-01333,SMB,Pro,Monthly,Europe,3.4,106.55,5.0,13,1,1,7,2,2,2021-01-09,0
+CUST-01334,Enterprise,Pro,Multi-year,Europe,42.4,3175.42,19.1,21,19,0,6,4,3,2021-07-30,0
+CUST-01335,Enterprise,Enterprise,Annual,Europe,4.0,532.58,10.6,53,18,3,5,4,1,2021-10-16,0
+CUST-01336,Mid-Market,Enterprise,Annual,APAC,72.0,470.63,3.5,32,2,2,2,4,3,2022-04-29,0
+CUST-01337,SMB,Starter,Annual,North America,0.5,25.32,20.4,2,12,1,7,4,2,2022-03-17,0
+CUST-01338,Mid-Market,Pro,Monthly,North America,5.5,476.91,0.7,6,17,4,1,3,2,2022-02-15,0
+CUST-01339,SMB,Starter,Monthly,Europe,4.0,79.77,14.4,4,3,1,7,5,5,2021-12-30,0
+CUST-01340,SMB,Starter,Monthly,North America,0.5,29.64,6.9,3,12,0,5,3,4,2021-07-24,0
+CUST-01341,SMB,Pro,Annual,Europe,23.7,172.77,15.8,12,12,2,7,4,4,2021-05-22,0
+CUST-01342,SMB,Starter,Monthly,North America,21.3,89.7,31.5,12,6,1,7,3,4,2021-12-04,0
+CUST-01343,Enterprise,Enterprise,Multi-year,North America,28.3,1424.1,16.6,4,10,1,5,3,5,2021-04-26,0
+CUST-01344,Mid-Market,Starter,Annual,North America,5.3,898.53,7.0,19,6,1,7,4,4,2021-05-03,0
+CUST-01345,Mid-Market,Enterprise,Annual,Europe,10.6,243.8,2.0,20,14,0,7,1,3,2021-07-03,0
+CUST-01346,SMB,Starter,Monthly,APAC,19.4,48.93,19.7,0,2,3,9,5,4,2021-12-05,0
+CUST-01347,SMB,Starter,Monthly,North America,10.4,31.89,7.4,8,11,3,8,4,4,2021-07-24,1
+CUST-01348,SMB,Starter,Monthly,Europe,21.5,164.42,0.9,33,15,0,7,5,2,2022-01-26,0
+CUST-01349,Enterprise,Enterprise,Multi-year,North America,18.1,2284.36,15.2,11,8,3,10,3,5,2021-05-07,0
+CUST-01350,SMB,Pro,Monthly,Europe,2.2,104.15,4.1,6,13,3,9,5,5,2021-11-29,1
+CUST-01351,Enterprise,Pro,Annual,North America,27.3,2255.9,0.6,4,19,0,1,4,4,2021-04-24,0
+CUST-01352,Mid-Market,Enterprise,Monthly,Europe,23.0,628.99,28.0,4,10,1,3,2,1,2021-11-09,0
+CUST-01353,SMB,Starter,Annual,Europe,19.2,82.54,7.9,2,9,1,2,5,2,2021-07-05,0
+CUST-01354,Mid-Market,Pro,Annual,LATAM,3.0,557.23,4.0,25,18,1,6,5,4,2022-02-12,0
+CUST-01355,SMB,Starter,Monthly,North America,5.6,83.52,15.1,1,7,3,7,3,1,2021-03-07,1
+CUST-01356,Enterprise,Pro,Multi-year,APAC,9.0,1567.86,26.0,5,3,3,7,5,3,2021-12-09,0
+CUST-01357,Enterprise,Enterprise,Multi-year,Europe,5.9,1963.05,0.0,1,12,0,10,5,2,2021-08-22,0
+CUST-01358,SMB,Pro,Annual,LATAM,4.7,89.25,14.0,23,15,3,0,4,5,2022-04-23,0
+CUST-01359,SMB,Starter,Annual,North America,29.5,83.62,17.5,1,13,0,7,3,1,2021-04-24,0
+CUST-01360,Mid-Market,Pro,Annual,North America,18.3,276.86,2.8,6,6,1,7,4,4,2021-02-25,0
+CUST-01361,Enterprise,Enterprise,Multi-year,APAC,15.0,1167.84,8.1,13,8,3,10,4,1,2021-06-02,0
+CUST-01362,SMB,Starter,Monthly,North America,4.6,123.37,1.1,8,14,3,5,3,5,2022-04-14,0
+CUST-01363,Mid-Market,Pro,Annual,North America,45.0,442.22,16.5,5,3,2,3,4,3,2021-09-30,0
+CUST-01364,Mid-Market,Pro,Annual,North America,3.8,631.75,22.6,5,16,1,3,1,1,2021-11-21,0
+CUST-01365,Mid-Market,Pro,Monthly,APAC,28.5,323.03,1.4,24,18,2,8,4,4,2021-07-04,0
+CUST-01366,SMB,Starter,Monthly,North America,61.2,44.38,20.3,55,17,2,6,3,1,2021-11-02,0
+CUST-01367,Mid-Market,Pro,Annual,APAC,23.4,356.8,17.7,6,18,1,9,3,3,2021-03-13,0
+CUST-01368,Enterprise,Pro,Multi-year,Europe,72.0,1829.64,5.1,1,10,2,6,2,1,2022-04-08,0
+CUST-01369,SMB,Starter,Annual,North America,19.0,61.31,14.1,1,17,2,3,4,3,2021-09-12,1
+CUST-01370,SMB,Pro,Monthly,North America,4.4,134.24,0.0,21,16,5,6,4,3,2021-12-21,1
+CUST-01371,Enterprise,Pro,Multi-year,North America,4.1,2148.9,32.2,12,2,6,10,5,2,2021-02-02,0
+CUST-01372,SMB,Starter,Monthly,Europe,7.1,167.6,9.6,23,4,1,7,5,2,2022-04-05,0
+CUST-01373,Enterprise,Pro,Annual,Europe,0.5,2351.16,11.6,18,11,0,9,2,4,2022-02-07,0
+CUST-01374,SMB,Starter,Monthly,Europe,20.6,30.48,13.1,36,7,1,6,3,4,2021-01-07,0
+CUST-01375,SMB,Starter,Monthly,North America,5.6,122.05,9.9,33,17,2,5,5,4,2021-05-29,1
+CUST-01376,Enterprise,Enterprise,Annual,Europe,30.4,1093.44,23.3,23,19,0,9,3,3,2021-05-24,0
+CUST-01377,SMB,Starter,Annual,APAC,8.0,87.73,11.3,10,6,2,4,1,3,2021-11-08,1
+CUST-01378,SMB,Starter,Annual,Europe,11.8,58.68,28.6,6,10,1,4,2,2,2022-04-24,0
+CUST-01379,SMB,Starter,Monthly,APAC,60.7,188.5,10.5,11,4,1,0,4,3,2022-04-15,0
+CUST-01380,Mid-Market,Pro,Monthly,North America,5.0,889.31,2.3,10,1,3,4,4,2,2022-01-26,0
+CUST-01381,SMB,Starter,Monthly,APAC,23.0,59.46,29.4,14,7,1,6,5,1,2022-01-13,0
+CUST-01382,SMB,Starter,Monthly,North America,25.3,76.03,13.7,3,16,3,6,4,4,2021-11-22,0
+CUST-01383,Enterprise,Pro,Multi-year,North America,4.5,2205.57,14.4,16,17,2,7,5,4,2022-03-16,0
+CUST-01384,SMB,Starter,Monthly,APAC,12.5,113.0,50.8,9,5,0,7,4,5,2021-05-06,0
+CUST-01385,Mid-Market,Pro,Monthly,LATAM,7.8,505.86,0.9,15,10,1,8,3,2,2021-11-16,0
+CUST-01386,SMB,Starter,Monthly,Europe,26.6,53.09,6.7,4,7,0,4,2,5,2021-11-23,0
+CUST-01387,Mid-Market,Pro,Monthly,North America,17.5,375.25,3.3,9,13,0,8,5,4,2021-11-01,0
+CUST-01388,SMB,Pro,Monthly,North America,11.6,79.86,11.9,4,7,1,6,3,5,2021-08-10,0
+CUST-01389,Enterprise,Pro,Annual,Europe,27.2,3277.01,19.7,31,15,3,9,2,1,2022-02-16,0
+CUST-01390,SMB,Starter,Monthly,APAC,4.8,94.93,40.7,10,17,0,8,3,5,2021-03-16,0
+CUST-01391,SMB,Starter,Monthly,North America,25.2,58.71,7.3,4,3,3,8,1,1,2022-03-05,1
+CUST-01392,SMB,Starter,Monthly,APAC,36.1,103.69,18.5,1,5,3,8,2,4,2021-07-15,0
+CUST-01393,SMB,Pro,Monthly,North America,38.0,68.53,29.9,17,10,1,6,4,3,2021-08-04,0
+CUST-01394,SMB,Starter,Annual,APAC,27.6,114.23,13.8,4,5,1,7,3,2,2022-04-13,0
+CUST-01395,SMB,Starter,Monthly,LATAM,9.4,219.82,3.3,68,7,0,8,4,5,2022-03-25,1
+CUST-01396,Mid-Market,Pro,Monthly,North America,72.0,433.15,11.2,11,7,1,7,5,1,2021-02-04,0
+CUST-01397,SMB,Starter,Monthly,North America,8.6,110.24,42.1,5,14,1,7,5,4,2021-04-26,0
+CUST-01398,SMB,Pro,Monthly,APAC,18.3,59.37,52.6,16,15,2,5,4,4,2021-08-31,0
+CUST-01399,Mid-Market,Pro,Monthly,Europe,3.2,478.04,12.3,5,5,0,5,4,3,2022-04-07,0
+CUST-01400,Mid-Market,Enterprise,Annual,Europe,70.8,505.95,26.2,26,5,1,8,2,4,2021-04-10,0
+CUST-01401,SMB,Starter,Annual,Europe,21.9,74.04,2.7,6,4,0,0,5,4,2022-04-28,1
+CUST-01402,SMB,Starter,Annual,North America,25.2,214.27,3.4,67,9,1,2,4,3,2021-07-25,0
+CUST-01403,SMB,Starter,Monthly,APAC,1.2,70.77,36.7,14,12,4,10,4,4,2022-03-22,1
+CUST-01404,Mid-Market,Pro,Annual,North America,25.9,632.29,1.7,28,16,4,4,5,1,2021-07-29,0
+CUST-01405,Mid-Market,Pro,Annual,LATAM,26.8,231.04,2.5,1,8,3,7,4,5,2021-06-14,0
+CUST-01406,SMB,Starter,Monthly,North America,20.1,95.09,6.5,6,9,1,9,4,5,2022-04-13,1
+CUST-01407,Mid-Market,Enterprise,Monthly,Europe,6.2,789.52,10.7,20,12,1,0,4,1,2022-03-15,0
+CUST-01408,Mid-Market,Pro,Annual,North America,12.1,404.87,11.1,16,7,3,10,4,5,2021-06-04,0
+CUST-01409,Mid-Market,Pro,Annual,North America,2.1,183.19,4.1,3,4,1,1,5,4,2021-01-15,0
+CUST-01410,Enterprise,Pro,Multi-year,North America,11.5,1969.32,30.4,7,3,1,3,4,5,2021-03-08,0
+CUST-01411,SMB,Starter,Monthly,Europe,5.0,80.55,29.6,5,1,2,0,1,5,2021-11-15,1
+CUST-01412,SMB,Starter,Monthly,Europe,7.7,106.87,6.0,14,7,1,7,4,4,2021-08-01,0
+CUST-01413,SMB,Starter,Monthly,APAC,3.2,178.82,6.8,6,9,0,10,5,5,2021-09-03,0
+CUST-01414,SMB,Pro,Monthly,North America,4.7,68.72,14.5,6,2,2,9,3,4,2022-03-23,1
+CUST-01415,SMB,Starter,Annual,Europe,1.4,56.8,13.1,3,7,4,8,5,3,2022-03-31,0
+CUST-01416,Enterprise,Enterprise,Annual,APAC,45.4,1254.05,5.8,8,10,2,4,4,3,2022-01-18,0
+CUST-01417,SMB,Starter,Monthly,North America,13.6,86.6,6.4,3,2,0,10,4,5,2022-01-22,0
+CUST-01418,SMB,Starter,Annual,North America,9.1,96.91,5.1,49,13,0,9,5,3,2022-04-03,0
+CUST-01419,SMB,Starter,Annual,Europe,13.8,64.31,3.2,3,3,1,5,5,5,2021-06-09,0
+CUST-01420,Enterprise,Pro,Multi-year,North America,17.8,2730.87,7.4,37,13,1,9,5,3,2021-12-05,0
+CUST-01421,SMB,Starter,Annual,North America,45.9,96.37,13.9,8,10,0,10,1,5,2022-02-05,0
+CUST-01422,SMB,Starter,Monthly,Europe,3.5,81.4,16.3,7,12,2,8,3,2,2021-03-13,0
+CUST-01423,SMB,Starter,Annual,North America,6.3,55.76,18.1,4,3,0,2,4,1,2021-06-11,0
+CUST-01424,SMB,Starter,Annual,Europe,67.0,65.98,5.6,15,6,0,10,5,3,2021-03-07,0
+CUST-01425,Enterprise,Enterprise,Multi-year,LATAM,8.4,756.73,17.4,17,3,2,1,5,4,2021-02-08,0
+CUST-01426,Enterprise,Enterprise,Multi-year,Europe,0.5,2197.81,0.1,9,2,1,8,3,1,2021-06-21,0
+CUST-01427,SMB,Starter,Monthly,Europe,2.9,80.85,7.8,1,14,1,2,3,5,2022-03-11,0
+CUST-01428,Enterprise,Enterprise,Multi-year,North America,0.5,2156.61,19.0,38,15,2,10,5,1,2022-03-23,0
+CUST-01429,Mid-Market,Pro,Monthly,APAC,72.0,611.76,11.9,59,18,1,6,4,4,2021-06-15,0
+CUST-01430,Enterprise,Enterprise,Multi-year,North America,5.9,2333.75,7.7,8,19,1,7,4,4,2021-04-16,0
+CUST-01431,SMB,Starter,Monthly,Europe,46.3,76.54,12.4,14,10,0,3,5,5,2021-04-10,0
+CUST-01432,SMB,Starter,Annual,LATAM,72.0,81.57,28.5,9,17,3,8,3,3,2021-05-24,0
+CUST-01433,SMB,Starter,Monthly,Europe,16.5,45.62,10.0,6,17,2,10,3,3,2021-06-04,0
+CUST-01434,Mid-Market,Starter,Annual,Europe,0.6,395.88,19.3,1,19,0,10,5,2,2021-11-10,0
+CUST-01435,SMB,Starter,Monthly,North America,1.5,81.63,47.4,9,4,2,1,2,4,2021-03-27,0
+CUST-01436,SMB,Pro,Annual,North America,11.8,59.6,14.7,26,11,1,6,2,2,2021-12-17,0
+CUST-01437,SMB,Starter,Monthly,APAC,9.4,112.85,10.2,0,17,2,5,3,4,2021-12-29,0
+CUST-01438,Mid-Market,Enterprise,Annual,North America,16.8,384.2,0.5,13,10,2,7,4,2,2021-06-05,0
+CUST-01439,SMB,Starter,Annual,Europe,10.4,87.23,5.6,32,17,1,9,3,3,2022-04-20,0
+CUST-01440,Mid-Market,Enterprise,Annual,North America,48.9,523.87,10.0,4,12,4,9,5,4,2021-05-11,0
+CUST-01441,Enterprise,Enterprise,Annual,APAC,13.8,2695.7,19.1,3,10,0,6,5,3,2022-01-21,0
+CUST-01442,SMB,Starter,Annual,North America,21.3,114.7,6.9,22,10,3,6,3,1,2022-03-11,0
+CUST-01443,Mid-Market,Starter,Monthly,Europe,40.8,659.99,38.6,4,6,3,8,5,3,2021-03-15,0
+CUST-01444,SMB,Starter,Annual,Europe,2.9,34.45,3.8,3,17,3,4,1,4,2022-03-01,1
+CUST-01445,Enterprise,Enterprise,Annual,Europe,4.7,3224.59,16.4,7,19,4,2,2,1,2021-08-27,0
+CUST-01446,SMB,Pro,Annual,North America,2.0,147.37,6.5,7,2,3,5,4,2,2022-03-02,1
+CUST-01447,Mid-Market,Pro,Annual,Europe,2.7,412.3,8.0,31,4,0,3,5,5,2021-03-09,0
+CUST-01448,Mid-Market,Pro,Annual,North America,12.9,549.64,19.5,14,18,1,6,5,4,2021-12-31,0
+CUST-01449,Enterprise,Enterprise,Annual,North America,7.0,1400.48,4.2,8,4,3,10,2,5,2021-05-09,0
+CUST-01450,Mid-Market,Starter,Annual,North America,9.9,229.35,1.2,11,6,2,3,3,5,2021-09-22,0
+CUST-01451,SMB,Starter,Annual,Europe,72.0,59.53,8.8,46,14,1,9,5,1,2021-04-01,0
+CUST-01452,Mid-Market,Pro,Annual,North America,3.1,402.85,9.0,2,7,0,8,3,2,2022-02-02,0
+CUST-01453,Enterprise,Enterprise,Annual,LATAM,14.0,1735.35,19.1,3,12,0,8,5,3,2021-05-31,0
+CUST-01454,Mid-Market,Pro,Annual,Europe,1.9,340.71,41.4,49,2,4,3,1,1,2021-05-01,0
+CUST-01455,SMB,Pro,Monthly,North America,6.9,59.66,0.7,47,18,0,3,4,2,2021-12-03,0
+CUST-01456,Enterprise,Pro,Annual,Europe,13.5,1991.21,10.7,3,13,1,3,4,3,2021-12-29,0
+CUST-01457,Mid-Market,Pro,Annual,APAC,52.7,367.42,13.7,2,13,2,8,4,3,2021-02-16,0
+CUST-01458,Mid-Market,Pro,Monthly,North America,8.9,621.43,51.1,8,5,0,9,5,2,2021-03-24,0
+CUST-01459,SMB,Starter,Annual,Europe,1.2,105.08,34.3,1,7,3,10,2,3,2021-06-10,0
+CUST-01460,Mid-Market,Enterprise,Annual,Europe,8.8,1295.64,15.0,16,12,1,6,4,4,2021-03-01,0
+CUST-01461,SMB,Starter,Annual,North America,2.8,125.5,8.9,1,14,1,7,4,4,2021-08-23,0
+CUST-01462,Mid-Market,Pro,Monthly,APAC,4.7,551.06,2.1,1,1,1,7,2,1,2021-04-05,0
+CUST-01463,SMB,Pro,Monthly,North America,17.3,62.42,5.8,10,10,0,5,2,3,2021-11-25,0
+CUST-01464,Mid-Market,Pro,Monthly,North America,1.3,562.34,10.6,47,9,1,6,3,3,2022-04-22,1
+CUST-01465,Enterprise,Pro,Multi-year,APAC,11.2,2279.11,15.5,8,10,0,9,3,2,2021-10-18,0
+CUST-01466,SMB,Starter,Monthly,Europe,16.9,65.15,12.1,7,7,2,6,5,4,2021-01-28,0
+CUST-01467,Enterprise,Enterprise,Multi-year,APAC,9.9,2736.39,15.0,93,16,0,10,4,5,2021-06-23,0
+CUST-01468,SMB,Starter,Annual,Europe,0.5,45.73,6.7,11,12,5,5,4,1,2021-09-02,0
+CUST-01469,Enterprise,Enterprise,Multi-year,Europe,72.0,1813.73,15.6,7,12,3,6,5,4,2021-04-12,0
+CUST-01470,Mid-Market,Pro,Annual,APAC,8.2,624.5,1.9,7,19,2,8,5,2,2021-10-05,0
+CUST-01471,Mid-Market,Pro,Monthly,North America,27.1,445.67,2.1,3,13,3,2,4,1,2022-01-04,0
+CUST-01472,Mid-Market,Pro,Monthly,APAC,7.1,460.31,2.1,11,18,0,10,4,5,2021-05-16,0
+CUST-01473,Enterprise,Enterprise,Multi-year,Europe,11.6,1892.75,26.6,9,3,4,9,4,1,2021-01-05,0
+CUST-01474,SMB,Starter,Monthly,North America,8.9,57.27,0.9,5,7,0,8,2,4,2022-04-24,1
+CUST-01475,SMB,Starter,Monthly,Europe,7.5,127.94,19.4,3,1,0,10,5,5,2021-05-21,0
+CUST-01476,Mid-Market,Pro,Monthly,North America,0.5,332.75,3.2,6,3,0,0,5,2,2021-11-27,0
+CUST-01477,Mid-Market,Pro,Annual,Europe,8.0,567.86,7.6,11,14,2,7,4,1,2021-01-31,0
+CUST-01478,Mid-Market,Pro,Annual,Europe,39.6,589.97,29.7,1,4,2,10,4,4,2021-06-01,0
+CUST-01479,Mid-Market,Pro,Monthly,LATAM,21.1,342.12,10.6,3,19,1,7,4,2,2022-02-15,0
+CUST-01480,SMB,Starter,Annual,North America,2.8,82.37,2.8,44,6,3,0,4,5,2021-06-17,0
+CUST-01481,Mid-Market,Enterprise,Annual,Europe,16.1,347.5,4.0,12,9,1,3,3,1,2022-04-15,0
+CUST-01482,SMB,Starter,Monthly,North America,40.1,139.55,30.4,1,11,1,7,4,3,2022-03-07,0
+CUST-01483,SMB,Starter,Monthly,Europe,21.7,50.73,6.7,18,15,0,8,5,4,2021-06-05,0
+CUST-01484,SMB,Starter,Monthly,Europe,2.9,61.59,10.6,1,9,4,3,4,4,2021-03-01,1
+CUST-01485,SMB,Starter,Annual,Europe,36.4,49.03,7.4,20,11,6,7,1,3,2022-05-07,0
+CUST-01486,SMB,Starter,Annual,APAC,6.5,46.48,5.7,21,10,5,0,4,2,2021-04-29,1
+CUST-01487,SMB,Starter,Monthly,APAC,10.9,151.19,3.0,16,2,0,7,4,4,2022-03-24,0
+CUST-01488,Mid-Market,Pro,Annual,North America,13.4,621.24,13.9,20,14,0,10,5,2,2021-12-08,0
+CUST-01489,SMB,Starter,Monthly,North America,34.2,84.62,15.2,1,4,0,8,5,5,2021-11-18,0
+CUST-01490,SMB,Pro,Monthly,Europe,48.3,61.52,3.9,19,2,2,7,4,3,2021-01-29,1
+CUST-01491,SMB,Starter,Annual,Europe,47.8,115.02,18.7,2,5,2,3,5,2,2021-06-13,0
+CUST-01492,SMB,Starter,Monthly,North America,0.5,57.53,23.1,6,14,1,4,5,5,2021-10-19,0
+CUST-01493,SMB,Starter,Monthly,Europe,45.9,109.89,30.4,43,15,3,1,5,1,2021-07-15,0
+CUST-01494,SMB,Starter,Monthly,North America,1.0,56.43,2.1,10,19,0,9,4,4,2021-07-12,0
+CUST-01495,Mid-Market,Pro,Annual,North America,5.6,386.37,4.3,51,6,1,1,4,3,2021-05-11,1
+CUST-01496,Mid-Market,Pro,Annual,APAC,13.0,677.17,23.6,1,15,1,6,4,1,2022-05-05,0
+CUST-01497,Mid-Market,Pro,Monthly,North America,11.8,706.37,2.7,10,14,3,9,4,1,2021-08-25,0
+CUST-01498,SMB,Pro,Monthly,North America,16.7,101.6,0.0,1,8,0,9,5,1,2021-10-31,0
+CUST-01499,SMB,Starter,Monthly,North America,11.8,52.57,24.6,15,12,2,8,3,2,2021-01-14,0
+CUST-01500,Enterprise,Enterprise,Annual,APAC,49.0,1672.73,4.7,1,4,7,8,5,4,2022-01-28,0
+CUST-01501,SMB,Starter,Monthly,LATAM,5.0,85.18,6.4,3,6,1,2,4,3,2021-06-25,0
+CUST-01502,SMB,Pro,Annual,Europe,5.8,56.96,7.1,4,11,1,3,3,4,2022-05-15,0
+CUST-01503,SMB,Starter,Monthly,North America,45.6,138.44,22.6,21,7,1,8,4,4,2021-07-13,1
+CUST-01504,SMB,Starter,Monthly,LATAM,1.4,30.61,4.9,3,4,1,6,3,4,2021-08-08,0
+CUST-01505,SMB,Starter,Monthly,Europe,16.9,58.59,26.7,28,15,0,0,2,5,2022-04-25,0
+CUST-01506,SMB,Pro,Annual,APAC,20.6,65.25,11.5,2,1,6,9,5,5,2022-04-30,0
+CUST-01507,Mid-Market,Pro,Annual,APAC,12.7,160.3,9.0,1,9,2,8,5,5,2022-05-14,0
+CUST-01508,SMB,Starter,Annual,North America,21.3,45.77,4.7,8,8,0,6,3,5,2021-12-06,0
+CUST-01509,Mid-Market,Pro,Monthly,Europe,3.4,642.09,3.4,58,12,1,2,5,4,2021-01-06,0
+CUST-01510,Mid-Market,Pro,Monthly,North America,34.5,506.09,11.7,2,7,1,8,1,4,2021-01-12,0
+CUST-01511,Mid-Market,Starter,Monthly,North America,2.7,938.11,7.1,2,18,2,6,4,3,2021-07-20,0
+CUST-01512,Mid-Market,Enterprise,Annual,APAC,9.2,927.69,29.0,21,1,1,5,1,3,2021-02-10,0
+CUST-01513,Enterprise,Enterprise,Annual,APAC,1.4,2378.25,8.1,6,9,2,9,3,3,2021-06-12,0
+CUST-01514,SMB,Starter,Annual,Europe,14.2,90.68,8.6,19,7,0,6,3,3,2021-08-18,0
+CUST-01515,SMB,Starter,Monthly,Europe,19.9,82.14,6.5,3,14,1,3,5,3,2021-11-29,0
+CUST-01516,SMB,Pro,Monthly,North America,51.0,27.66,18.7,9,1,1,7,5,5,2022-02-19,0
+CUST-01517,Mid-Market,Enterprise,Annual,North America,24.2,286.23,6.6,5,13,2,9,5,4,2021-12-07,0
+CUST-01518,Enterprise,Enterprise,Multi-year,North America,14.0,2082.18,3.8,9,15,1,9,4,3,2021-02-16,0
+CUST-01519,SMB,Pro,Monthly,Europe,48.6,102.35,23.8,22,5,2,9,5,2,2021-10-02,0
+CUST-01520,Enterprise,Pro,Annual,Europe,11.7,2245.7,10.9,22,5,0,7,4,3,2021-08-27,0
+CUST-01521,SMB,Starter,Monthly,North America,14.8,55.98,10.7,11,14,0,9,4,3,2022-05-06,1
+CUST-01522,Enterprise,Enterprise,Multi-year,LATAM,16.3,2909.87,11.3,40,14,1,10,5,4,2022-04-18,0
+CUST-01523,SMB,Starter,Monthly,North America,9.5,144.75,15.2,5,14,0,7,5,5,2022-03-15,0
+CUST-01524,SMB,Pro,Annual,APAC,32.8,116.42,4.5,4,5,3,6,1,1,2021-04-30,0
+CUST-01525,SMB,Starter,Monthly,Europe,3.7,118.85,0.4,14,11,2,9,4,4,2021-05-13,0
+CUST-01526,SMB,Starter,Annual,North America,14.6,63.97,20.0,15,19,4,10,4,5,2021-03-31,0
+CUST-01527,SMB,Starter,Annual,APAC,23.1,123.03,1.7,1,5,2,10,4,2,2022-04-27,0
+CUST-01528,SMB,Starter,Monthly,Europe,42.2,84.8,15.4,14,4,2,5,4,1,2022-01-10,0
+CUST-01529,Mid-Market,Pro,Annual,Europe,38.8,613.53,1.0,7,15,0,10,4,5,2022-04-26,0
+CUST-01530,SMB,Starter,Monthly,Europe,12.8,92.59,5.6,21,7,2,7,1,5,2021-01-31,0
+CUST-01531,SMB,Starter,Annual,North America,18.5,76.21,0.8,25,5,1,5,4,4,2021-02-09,0
+CUST-01532,Mid-Market,Starter,Monthly,Europe,9.0,354.46,8.9,12,15,2,10,4,5,2021-12-29,0
+CUST-01533,Mid-Market,Pro,Annual,LATAM,11.4,483.84,12.7,0,14,1,10,4,3,2021-07-19,0
+CUST-01534,SMB,Starter,Monthly,North America,42.6,118.72,2.3,15,3,1,8,5,5,2022-05-05,0
+CUST-01535,SMB,Pro,Monthly,North America,48.0,67.05,5.6,21,5,1,10,4,1,2022-04-07,1
+CUST-01536,SMB,Pro,Monthly,LATAM,40.6,114.36,32.0,4,12,2,8,1,5,2021-09-02,1
+CUST-01537,SMB,Pro,Monthly,North America,2.7,107.43,7.0,9,14,0,7,4,2,2021-01-09,1
+CUST-01538,Mid-Market,Enterprise,Annual,Europe,34.2,443.65,19.5,51,5,1,10,3,3,2022-05-02,0
+CUST-01539,SMB,Starter,Annual,Europe,53.3,139.43,31.4,5,4,2,10,3,1,2022-02-01,0
+CUST-01540,SMB,Starter,Monthly,Europe,8.1,69.39,44.0,4,16,3,6,4,1,2022-05-03,0
+CUST-01541,Mid-Market,Starter,Annual,North America,13.2,914.55,27.4,4,7,0,6,5,4,2022-02-25,0
+CUST-01542,SMB,Starter,Annual,North America,27.2,95.17,4.6,12,3,1,6,4,4,2021-03-31,0
+CUST-01543,Mid-Market,Enterprise,Annual,North America,14.9,496.84,39.4,45,4,0,9,5,3,2021-02-09,0
+CUST-01544,SMB,Pro,Annual,Europe,72.0,56.09,20.1,14,6,1,9,4,1,2021-06-21,0
+CUST-01545,Enterprise,Enterprise,Annual,Europe,10.9,1930.62,21.8,5,3,2,10,3,2,2021-02-24,0
+CUST-01546,SMB,Starter,Annual,Europe,22.5,73.74,0.2,15,1,2,7,3,5,2022-03-26,0
+CUST-01547,Mid-Market,Starter,Annual,Europe,28.3,302.26,37.0,15,3,4,9,5,5,2021-08-12,0
+CUST-01548,Mid-Market,Starter,Annual,North America,12.3,458.32,18.1,14,8,2,10,4,5,2021-11-20,0
+CUST-01549,SMB,Pro,Annual,North America,35.0,58.0,17.5,3,16,1,4,4,4,2021-06-14,0
+CUST-01550,Mid-Market,Starter,Annual,APAC,14.2,632.07,1.0,15,7,3,8,2,1,2021-05-06,0
+CUST-01551,Enterprise,Enterprise,Annual,Europe,9.5,3372.52,3.2,8,18,1,8,5,1,2021-03-09,0
+CUST-01552,Mid-Market,Pro,Annual,North America,2.1,306.08,39.3,0,9,2,9,5,2,2022-02-18,0
+CUST-01553,Mid-Market,Enterprise,Annual,North America,9.0,991.81,8.3,12,3,1,8,4,4,2021-10-14,0
+CUST-01554,Enterprise,Enterprise,Multi-year,North America,23.8,1899.76,6.1,68,18,3,9,5,2,2022-04-09,0
+CUST-01555,SMB,Starter,Annual,North America,45.8,54.16,22.0,6,16,2,6,4,1,2022-01-23,0
+CUST-01556,SMB,Starter,Monthly,APAC,5.2,108.32,1.1,51,1,1,4,2,5,2021-08-31,0
+CUST-01557,Mid-Market,Starter,Annual,LATAM,7.9,418.23,6.5,2,16,0,9,5,4,2021-09-29,0
+CUST-01558,SMB,Starter,Annual,APAC,3.0,77.43,5.7,20,12,1,6,5,4,2021-08-09,0
+CUST-01559,Mid-Market,Pro,Monthly,LATAM,21.1,425.34,5.2,2,6,2,5,4,4,2021-01-17,1
+CUST-01560,Enterprise,Enterprise,Multi-year,LATAM,58.0,1442.61,4.4,5,9,2,6,3,5,2021-03-06,0
+CUST-01561,SMB,Pro,Monthly,Europe,18.4,106.87,2.8,13,13,1,1,3,4,2021-07-24,1
+CUST-01562,SMB,Starter,Monthly,North America,17.3,71.34,2.3,13,12,0,9,5,3,2021-09-12,0
+CUST-01563,Mid-Market,Pro,Annual,APAC,14.5,281.45,12.3,22,13,1,9,4,4,2021-03-23,0
+CUST-01564,SMB,Pro,Monthly,North America,1.7,99.73,30.2,14,18,0,8,5,5,2022-04-06,0
+CUST-01565,Mid-Market,Enterprise,Annual,North America,23.5,308.7,8.5,14,19,1,9,4,4,2021-02-01,0
+CUST-01566,SMB,Pro,Monthly,North America,16.6,50.44,4.2,37,19,2,6,4,3,2021-08-21,1
+CUST-01567,Mid-Market,Pro,Monthly,Europe,19.5,805.65,2.1,9,19,3,5,3,3,2022-01-07,0
+CUST-01568,SMB,Starter,Monthly,North America,41.2,49.58,21.3,4,6,1,10,1,4,2021-06-24,0
+CUST-01569,Mid-Market,Enterprise,Monthly,North America,27.6,197.95,42.7,3,16,2,7,4,1,2021-08-02,0
+CUST-01570,SMB,Starter,Annual,Europe,27.3,102.63,5.2,8,7,0,4,5,1,2022-04-27,0
+CUST-01571,Mid-Market,Enterprise,Monthly,APAC,47.2,442.78,4.1,19,7,2,9,3,2,2021-01-30,1
+CUST-01572,SMB,Starter,Monthly,Europe,72.0,73.33,11.0,1,19,0,6,4,3,2021-12-03,0
+CUST-01573,Mid-Market,Enterprise,Monthly,APAC,15.7,440.9,17.9,2,16,2,4,5,1,2022-02-07,0
+CUST-01574,Enterprise,Enterprise,Annual,North America,2.1,2194.19,7.3,2,17,2,0,4,2,2022-02-13,0
+CUST-01575,SMB,Starter,Monthly,North America,11.1,59.2,11.9,13,19,0,10,4,1,2021-06-10,1
+CUST-01576,SMB,Starter,Annual,Europe,27.9,144.38,15.1,4,16,2,7,5,4,2021-01-01,0
+CUST-01577,SMB,Starter,Monthly,Europe,0.5,44.32,38.8,3,16,1,3,5,3,2022-02-06,0
+CUST-01578,Mid-Market,Enterprise,Annual,Europe,1.1,597.38,2.2,13,19,2,9,4,1,2021-05-28,0
+CUST-01579,Mid-Market,Enterprise,Annual,APAC,1.3,646.42,60.0,21,15,3,10,5,4,2022-04-07,0
+CUST-01580,SMB,Pro,Annual,APAC,23.6,59.04,6.0,6,3,3,8,4,2,2021-04-15,0
+CUST-01581,SMB,Starter,Monthly,LATAM,12.5,53.12,15.4,13,15,3,0,5,4,2021-07-09,0
+CUST-01582,SMB,Starter,Monthly,North America,8.3,120.17,10.2,2,16,1,6,2,2,2021-11-17,0
+CUST-01583,Mid-Market,Enterprise,Annual,North America,2.0,336.39,8.0,41,5,2,5,4,1,2022-02-01,1
+CUST-01584,SMB,Starter,Annual,Europe,23.7,62.76,14.4,6,19,2,8,1,5,2021-03-28,1
+CUST-01585,Enterprise,Enterprise,Multi-year,North America,7.0,2852.14,6.0,90,10,0,7,4,4,2022-04-17,0
+CUST-01586,SMB,Starter,Monthly,North America,5.5,81.12,1.6,58,13,2,6,2,5,2021-03-24,1
+CUST-01587,Mid-Market,Pro,Annual,North America,19.0,243.65,8.1,23,15,2,8,5,3,2021-12-22,0
+CUST-01588,SMB,Pro,Monthly,North America,14.7,160.91,8.9,0,12,2,8,5,5,2021-11-14,1
+CUST-01589,SMB,Starter,Monthly,North America,8.1,64.72,2.7,12,17,2,10,5,3,2021-02-28,0
+CUST-01590,Mid-Market,Pro,Annual,North America,18.5,425.6,32.9,1,15,2,8,4,1,2022-01-29,0
+CUST-01591,Mid-Market,Pro,Annual,Europe,5.7,553.87,3.1,34,4,1,7,5,1,2021-10-30,0
+CUST-01592,Enterprise,Pro,Annual,Europe,28.5,2568.13,6.3,23,15,0,9,5,4,2021-12-12,0
+CUST-01593,SMB,Pro,Annual,Europe,4.7,175.29,2.0,54,17,0,4,4,5,2021-05-27,0
+CUST-01594,SMB,Pro,Annual,Europe,3.1,41.18,9.2,14,11,0,5,4,3,2021-01-20,0
+CUST-01595,Mid-Market,Pro,Annual,North America,27.5,695.75,4.4,11,15,1,9,4,3,2021-12-22,0
+CUST-01596,Mid-Market,Pro,Annual,North America,22.2,673.04,8.1,11,7,4,7,1,5,2021-06-08,0
+CUST-01597,SMB,Starter,Monthly,North America,3.6,75.73,3.1,7,13,2,7,5,1,2022-04-10,0
+CUST-01598,SMB,Starter,Monthly,APAC,2.2,109.61,0.7,9,13,2,10,4,1,2022-01-02,1
+CUST-01599,SMB,Pro,Monthly,Europe,32.8,116.25,18.1,15,2,1,8,4,3,2021-08-07,0
+CUST-01600,Enterprise,Enterprise,Annual,North America,27.0,1150.69,12.3,41,10,1,9,5,4,2021-08-22,0
+CUST-01601,SMB,Starter,Monthly,North America,7.1,161.09,5.0,14,18,2,9,4,1,2021-12-02,0
+CUST-01602,SMB,Starter,Monthly,LATAM,19.3,42.88,0.6,29,5,0,3,3,2,2022-03-11,1
+CUST-01603,SMB,Starter,Monthly,Europe,2.4,50.8,24.1,30,19,1,8,2,3,2021-08-16,0
+CUST-01604,SMB,Pro,Monthly,APAC,12.7,72.05,2.2,11,2,9,10,4,5,2021-04-20,0
+CUST-01605,SMB,Starter,Monthly,North America,0.5,172.78,32.0,6,4,0,7,1,5,2021-04-07,0
+CUST-01606,SMB,Starter,Monthly,North America,8.9,70.72,7.8,15,16,2,9,5,3,2022-01-17,0
+CUST-01607,SMB,Starter,Monthly,APAC,1.4,78.98,5.0,9,16,3,8,4,3,2021-01-29,0
+CUST-01608,Mid-Market,Enterprise,Monthly,Europe,11.6,886.64,16.2,1,17,1,4,4,1,2022-04-20,0
+CUST-01609,SMB,Starter,Monthly,Europe,9.9,70.94,25.1,7,15,1,4,3,3,2021-04-06,0
+CUST-01610,SMB,Starter,Monthly,Europe,10.6,49.93,5.6,77,13,0,7,3,3,2021-10-31,1
+CUST-01611,Enterprise,Enterprise,Multi-year,Europe,0.8,1692.58,6.3,1,1,0,7,5,2,2021-06-17,0
+CUST-01612,Mid-Market,Pro,Monthly,Europe,8.1,865.17,6.8,18,5,2,7,3,5,2021-01-03,0
+CUST-01613,SMB,Pro,Monthly,North America,25.4,82.3,30.7,28,1,2,10,5,1,2022-01-09,0
+CUST-01614,SMB,Starter,Monthly,North America,8.3,173.17,14.2,16,12,3,2,3,4,2022-01-06,1
+CUST-01615,SMB,Starter,Monthly,APAC,22.6,107.47,3.4,13,15,2,6,4,1,2021-09-10,1
+CUST-01616,Mid-Market,Enterprise,Annual,North America,8.3,386.33,2.5,18,4,4,7,4,5,2022-05-15,0
+CUST-01617,Enterprise,Enterprise,Multi-year,Europe,9.9,2041.28,3.1,8,19,1,10,4,4,2021-01-11,0
+CUST-01618,Mid-Market,Pro,Monthly,Europe,14.9,355.43,3.7,1,16,5,7,5,3,2021-03-08,0
+CUST-01619,Mid-Market,Pro,Annual,LATAM,54.2,382.69,3.1,49,18,2,9,4,2,2021-11-29,0
+CUST-01620,Mid-Market,Starter,Monthly,North America,2.1,2999.62,12.9,8,17,3,9,5,2,2022-04-07,0
+CUST-01621,SMB,Pro,Monthly,North America,0.6,120.24,1.5,16,11,1,8,3,5,2021-11-05,1
+CUST-01622,SMB,Starter,Monthly,APAC,16.9,112.9,5.9,11,13,3,3,4,5,2021-10-12,0
+CUST-01623,Mid-Market,Enterprise,Monthly,APAC,53.6,389.68,11.8,1,9,3,4,3,2,2021-04-17,0
+CUST-01624,Enterprise,Enterprise,Multi-year,Europe,72.0,3747.09,4.1,46,17,0,5,4,4,2021-01-24,0
+CUST-01625,SMB,Starter,Monthly,Europe,11.9,124.19,0.8,24,17,0,0,4,4,2021-02-09,1
+CUST-01626,Mid-Market,Enterprise,Monthly,North America,11.4,1061.31,1.0,2,5,2,6,4,1,2021-05-22,0
+CUST-01627,SMB,Pro,Monthly,Europe,18.6,166.55,1.6,60,8,3,8,5,3,2021-12-09,1
+CUST-01628,SMB,Starter,Monthly,APAC,14.6,44.27,21.7,20,3,0,3,5,4,2022-04-21,1
+CUST-01629,SMB,Pro,Annual,APAC,18.1,51.32,12.9,10,6,3,3,5,3,2021-04-02,0
+CUST-01630,SMB,Pro,Annual,North America,37.3,53.54,0.8,14,3,0,9,3,5,2022-01-29,0
+CUST-01631,Mid-Market,Pro,Annual,North America,24.7,342.76,6.0,2,8,2,3,4,4,2021-02-21,0
+CUST-01632,SMB,Starter,Monthly,Europe,12.4,91.05,3.9,12,12,2,3,4,4,2022-02-28,0
+CUST-01633,Mid-Market,Starter,Annual,LATAM,11.2,398.57,10.4,1,4,2,10,3,4,2021-03-10,0
+CUST-01634,Mid-Market,Starter,Annual,Europe,18.4,1145.56,8.9,12,2,1,0,4,1,2021-10-15,0
+CUST-01635,Enterprise,Pro,Annual,North America,10.9,4284.57,7.9,12,10,3,6,3,5,2022-03-01,0
+CUST-01636,SMB,Starter,Annual,North America,11.0,79.79,4.5,31,15,2,0,5,2,2022-04-23,0
+CUST-01637,SMB,Starter,Annual,Europe,0.5,174.89,1.8,19,13,2,9,5,1,2022-03-06,0
+CUST-01638,SMB,Starter,Monthly,North America,3.4,145.08,16.3,4,15,4,8,5,1,2021-07-23,0
+CUST-01639,Enterprise,Pro,Annual,APAC,12.1,1670.07,25.4,33,19,1,0,5,4,2022-04-21,0
+CUST-01640,Enterprise,Pro,Annual,APAC,31.1,895.35,34.6,13,18,5,8,5,1,2021-03-14,1
+CUST-01641,SMB,Starter,Monthly,Europe,5.9,73.32,0.7,14,13,1,3,3,2,2021-01-12,1
+CUST-01642,Mid-Market,Enterprise,Annual,North America,13.3,386.36,16.2,3,1,1,7,5,1,2022-02-12,0
+CUST-01643,SMB,Starter,Monthly,APAC,7.6,86.89,15.6,29,16,1,8,1,1,2022-01-07,0
+CUST-01644,Mid-Market,Pro,Annual,North America,2.0,518.17,35.3,40,8,2,3,2,4,2021-04-07,0
+CUST-01645,SMB,Starter,Monthly,North America,57.2,82.04,3.5,22,6,0,7,1,5,2022-01-18,0
+CUST-01646,Mid-Market,Pro,Monthly,LATAM,34.7,616.51,16.3,42,3,1,7,3,2,2021-08-25,0
+CUST-01647,SMB,Starter,Annual,APAC,1.5,49.26,0.7,5,16,3,10,5,4,2022-02-28,0
+CUST-01648,Mid-Market,Pro,Annual,APAC,22.9,589.43,12.0,30,2,2,10,5,1,2021-07-09,0
+CUST-01649,Mid-Market,Pro,Monthly,North America,7.7,419.37,5.2,10,2,1,8,3,2,2021-01-15,0
+CUST-01650,Mid-Market,Pro,Annual,North America,72.0,541.64,17.6,3,15,2,10,2,3,2022-01-11,0
+CUST-01651,SMB,Starter,Monthly,North America,6.5,117.33,23.9,17,10,0,8,3,1,2021-08-09,0
+CUST-01652,SMB,Starter,Monthly,North America,4.9,49.02,5.4,17,1,3,10,4,5,2021-03-10,1
+CUST-01653,SMB,Starter,Monthly,APAC,15.1,71.49,8.9,5,15,2,7,4,1,2021-05-28,0
+CUST-01654,SMB,Pro,Monthly,North America,32.4,76.3,1.5,0,1,0,8,5,5,2022-03-31,0
+CUST-01655,SMB,Pro,Monthly,Europe,3.8,65.13,6.5,3,16,2,9,3,3,2021-06-08,0
+CUST-01656,Enterprise,Pro,Multi-year,North America,22.2,2866.46,5.4,8,18,4,10,5,4,2021-07-17,0
+CUST-01657,Mid-Market,Pro,Annual,North America,1.1,374.82,2.4,3,5,3,0,1,4,2021-07-22,1
+CUST-01658,SMB,Starter,Monthly,LATAM,45.2,64.06,27.0,3,5,1,2,4,4,2021-01-26,0
+CUST-01659,SMB,Starter,Monthly,North America,1.5,60.22,1.9,7,10,1,10,3,2,2022-04-20,1
+CUST-01660,SMB,Starter,Monthly,North America,44.2,123.82,12.1,49,12,2,8,4,5,2022-02-11,1
+CUST-01661,Mid-Market,Starter,Annual,North America,12.1,410.6,26.5,22,10,1,10,2,1,2022-03-29,0
+CUST-01662,SMB,Starter,Monthly,North America,10.7,96.16,29.2,6,2,1,9,5,2,2021-07-13,0
+CUST-01663,Enterprise,Pro,Annual,Europe,65.2,4408.04,18.9,45,1,1,9,3,2,2021-09-21,0
+CUST-01664,SMB,Starter,Annual,North America,72.0,77.64,2.3,16,16,0,6,4,1,2022-01-13,0
+CUST-01665,Enterprise,Enterprise,Annual,Europe,18.9,3120.43,20.4,9,18,2,5,1,3,2021-03-02,0
+CUST-01666,Enterprise,Enterprise,Multi-year,APAC,2.4,3902.78,3.9,9,7,2,8,4,4,2021-12-29,0
+CUST-01667,SMB,Starter,Monthly,Europe,12.7,120.65,30.7,8,4,2,10,3,3,2021-04-23,0
+CUST-01668,Enterprise,Pro,Annual,North America,13.6,1986.6,14.8,4,10,1,9,5,3,2021-02-06,0
+CUST-01669,SMB,Pro,Annual,Europe,13.0,103.43,18.5,7,10,1,7,1,4,2022-03-19,0
+CUST-01670,Mid-Market,Pro,Monthly,North America,15.2,298.76,1.1,11,11,2,9,4,3,2021-07-18,0
+CUST-01671,SMB,Pro,Monthly,Europe,0.5,58.56,10.5,11,3,0,8,4,2,2021-06-11,0
+CUST-01672,Enterprise,Pro,Multi-year,Europe,22.4,1570.32,20.7,22,14,1,10,5,1,2021-01-23,0
+CUST-01673,Enterprise,Enterprise,Annual,North America,22.4,4900.77,23.7,7,13,3,5,2,2,2022-02-19,0
+CUST-01674,Mid-Market,Pro,Annual,APAC,2.2,361.25,0.3,19,19,3,2,5,2,2021-06-26,1
+CUST-01675,Mid-Market,Enterprise,Monthly,LATAM,15.2,359.11,33.6,13,10,3,7,4,5,2021-04-16,0
+CUST-01676,SMB,Starter,Monthly,APAC,15.1,52.69,0.5,49,15,4,6,4,4,2022-02-16,0
+CUST-01677,SMB,Pro,Monthly,North America,20.6,100.08,11.4,7,8,3,10,3,4,2021-11-16,0
+CUST-01678,SMB,Pro,Annual,Europe,1.6,84.7,14.2,35,17,0,0,4,2,2022-04-21,1
+CUST-01679,SMB,Starter,Monthly,LATAM,17.7,123.56,1.4,26,6,0,10,4,4,2021-07-23,0
+CUST-01680,Mid-Market,Starter,Monthly,North America,5.9,654.0,0.6,15,7,4,10,3,5,2022-05-09,0
+CUST-01681,SMB,Pro,Annual,APAC,12.7,46.06,18.4,16,14,3,1,3,1,2021-09-20,0
+CUST-01682,Enterprise,Pro,Annual,North America,26.7,1448.08,5.8,1,8,1,10,5,3,2022-01-08,0
+CUST-01683,Mid-Market,Enterprise,Annual,North America,22.0,863.28,1.4,45,12,1,7,3,4,2021-10-29,0
+CUST-01684,Mid-Market,Pro,Monthly,APAC,2.3,460.95,17.3,2,18,1,9,3,2,2021-07-03,0
+CUST-01685,SMB,Starter,Annual,APAC,16.1,128.65,22.7,12,14,3,1,4,4,2022-02-22,0
+CUST-01686,Enterprise,Enterprise,Annual,APAC,62.6,1883.77,10.6,6,1,3,10,3,2,2021-12-21,0
+CUST-01687,Enterprise,Enterprise,Annual,LATAM,3.1,1358.1,2.1,8,4,3,8,4,3,2021-07-27,0
+CUST-01688,SMB,Starter,Annual,North America,34.5,70.86,0.2,14,17,2,10,4,4,2021-04-22,0
+CUST-01689,Mid-Market,Starter,Monthly,North America,21.8,339.47,14.5,36,18,1,8,3,3,2021-11-05,0
+CUST-01690,Mid-Market,Pro,Annual,LATAM,26.8,398.77,9.6,9,19,4,8,4,2,2021-08-09,0
+CUST-01691,SMB,Starter,Monthly,North America,6.0,86.7,12.6,66,4,0,3,3,5,2021-10-12,0
+CUST-01692,SMB,Pro,Monthly,Europe,6.1,98.17,20.1,13,6,1,3,4,5,2021-03-11,0
+CUST-01693,SMB,Starter,Annual,Europe,42.6,42.35,6.8,3,8,2,7,5,1,2021-09-03,0
+CUST-01694,SMB,Starter,Monthly,North America,8.0,79.45,1.6,3,15,0,10,4,2,2021-03-24,0
+CUST-01695,SMB,Pro,Monthly,North America,1.2,63.27,33.8,19,1,1,2,5,2,2021-04-15,1
+CUST-01696,SMB,Starter,Monthly,Europe,16.5,61.72,9.5,1,5,1,10,4,2,2021-12-25,0
+CUST-01697,SMB,Starter,Annual,APAC,2.4,84.36,11.5,10,16,1,10,5,5,2021-09-16,0
+CUST-01698,SMB,Starter,Monthly,Europe,28.7,64.19,32.5,2,6,0,6,5,5,2021-04-05,0
+CUST-01699,Enterprise,Enterprise,Multi-year,Europe,18.5,3476.42,32.2,9,10,1,5,1,5,2021-12-26,0
+CUST-01700,SMB,Starter,Monthly,Europe,37.4,128.67,10.2,21,10,0,10,4,4,2021-10-30,0
+CUST-01701,Enterprise,Enterprise,Multi-year,North America,27.7,3208.74,4.2,9,5,2,3,5,4,2022-01-21,0
+CUST-01702,SMB,Pro,Annual,North America,2.1,65.63,60.0,3,8,0,6,4,5,2021-08-23,0
+CUST-01703,SMB,Starter,Annual,North America,8.6,54.44,13.7,4,1,0,2,2,3,2021-10-08,0
+CUST-01704,SMB,Starter,Monthly,North America,26.8,82.67,6.3,7,5,2,10,3,4,2022-03-30,0
+CUST-01705,SMB,Starter,Monthly,North America,9.7,75.33,9.8,1,1,1,8,4,4,2021-12-25,0
+CUST-01706,SMB,Starter,Monthly,North America,64.6,62.71,6.5,13,7,1,6,5,4,2021-03-26,0
+CUST-01707,Mid-Market,Enterprise,Annual,North America,24.0,312.41,26.3,14,15,2,5,4,4,2021-06-29,0
+CUST-01708,SMB,Pro,Monthly,North America,0.5,78.68,7.9,1,14,1,7,4,1,2021-06-05,0
+CUST-01709,Mid-Market,Pro,Annual,Europe,38.2,425.38,20.8,8,9,0,2,4,4,2021-07-22,0
+CUST-01710,Mid-Market,Enterprise,Annual,Europe,1.9,658.49,22.0,8,8,3,10,2,3,2021-06-18,0
+CUST-01711,SMB,Starter,Monthly,North America,2.7,104.38,20.9,6,8,2,7,2,1,2022-03-29,0
+CUST-01712,SMB,Starter,Monthly,LATAM,23.9,124.26,15.4,12,3,1,9,4,4,2021-02-12,0
+CUST-01713,Mid-Market,Pro,Annual,North America,36.0,302.14,23.2,6,4,3,4,3,2,2021-05-29,0
+CUST-01714,SMB,Starter,Monthly,APAC,13.8,93.92,5.9,8,17,4,7,2,1,2021-02-13,0
+CUST-01715,SMB,Starter,Monthly,North America,6.1,59.8,1.5,24,6,3,4,3,4,2021-10-31,0
+CUST-01716,Enterprise,Enterprise,Annual,APAC,7.8,1227.5,22.2,3,2,2,9,5,3,2022-03-14,0
+CUST-01717,SMB,Starter,Monthly,North America,7.6,67.4,8.3,14,9,2,9,2,5,2021-11-14,0
+CUST-01718,Mid-Market,Pro,Annual,APAC,7.1,766.7,1.6,11,14,4,3,4,4,2021-10-21,0
+CUST-01719,Enterprise,Enterprise,Annual,North America,5.0,1723.26,1.5,5,1,3,1,5,2,2021-04-08,0
+CUST-01720,SMB,Pro,Monthly,Europe,16.9,149.64,2.1,20,17,2,9,3,3,2021-07-25,0
+CUST-01721,SMB,Starter,Monthly,North America,41.5,99.64,16.7,12,11,4,2,4,1,2021-02-12,0
+CUST-01722,SMB,Pro,Annual,North America,6.6,68.33,14.9,10,6,1,8,5,3,2022-03-28,0
+CUST-01723,SMB,Starter,Monthly,APAC,3.7,127.24,2.7,17,1,2,8,5,4,2021-06-07,0
+CUST-01724,SMB,Pro,Monthly,North America,32.8,95.6,22.5,24,19,0,4,5,2,2021-10-14,0
+CUST-01725,Mid-Market,Starter,Annual,LATAM,24.4,344.32,4.0,54,16,1,8,4,3,2021-11-07,0
+CUST-01726,SMB,Starter,Annual,North America,48.1,168.27,18.9,15,18,0,7,5,3,2021-03-01,0
+CUST-01727,SMB,Starter,Annual,Europe,3.3,88.75,8.1,31,11,1,7,3,5,2021-10-13,0
+CUST-01728,Enterprise,Pro,Annual,Europe,2.8,2015.09,15.8,0,9,3,6,5,5,2021-06-18,0
+CUST-01729,Mid-Market,Starter,Monthly,North America,14.0,355.1,5.8,11,6,3,9,5,4,2022-01-16,0
+CUST-01730,Mid-Market,Enterprise,Monthly,North America,17.2,801.45,5.1,4,2,2,2,4,1,2021-08-26,0
+CUST-01731,SMB,Starter,Monthly,APAC,11.8,98.39,22.1,1,8,0,7,4,1,2022-05-10,1
+CUST-01732,Mid-Market,Pro,Monthly,APAC,16.4,643.1,0.4,11,16,2,5,5,2,2021-06-03,0
+CUST-01733,SMB,Starter,Annual,LATAM,3.6,65.3,44.1,21,8,1,9,4,4,2021-10-20,0
+CUST-01734,SMB,Pro,Annual,North America,11.8,111.68,12.5,8,8,0,4,4,1,2021-09-28,0
+CUST-01735,SMB,Starter,Annual,Europe,19.3,115.21,6.8,17,14,2,9,5,3,2021-10-13,0
+CUST-01736,Enterprise,Enterprise,Multi-year,North America,10.2,1530.56,11.9,10,1,2,8,2,4,2021-04-09,0
+CUST-01737,SMB,Pro,Annual,North America,20.5,45.39,1.6,9,7,1,10,5,3,2022-03-23,0
+CUST-01738,SMB,Starter,Annual,APAC,10.8,100.95,8.7,5,2,1,8,5,2,2021-11-24,0
+CUST-01739,SMB,Starter,Monthly,North America,7.3,42.64,50.5,7,15,2,8,5,4,2021-07-31,0
+CUST-01740,SMB,Starter,Annual,North America,6.5,85.02,3.2,6,18,1,9,2,2,2021-09-25,0
+CUST-01741,Mid-Market,Enterprise,Monthly,North America,9.5,418.1,15.4,16,4,0,8,3,5,2021-01-27,0
+CUST-01742,Mid-Market,Pro,Annual,Europe,0.5,814.09,6.9,2,18,4,9,5,2,2021-06-28,0
+CUST-01743,Mid-Market,Enterprise,Monthly,LATAM,19.9,427.29,12.7,1,5,4,0,2,5,2021-06-20,0
+CUST-01744,SMB,Starter,Annual,Europe,33.6,124.58,2.8,16,16,2,7,4,4,2021-03-03,0
+CUST-01745,SMB,Starter,Monthly,Europe,7.9,65.13,7.6,12,13,1,9,5,3,2021-09-28,0
+CUST-01746,SMB,Starter,Monthly,APAC,0.8,119.35,47.0,8,9,1,9,3,3,2021-07-28,1
+CUST-01747,SMB,Starter,Annual,Europe,72.0,182.39,2.6,2,5,0,9,5,3,2021-01-25,0
+CUST-01748,SMB,Pro,Annual,North America,5.5,52.19,12.1,8,8,1,8,2,2,2021-10-18,0
+CUST-01749,Mid-Market,Enterprise,Monthly,North America,2.4,561.96,10.3,23,18,2,10,4,4,2021-05-06,0
+CUST-01750,SMB,Starter,Monthly,North America,8.3,240.22,10.0,33,3,5,4,4,4,2021-04-12,1
+CUST-01751,SMB,Starter,Monthly,Europe,24.1,82.16,11.5,18,6,1,3,4,5,2021-05-14,0
+CUST-01752,SMB,Starter,Monthly,APAC,6.3,82.0,8.4,1,11,0,0,5,4,2021-10-27,0
+CUST-01753,SMB,Starter,Monthly,North America,15.4,109.66,0.2,17,14,3,10,2,3,2022-01-19,0
+CUST-01754,SMB,Starter,Monthly,North America,9.7,81.33,27.6,4,19,1,6,4,4,2021-11-06,0
+CUST-01755,Enterprise,Pro,Annual,LATAM,2.3,1010.31,21.1,6,7,2,9,4,5,2022-04-21,0
+CUST-01756,Mid-Market,Pro,Annual,APAC,7.2,786.45,2.3,3,10,3,1,4,4,2021-02-12,0
+CUST-01757,Enterprise,Pro,Annual,Europe,23.2,897.6,6.4,22,15,1,5,4,4,2022-02-04,0
+CUST-01758,SMB,Pro,Annual,North America,17.0,67.72,17.7,16,6,2,8,5,3,2021-02-11,0
+CUST-01759,SMB,Pro,Monthly,North America,2.3,129.67,47.0,14,6,2,8,5,4,2021-12-01,0
+CUST-01760,SMB,Starter,Monthly,North America,3.2,69.37,36.2,17,16,1,4,1,2,2021-05-27,0
+CUST-01761,SMB,Starter,Monthly,North America,18.4,60.62,27.6,4,9,0,7,5,5,2021-02-17,0
+CUST-01762,Mid-Market,Enterprise,Monthly,North America,30.2,710.74,2.1,9,19,1,2,4,5,2021-03-04,0
+CUST-01763,SMB,Starter,Monthly,Europe,7.7,56.92,29.5,15,18,2,8,5,5,2021-09-19,0
+CUST-01764,SMB,Pro,Annual,North America,16.3,49.06,25.3,15,5,1,2,2,4,2021-10-09,0
+CUST-01765,SMB,Starter,Annual,North America,3.4,89.28,5.7,24,16,1,8,5,2,2021-08-13,0
+CUST-01766,SMB,Starter,Monthly,North America,6.7,74.36,6.0,5,7,1,3,5,5,2021-04-25,0
+CUST-01767,Mid-Market,Pro,Monthly,Europe,0.5,304.03,7.4,22,19,1,8,5,1,2021-11-25,0
+CUST-01768,SMB,Starter,Monthly,Europe,26.3,103.21,12.8,9,5,2,3,4,3,2021-07-12,0
+CUST-01769,SMB,Starter,Annual,Europe,9.2,96.33,3.6,17,11,1,7,4,1,2021-02-02,0
+CUST-01770,SMB,Pro,Monthly,North America,30.5,69.28,0.3,9,18,1,6,4,1,2021-10-09,0
+CUST-01771,SMB,Starter,Monthly,North America,22.2,71.2,1.8,45,7,2,9,4,5,2021-07-05,0
+CUST-01772,Mid-Market,Pro,Monthly,North America,31.8,603.51,7.0,3,18,1,8,4,1,2021-01-27,0
+CUST-01773,Enterprise,Enterprise,Annual,North America,6.1,3219.71,4.0,17,3,3,10,4,1,2022-04-29,0
+CUST-01774,Enterprise,Enterprise,Annual,APAC,3.7,1786.09,17.4,13,5,2,10,4,2,2021-01-23,0
+CUST-01775,Mid-Market,Starter,Annual,LATAM,64.3,649.68,1.4,3,13,1,9,4,3,2021-06-26,0
+CUST-01776,SMB,Starter,Annual,Europe,22.7,100.29,29.9,1,16,2,9,1,4,2021-03-29,0
+CUST-01777,Mid-Market,Pro,Monthly,LATAM,32.3,710.76,27.1,24,12,0,8,4,5,2021-02-07,0
+CUST-01778,SMB,Pro,Monthly,Europe,0.5,81.27,28.7,3,7,1,8,4,5,2021-03-17,0
+CUST-01779,SMB,Pro,Annual,North America,7.9,55.54,16.1,3,13,1,8,3,1,2021-10-27,0
+CUST-01780,Mid-Market,Pro,Annual,LATAM,24.4,415.55,1.4,58,1,2,6,5,4,2022-04-16,0
+CUST-01781,SMB,Starter,Annual,North America,1.5,91.76,6.9,19,15,2,6,4,4,2022-02-18,0
+CUST-01782,Enterprise,Enterprise,Annual,Europe,15.1,4139.33,1.7,4,12,0,8,5,4,2021-09-13,0
+CUST-01783,SMB,Pro,Monthly,North America,10.1,65.92,52.8,13,17,1,9,2,5,2021-10-27,0
+CUST-01784,Mid-Market,Starter,Annual,North America,0.5,689.88,4.9,11,5,2,7,5,5,2021-05-09,0
+CUST-01785,Mid-Market,Starter,Annual,Europe,4.8,438.51,10.6,28,17,0,3,5,2,2021-01-12,0
+CUST-01786,Enterprise,Pro,Multi-year,North America,6.0,2090.36,18.1,20,15,1,7,4,5,2021-04-11,0
+CUST-01787,Mid-Market,Pro,Annual,North America,2.1,916.69,30.4,27,19,1,10,4,5,2021-04-18,0
+CUST-01788,Mid-Market,Enterprise,Annual,North America,18.0,678.8,16.9,4,1,1,4,4,2,2022-03-02,0
+CUST-01789,SMB,Starter,Annual,North America,5.0,48.69,13.5,15,4,2,8,4,5,2021-12-21,0
+CUST-01790,SMB,Starter,Annual,LATAM,5.9,63.63,7.5,1,3,0,10,2,1,2021-03-11,0
+CUST-01791,SMB,Starter,Monthly,APAC,41.1,132.23,11.2,1,8,2,6,5,1,2021-02-26,0
+CUST-01792,Mid-Market,Pro,Monthly,Europe,11.3,529.2,1.2,19,9,0,10,4,2,2022-05-10,0
+CUST-01793,SMB,Starter,Monthly,North America,9.0,50.53,25.8,0,12,3,10,5,2,2022-04-25,0
+CUST-01794,Mid-Market,Enterprise,Monthly,APAC,23.2,360.33,9.4,13,5,1,6,4,1,2021-03-01,0
+CUST-01795,SMB,Pro,Annual,North America,43.3,106.0,0.5,28,9,3,2,3,4,2021-07-10,0
+CUST-01796,SMB,Starter,Annual,North America,0.5,119.08,30.3,7,1,1,3,2,5,2021-11-11,0
+CUST-01797,Mid-Market,Starter,Monthly,North America,10.7,503.58,8.1,1,11,1,6,3,3,2021-10-04,0
+CUST-01798,SMB,Starter,Monthly,APAC,17.0,215.33,24.4,19,7,0,10,5,3,2021-08-13,0
+CUST-01799,SMB,Starter,Annual,North America,6.9,111.24,23.3,40,14,1,5,5,2,2022-01-29,0
+CUST-01800,SMB,Starter,Annual,North America,26.6,72.58,20.3,19,3,0,10,5,3,2022-02-11,0
+CUST-01801,Enterprise,Pro,Multi-year,Europe,64.0,1443.2,0.8,13,11,5,4,5,4,2021-03-27,0
+CUST-01802,Mid-Market,Starter,Annual,North America,51.7,338.54,3.4,4,17,0,10,2,3,2021-12-18,0
+CUST-01803,SMB,Pro,Annual,Europe,5.6,91.49,25.0,0,18,1,5,3,1,2022-01-21,0
+CUST-01804,SMB,Starter,Monthly,Europe,4.6,65.79,27.5,18,19,1,8,5,2,2021-03-19,0
+CUST-01805,SMB,Starter,Annual,North America,56.8,156.26,7.4,4,18,1,1,4,3,2021-05-11,0
+CUST-01806,Mid-Market,Starter,Monthly,North America,11.0,898.86,7.0,29,6,1,5,4,5,2021-01-15,0
+CUST-01807,Mid-Market,Pro,Annual,North America,4.2,644.09,2.3,9,15,0,4,4,2,2021-11-18,0
+CUST-01808,SMB,Pro,Monthly,APAC,22.1,49.92,41.5,11,7,3,0,5,4,2021-08-05,1
+CUST-01809,SMB,Starter,Monthly,APAC,6.0,61.14,2.9,21,5,2,3,4,1,2021-11-30,0
+CUST-01810,SMB,Starter,Monthly,North America,5.6,132.2,2.5,23,5,4,8,5,3,2022-01-23,0
+CUST-01811,Mid-Market,Starter,Annual,North America,38.1,399.17,13.0,15,7,0,6,5,1,2022-03-10,0
+CUST-01812,Mid-Market,Enterprise,Annual,North America,3.2,783.26,3.3,42,12,1,9,4,4,2021-08-28,1
+CUST-01813,SMB,Starter,Monthly,Europe,1.2,96.72,33.5,61,8,0,8,4,3,2022-04-11,0
+CUST-01814,SMB,Starter,Monthly,Europe,5.6,81.67,0.1,44,18,0,9,4,2,2021-10-01,0
+CUST-01815,SMB,Starter,Monthly,North America,16.8,60.39,0.1,26,18,1,10,3,2,2021-11-24,0
+CUST-01816,Enterprise,Enterprise,Multi-year,Europe,2.4,1926.01,8.4,18,17,2,9,5,5,2021-02-05,0
+CUST-01817,SMB,Starter,Monthly,Europe,11.5,86.3,8.0,16,11,1,7,2,4,2022-01-01,0
+CUST-01818,Mid-Market,Pro,Monthly,LATAM,17.8,755.68,2.1,2,15,0,5,5,3,2021-08-17,0
+CUST-01819,Mid-Market,Enterprise,Annual,North America,34.0,350.83,8.2,5,6,3,7,4,1,2021-06-03,0
+CUST-01820,SMB,Starter,Monthly,North America,4.7,72.02,6.4,0,12,4,8,5,1,2021-08-08,1
+CUST-01821,SMB,Starter,Monthly,North America,30.6,81.45,26.5,2,7,3,6,3,3,2021-06-25,1
+CUST-01822,SMB,Starter,Monthly,APAC,4.8,104.28,0.1,9,8,0,8,5,4,2021-02-22,0
+CUST-01823,Mid-Market,Pro,Annual,APAC,20.3,347.66,44.9,2,4,0,2,4,4,2022-03-15,0
+CUST-01824,Mid-Market,Pro,Annual,Europe,10.1,295.3,11.8,35,3,2,4,5,1,2021-04-01,0
+CUST-01825,Mid-Market,Starter,Annual,North America,2.2,654.71,2.0,25,3,3,9,3,3,2022-04-19,0
+CUST-01826,SMB,Pro,Monthly,North America,22.5,43.59,0.6,1,10,0,4,4,3,2021-05-02,0
+CUST-01827,SMB,Pro,Monthly,North America,4.4,133.76,9.3,4,15,1,3,4,1,2021-12-09,1
+CUST-01828,Enterprise,Enterprise,Multi-year,Europe,3.5,1879.07,3.2,26,13,1,5,4,3,2022-01-11,0
+CUST-01829,Mid-Market,Pro,Monthly,North America,8.0,269.24,4.3,24,19,0,6,3,3,2022-01-06,0
+CUST-01830,SMB,Starter,Monthly,North America,19.1,66.01,3.4,44,8,3,6,5,2,2022-03-20,0
+CUST-01831,Enterprise,Enterprise,Annual,Europe,4.8,2327.5,12.6,90,18,1,6,2,2,2022-01-01,0
+CUST-01832,Mid-Market,Pro,Annual,North America,3.7,404.05,9.7,56,5,4,3,3,5,2021-04-12,0
+CUST-01833,Mid-Market,Enterprise,Annual,Europe,0.5,504.02,1.0,8,7,1,3,4,5,2022-04-17,0
+CUST-01834,Mid-Market,Pro,Annual,North America,11.5,672.26,9.0,4,5,2,4,5,4,2021-09-27,0
+CUST-01835,Mid-Market,Pro,Annual,APAC,10.1,461.15,18.8,21,19,1,7,4,2,2021-02-19,0
+CUST-01836,Mid-Market,Pro,Monthly,Europe,4.8,343.71,1.0,5,17,0,6,4,2,2021-03-05,0
+CUST-01837,SMB,Starter,Annual,LATAM,1.0,70.98,26.5,25,19,1,9,4,2,2021-10-10,0
+CUST-01838,SMB,Starter,Annual,Europe,10.1,140.89,10.4,11,4,2,8,5,2,2021-12-02,0
+CUST-01839,Enterprise,Enterprise,Multi-year,LATAM,27.9,3924.24,36.1,24,7,2,8,1,4,2021-03-08,0
+CUST-01840,SMB,Pro,Annual,APAC,22.6,35.66,1.9,5,6,1,8,1,1,2021-07-26,0
+CUST-01841,SMB,Starter,Monthly,Europe,35.5,123.77,60.0,11,14,1,6,1,4,2022-02-11,0
+CUST-01842,SMB,Starter,Monthly,LATAM,0.5,88.42,12.4,12,19,1,10,4,1,2021-02-25,0
+CUST-01843,SMB,Starter,Monthly,North America,61.1,115.77,10.1,43,11,1,0,4,5,2021-08-11,0
+CUST-01844,Mid-Market,Starter,Annual,North America,7.5,401.18,8.7,5,7,0,4,4,2,2021-08-18,0
+CUST-01845,Enterprise,Pro,Annual,North America,72.0,985.94,0.3,41,3,2,5,5,1,2021-05-30,0
+CUST-01846,SMB,Starter,Monthly,Europe,5.2,101.07,33.7,25,17,0,10,3,4,2021-09-17,0
+CUST-01847,SMB,Pro,Annual,Europe,11.5,54.91,12.4,20,11,0,10,3,1,2021-04-08,0
+CUST-01848,SMB,Starter,Monthly,APAC,7.9,45.91,1.2,23,15,2,9,3,3,2022-05-12,0
+CUST-01849,Enterprise,Enterprise,Multi-year,North America,7.9,1180.32,0.3,14,7,3,7,3,5,2022-03-28,0
+CUST-01850,Mid-Market,Pro,Annual,North America,33.2,635.86,0.6,4,15,1,10,3,5,2021-10-03,0
+CUST-01851,SMB,Starter,Monthly,North America,24.7,84.59,11.3,3,17,1,2,4,2,2021-11-22,0
+CUST-01852,Mid-Market,Enterprise,Annual,Europe,72.0,683.75,11.4,30,11,2,8,4,2,2021-06-30,0
+CUST-01853,Enterprise,Enterprise,Annual,North America,17.1,2613.73,8.3,19,12,1,10,5,4,2021-05-04,0
+CUST-01854,Mid-Market,Enterprise,Annual,LATAM,11.2,422.52,4.4,4,13,3,9,4,1,2021-03-18,0
+CUST-01855,Enterprise,Enterprise,Multi-year,North America,1.7,1944.41,9.1,14,11,1,5,3,3,2022-03-24,0
+CUST-01856,SMB,Starter,Annual,North America,72.0,65.2,8.7,9,11,0,9,4,5,2021-02-03,0
+CUST-01857,Mid-Market,Starter,Annual,APAC,14.4,459.66,0.2,3,9,4,5,4,1,2021-06-19,1
+CUST-01858,SMB,Starter,Annual,Europe,21.7,54.33,4.0,11,11,1,2,5,3,2021-01-07,0
+CUST-01859,Mid-Market,Starter,Annual,North America,9.4,584.53,0.7,5,4,1,9,5,1,2021-06-14,0
+CUST-01860,Mid-Market,Pro,Annual,Europe,14.3,768.67,27.6,2,2,0,3,4,2,2022-02-26,0
+CUST-01861,Mid-Market,Pro,Annual,North America,51.4,360.67,15.5,9,4,1,2,4,5,2021-02-17,0
+CUST-01862,Mid-Market,Pro,Monthly,LATAM,3.3,834.74,60.0,13,14,1,8,4,3,2021-10-04,0
+CUST-01863,SMB,Starter,Monthly,Europe,6.2,83.72,4.3,1,5,2,8,4,2,2021-09-15,1
+CUST-01864,SMB,Starter,Annual,North America,3.0,88.1,25.3,8,17,1,1,5,4,2022-02-05,0
+CUST-01865,Enterprise,Pro,Multi-year,Europe,28.3,1013.47,11.1,4,12,2,0,4,4,2022-01-31,0
+CUST-01866,Enterprise,Enterprise,Annual,North America,1.2,970.68,7.2,0,6,2,10,4,2,2021-04-10,0
+CUST-01867,SMB,Starter,Annual,APAC,1.5,84.75,3.0,2,12,2,2,4,3,2021-02-23,1
+CUST-01868,SMB,Starter,Monthly,LATAM,6.4,109.72,16.1,2,15,1,8,5,3,2022-01-09,0
+CUST-01869,SMB,Starter,Monthly,APAC,13.0,61.16,28.1,3,19,3,10,3,5,2021-02-07,0
+CUST-01870,Mid-Market,Pro,Annual,North America,9.4,975.2,3.2,24,10,3,7,4,2,2021-05-09,0
+CUST-01871,Mid-Market,Pro,Annual,North America,0.8,670.87,2.3,9,2,1,3,4,4,2022-01-28,0
+CUST-01872,SMB,Starter,Monthly,North America,56.8,55.63,14.3,2,12,3,6,3,2,2022-03-30,0
+CUST-01873,SMB,Pro,Monthly,Europe,55.0,80.99,45.3,2,12,3,8,4,1,2021-02-28,0
+CUST-01874,Mid-Market,Enterprise,Annual,Europe,5.9,1346.66,16.6,5,7,0,9,4,3,2021-10-07,0
+CUST-01875,Mid-Market,Pro,Annual,Europe,23.7,304.17,4.0,24,1,2,8,3,1,2021-09-29,0
+CUST-01876,SMB,Starter,Monthly,LATAM,15.6,98.82,6.5,7,18,2,0,4,4,2021-08-15,0
+CUST-01877,Mid-Market,Enterprise,Annual,North America,4.9,439.44,5.8,3,3,1,3,4,3,2021-01-10,0
+CUST-01878,SMB,Starter,Monthly,North America,5.5,106.14,22.9,8,5,0,6,1,4,2022-05-06,1
+CUST-01879,SMB,Starter,Annual,North America,12.2,132.81,17.7,12,15,1,9,5,4,2021-12-04,0
+CUST-01880,Mid-Market,Pro,Annual,North America,9.8,428.42,10.7,0,10,0,8,4,4,2021-08-28,0
+CUST-01881,Mid-Market,Pro,Annual,North America,6.2,782.25,3.9,15,19,1,0,4,5,2021-11-06,0
+CUST-01882,Enterprise,Enterprise,Multi-year,Europe,29.7,4862.87,33.4,8,1,2,9,4,4,2021-02-24,0
+CUST-01883,Mid-Market,Pro,Monthly,North America,11.8,513.43,12.7,0,7,1,8,4,4,2022-01-15,0
+CUST-01884,Mid-Market,Enterprise,Monthly,North America,19.1,684.41,42.3,17,18,3,10,4,1,2021-12-14,0
+CUST-01885,SMB,Starter,Monthly,APAC,3.8,63.17,10.4,19,2,2,7,4,1,2022-01-07,0
+CUST-01886,SMB,Pro,Annual,North America,13.7,80.62,20.7,15,19,1,7,5,1,2021-09-15,0
+CUST-01887,SMB,Starter,Annual,Europe,6.9,74.54,20.1,6,10,1,7,5,3,2021-08-20,0
+CUST-01888,SMB,Starter,Monthly,North America,13.5,110.04,4.9,11,15,3,9,4,5,2022-03-04,0
+CUST-01889,Mid-Market,Enterprise,Annual,Europe,27.3,809.55,39.9,7,10,0,9,2,3,2021-07-08,0
+CUST-01890,Enterprise,Enterprise,Annual,LATAM,26.4,1914.17,0.3,18,10,3,9,4,5,2022-03-13,0
+CUST-01891,SMB,Starter,Annual,North America,7.9,147.74,17.6,13,12,0,5,4,5,2021-10-02,0
+CUST-01892,SMB,Starter,Annual,Europe,21.3,147.53,40.4,1,8,1,8,3,2,2022-04-02,0
+CUST-01893,Mid-Market,Pro,Monthly,APAC,51.0,701.59,5.0,15,14,3,6,1,2,2022-04-04,0
+CUST-01894,SMB,Starter,Annual,Europe,17.7,65.08,12.5,17,2,2,9,4,2,2021-08-02,0
+CUST-01895,Mid-Market,Pro,Monthly,North America,2.9,391.46,9.9,7,17,2,1,3,5,2021-05-02,0
+CUST-01896,Mid-Market,Pro,Monthly,North America,20.5,361.28,17.2,31,6,3,0,4,5,2021-06-22,1
+CUST-01897,Mid-Market,Enterprise,Monthly,Europe,2.0,730.9,24.1,28,8,1,2,5,3,2021-12-07,0
+CUST-01898,SMB,Starter,Monthly,APAC,37.0,49.27,11.1,3,1,4,4,4,5,2021-03-03,0
+CUST-01899,SMB,Starter,Annual,North America,13.1,104.87,20.3,35,3,1,0,5,4,2021-04-29,1
+CUST-01900,Mid-Market,Pro,Monthly,North America,8.8,324.46,4.5,9,15,0,1,3,4,2021-07-01,0
+CUST-01901,Mid-Market,Pro,Monthly,North America,1.1,695.08,3.1,19,17,5,5,3,5,2021-08-29,0
+CUST-01902,SMB,Starter,Annual,North America,8.6,80.55,6.8,25,7,0,2,4,4,2021-07-28,0
+CUST-01903,Mid-Market,Starter,Annual,North America,42.0,852.41,13.6,11,14,1,9,5,5,2022-02-19,0
+CUST-01904,SMB,Pro,Annual,North America,0.5,126.29,2.5,8,3,0,1,5,2,2021-11-17,0
+CUST-01905,Mid-Market,Starter,Annual,North America,11.6,887.7,13.7,37,18,0,10,5,5,2021-04-16,0
+CUST-01906,SMB,Pro,Monthly,North America,48.2,143.5,6.0,4,5,3,10,5,2,2021-05-27,0
+CUST-01907,Enterprise,Enterprise,Multi-year,LATAM,9.0,2118.27,19.1,4,15,3,4,5,1,2021-09-16,0
+CUST-01908,SMB,Pro,Monthly,North America,10.1,50.33,0.5,7,6,3,1,5,4,2022-04-12,0
+CUST-01909,SMB,Starter,Annual,North America,15.6,52.51,13.2,29,3,3,2,5,1,2022-01-09,0
+CUST-01910,SMB,Starter,Monthly,North America,11.2,34.72,12.6,42,18,1,8,1,4,2022-03-25,1
+CUST-01911,SMB,Pro,Annual,LATAM,3.3,51.86,33.9,4,3,2,8,5,1,2021-04-03,0
+CUST-01912,Enterprise,Pro,Multi-year,APAC,0.5,2055.82,15.0,30,8,2,6,3,5,2022-03-21,0
+CUST-01913,Enterprise,Pro,Annual,APAC,16.9,1598.85,19.1,4,19,1,5,5,1,2021-01-01,0
+CUST-01914,SMB,Starter,Annual,North America,45.6,74.44,28.2,53,18,1,8,3,4,2021-03-21,0
+CUST-01915,SMB,Starter,Monthly,APAC,2.0,97.43,13.5,14,15,3,5,4,3,2022-02-02,0
+CUST-01916,Mid-Market,Starter,Annual,North America,4.3,442.74,4.1,0,14,2,10,5,4,2021-10-02,0
+CUST-01917,Enterprise,Enterprise,Annual,North America,8.3,1276.87,24.5,1,16,1,6,2,3,2021-04-26,0
+CUST-01918,Mid-Market,Pro,Annual,Europe,29.8,489.47,16.5,2,3,2,4,5,5,2021-10-09,0
+CUST-01919,SMB,Starter,Annual,APAC,5.6,55.85,6.6,3,15,2,3,4,4,2022-02-09,0
+CUST-01920,SMB,Starter,Monthly,APAC,38.5,71.79,14.9,22,19,0,8,1,1,2021-10-11,0
+CUST-01921,Mid-Market,Starter,Annual,APAC,1.0,855.53,24.3,4,8,3,6,5,5,2021-01-12,0
+CUST-01922,SMB,Pro,Monthly,LATAM,50.9,71.8,44.6,52,2,1,4,2,4,2021-03-25,0
+CUST-01923,Mid-Market,Starter,Monthly,North America,14.8,1015.35,36.5,15,17,2,5,5,5,2022-03-17,0
+CUST-01924,SMB,Starter,Monthly,North America,19.4,141.84,4.7,18,12,2,5,4,3,2021-03-02,0
+CUST-01925,Mid-Market,Pro,Monthly,North America,8.3,396.58,6.6,4,19,0,8,5,5,2022-01-08,1
+CUST-01926,SMB,Starter,Monthly,APAC,27.4,51.29,1.4,33,11,0,3,5,1,2021-12-16,0
+CUST-01927,Mid-Market,Pro,Monthly,North America,3.3,489.6,3.4,17,18,3,9,4,4,2021-12-11,0
+CUST-01928,SMB,Pro,Monthly,APAC,0.9,126.89,25.7,30,13,0,5,5,3,2021-10-30,1
+CUST-01929,Mid-Market,Pro,Annual,North America,9.1,410.97,5.4,47,14,1,7,2,5,2021-05-20,0
+CUST-01930,SMB,Starter,Monthly,North America,34.6,115.04,11.6,2,12,1,8,5,2,2022-03-26,0
+CUST-01931,Mid-Market,Starter,Annual,North America,25.3,810.77,13.2,2,15,3,8,5,3,2021-07-03,0
+CUST-01932,Mid-Market,Pro,Annual,North America,13.1,366.87,18.3,24,8,0,8,4,3,2021-08-22,0
+CUST-01933,Mid-Market,Pro,Monthly,APAC,15.3,381.53,2.4,30,2,3,6,4,1,2022-03-14,0
+CUST-01934,Mid-Market,Enterprise,Monthly,North America,2.5,664.92,4.4,13,8,1,10,4,1,2021-10-24,0
+CUST-01935,Mid-Market,Pro,Annual,North America,33.1,531.31,7.1,7,5,0,7,5,5,2022-05-04,0
+CUST-01936,Mid-Market,Pro,Monthly,North America,27.8,380.0,5.4,16,2,3,6,3,2,2022-05-14,0
+CUST-01937,SMB,Starter,Annual,North America,19.2,69.49,48.8,5,10,3,5,2,3,2022-03-05,1
+CUST-01938,Mid-Market,Pro,Annual,North America,11.3,486.09,21.6,4,10,2,0,2,5,2021-08-30,0
+CUST-01939,SMB,Starter,Monthly,North America,60.1,42.78,7.8,10,4,1,8,4,2,2022-02-27,0
+CUST-01940,SMB,Starter,Annual,APAC,38.0,108.67,25.4,4,4,2,5,3,5,2021-04-20,0
+CUST-01941,SMB,Starter,Monthly,North America,18.6,66.06,5.1,10,8,2,10,4,3,2022-04-25,0
+CUST-01942,SMB,Starter,Monthly,North America,8.4,26.27,18.5,47,6,1,4,4,5,2021-10-29,0
+CUST-01943,Mid-Market,Starter,Monthly,Europe,17.3,495.25,3.0,27,15,1,8,5,1,2021-08-31,0
+CUST-01944,Mid-Market,Enterprise,Annual,North America,15.4,371.66,17.8,43,18,1,9,5,1,2021-11-07,0
+CUST-01945,Mid-Market,Enterprise,Annual,North America,9.0,982.54,7.3,25,8,1,10,3,4,2022-02-14,0
+CUST-01946,SMB,Starter,Annual,Europe,6.6,63.3,1.4,7,7,2,3,1,2,2021-09-23,0
+CUST-01947,SMB,Starter,Monthly,North America,9.4,51.57,3.8,25,17,4,10,5,3,2021-01-21,0
+CUST-01948,SMB,Pro,Monthly,Europe,15.4,98.02,6.2,38,19,0,10,5,2,2021-02-01,1
+CUST-01949,SMB,Pro,Monthly,Europe,10.1,61.43,16.6,44,2,2,10,5,1,2021-09-18,0
+CUST-01950,SMB,Starter,Annual,APAC,5.5,58.57,0.9,17,12,3,10,4,3,2021-07-14,0
+CUST-01951,SMB,Pro,Annual,LATAM,25.8,98.08,12.9,4,19,0,10,3,4,2021-07-01,0
+CUST-01952,SMB,Starter,Annual,North America,13.6,52.76,15.1,1,5,0,8,4,1,2021-05-16,0
+CUST-01953,Mid-Market,Pro,Monthly,North America,1.3,279.14,12.7,2,12,1,9,5,1,2021-02-14,0
+CUST-01954,Mid-Market,Pro,Annual,North America,8.3,997.26,17.2,51,17,1,8,3,2,2021-05-21,1
+CUST-01955,Enterprise,Pro,Annual,North America,38.9,2521.73,2.4,9,5,0,8,4,5,2022-02-24,0
+CUST-01956,Enterprise,Enterprise,Annual,APAC,25.3,1799.42,10.6,29,2,0,8,2,2,2022-01-14,0
+CUST-01957,Mid-Market,Pro,Annual,APAC,7.0,499.31,34.0,9,4,3,10,4,1,2021-02-11,0
+CUST-01958,SMB,Pro,Monthly,Europe,50.1,97.94,11.3,16,6,1,2,4,2,2021-01-17,1
+CUST-01959,Mid-Market,Pro,Annual,Europe,1.4,738.0,11.3,0,9,2,9,4,5,2021-05-23,0
+CUST-01960,Mid-Market,Enterprise,Annual,North America,58.5,369.52,16.0,4,10,1,5,4,4,2021-12-11,0
+CUST-01961,SMB,Pro,Monthly,Europe,5.1,92.62,4.9,9,11,1,6,4,3,2021-12-23,0
+CUST-01962,SMB,Starter,Monthly,APAC,0.5,65.32,14.5,15,2,1,2,5,1,2022-02-16,0
+CUST-01963,Mid-Market,Pro,Monthly,Europe,10.2,463.6,29.8,3,9,1,6,4,2,2021-03-19,0
+CUST-01964,SMB,Starter,Monthly,North America,8.0,85.31,0.1,22,17,0,10,5,1,2021-12-20,0
+CUST-01965,Mid-Market,Pro,Annual,Europe,13.9,498.67,24.5,7,9,1,6,3,3,2022-03-08,0
+CUST-01966,Mid-Market,Enterprise,Annual,North America,28.7,671.04,3.0,26,8,1,8,4,2,2021-12-15,0
+CUST-01967,SMB,Starter,Annual,Europe,33.3,97.21,7.3,2,5,0,3,1,4,2021-01-08,0
+CUST-01968,SMB,Starter,Annual,Europe,9.2,43.76,23.0,17,5,0,10,1,3,2021-09-19,0
+CUST-01969,SMB,Starter,Annual,North America,10.1,46.47,20.8,5,6,2,9,4,5,2021-10-22,0
+CUST-01970,SMB,Pro,Monthly,Europe,2.9,69.0,26.7,24,16,2,6,4,5,2022-01-19,0
+CUST-01971,SMB,Pro,Monthly,APAC,0.9,166.25,33.8,8,1,3,6,4,1,2022-04-11,0
+CUST-01972,Mid-Market,Pro,Monthly,North America,18.5,355.66,7.1,16,9,3,7,5,5,2021-09-06,0
+CUST-01973,SMB,Starter,Annual,LATAM,1.2,73.61,12.8,41,7,2,7,5,2,2022-02-04,0
+CUST-01974,SMB,Pro,Annual,Europe,23.8,64.55,5.9,0,11,1,5,4,5,2021-02-18,0
+CUST-01975,SMB,Starter,Annual,Europe,13.9,64.1,5.2,0,15,1,10,5,4,2021-09-17,0
+CUST-01976,Enterprise,Enterprise,Annual,APAC,4.0,2147.8,6.8,22,5,6,9,4,2,2021-01-15,0
+CUST-01977,SMB,Pro,Monthly,Europe,14.0,140.1,16.3,16,19,1,5,5,1,2022-02-05,0
+CUST-01978,SMB,Pro,Monthly,APAC,3.6,96.01,8.4,5,6,0,10,4,1,2022-03-13,0
+CUST-01979,Enterprise,Pro,Multi-year,North America,10.4,1450.25,20.2,10,14,1,0,2,5,2021-06-08,0
+CUST-01980,Mid-Market,Pro,Monthly,North America,28.9,1504.02,16.4,1,14,2,7,4,5,2022-04-06,0
+CUST-01981,SMB,Starter,Monthly,Europe,11.2,82.55,0.2,3,11,0,8,4,1,2021-09-09,0
+CUST-01982,Mid-Market,Starter,Monthly,APAC,2.9,396.91,11.9,8,4,3,0,5,2,2021-10-16,1
+CUST-01983,SMB,Starter,Monthly,APAC,23.2,140.73,6.9,27,10,2,3,3,3,2021-10-28,0
+CUST-01984,SMB,Starter,Monthly,Europe,3.7,66.31,7.3,10,2,0,5,5,1,2021-03-15,0
+CUST-01985,SMB,Starter,Annual,Europe,24.1,155.58,20.5,13,4,2,9,4,4,2022-02-27,0
+CUST-01986,SMB,Pro,Monthly,North America,11.7,56.47,9.5,31,10,2,10,4,2,2021-08-03,0
+CUST-01987,Mid-Market,Pro,Monthly,LATAM,10.9,885.91,26.0,6,1,1,8,5,3,2021-05-30,0
+CUST-01988,SMB,Starter,Monthly,North America,34.3,86.7,15.0,18,14,2,8,5,3,2021-01-25,0
+CUST-01989,SMB,Pro,Monthly,Europe,22.2,134.08,9.7,30,18,2,8,5,2,2021-01-30,0
+CUST-01990,Mid-Market,Enterprise,Annual,Europe,0.6,1069.89,16.9,3,12,3,6,2,1,2021-11-06,0
+CUST-01991,Mid-Market,Starter,Monthly,Europe,6.3,317.85,0.5,7,19,2,9,4,3,2022-01-17,0
+CUST-01992,SMB,Starter,Monthly,North America,36.9,133.26,0.3,59,12,3,8,1,4,2021-01-18,0
+CUST-01993,Mid-Market,Pro,Annual,LATAM,0.5,284.59,1.0,61,5,1,4,4,2,2021-11-23,0
+CUST-01994,SMB,Starter,Monthly,Europe,14.2,52.62,6.9,4,4,0,3,4,5,2021-05-13,0
+CUST-01995,Mid-Market,Starter,Annual,LATAM,23.4,362.58,3.2,1,13,3,10,4,1,2021-12-19,0
+CUST-01996,Mid-Market,Pro,Monthly,North America,17.5,611.59,49.8,5,18,3,0,5,2,2021-07-19,0
+CUST-01997,Enterprise,Enterprise,Multi-year,Europe,25.7,2026.59,9.4,8,12,3,10,4,4,2021-11-11,0
+CUST-01998,SMB,Starter,Monthly,Europe,23.3,74.83,13.0,9,16,3,4,4,3,2021-02-27,0
+CUST-01999,SMB,Pro,Monthly,Europe,21.2,84.82,3.9,14,6,2,8,4,1,2021-10-23,0
+CUST-02000,SMB,Starter,Annual,LATAM,31.0,101.35,4.7,34,7,2,5,4,1,2021-05-29,1
